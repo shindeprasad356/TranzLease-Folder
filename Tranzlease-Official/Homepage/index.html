@@ -14,9 +14,9 @@
             <head>
                <meta charset="utf-8">
                <meta name="viewport" content="width=device-width, initial-scale=1">
-               <meta http-equiv="cache-control" content="no-cache" />
-               <meta http-equiv="Pragma" content="no-cache" />
-               <meta http-equiv="Expires" content="-1" />
+               <!-- <meta http-equiv="cache-control" content="no-cache" />
+                  <meta http-equiv="Pragma" content="no-cache" /> -->
+               <!-- <meta http-equiv="Expires" content="-1" /> -->
                <meta name="robots" content="index, follow" />
                <meta name="description" content="" />
                <meta name="keywords" content="" />
@@ -39,7 +39,6 @@
                <link rel="stylesheet" href="css/extra.css">
                <link rel="stylesheet" href="css/homepage.css?v=2.001">
                <link rel="stylesheet" href="css/main.css?v=2.0010">
-               
                <!--[if lt IE 9]>
                <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
                <p>You are using an <strong>outdated</strong> browser. Please Update your browser for more security, speed and the best experience on this site.</p>
@@ -57,10 +56,10 @@
                <div class="main-navigation">
                   <nav class="navbar navbar-expand-md fixed-top">
                      <a href="#" class="navbar-brand">
-                        <img src="img/logo/tranzlease-logos.png" id="Tranzlease_Logo" alt="Tranzlease Official Logo" class="aos-init" data-aos-delay="300" data-aos="fade-up">
+                     <img src="img/logo/tranzlease-logos.png" id="Tranzlease_Logo" alt="Tranzlease Official Logo" class="aos-init" data-aos-delay="300" data-aos="fade-up">
                      </a>
                      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <i class="fas fa-bars" ></i>
+                     <i class="fas fa-bars" ></i>
                      </button>
                      <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav">
@@ -71,12 +70,13 @@
                                     <a href="#" class="nav-item nav-link hvr-center">Smart EMI</a>
                                     <a href="corporate-lease.html" class="nav-item nav-link hvr-center">Corporate Lease</a>
                                     <ul class="nav-item dropdown">
-                                       <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
-                                       <ul class="dropdown-menu">
-                                          <a href="#" class="dropdown-item hvr-center">Company Profile</a>
-                                          <a href="#" class="dropdown-item hvr-center">Promoters </a>
-                                          <!-- <a href="#" class="dropdown-item hvr-center">Customers</a> -->
-                                       </ul>
+                                       <li><a href="#" class="nav-link dropdown-toggle about-us" data-toggle="dropdown">About Us <span class="caret"></span></a></li>
+                                       <li class="dropdown-menu about-us-menu">
+                                          <ul>
+                                             <li><a href="#" class="dropdown-item hvr-center">Company Profile</a></li>
+                                             <li><a href="#" class="dropdown-item hvr-center">Promoters </a></li>
+                                          </ul>
+                                       </li>
                                     </ul>
                                     <a href="#" class="nav-item nav-link hvr-center">News</a>
                                     <a href="#" class="nav-item nav-link hvr-center">Contact</a>
@@ -90,14 +90,18 @@
                                  <div class="col-md-12">
                                     <ul class="list">
                                        <li><a href="" class=""><i class="fas fa-rupee-sign" ></i>  Smart Discount Coupon</a></li>
-                                       <div class="nav-item dropdown">
-                                          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fas fa-user-tie" ></i> About Us <span class="caret"></span></a>
-                                          <div class="dropdown-menu">
-                                             <a href="#" class="dropdown-item hvr-center">Corporate </a>
-                                             <a href="#" class="dropdown-item hvr-center">User </a>
-                                             <a href="#" class="dropdown-item hvr-center">Employee/Business Partner </a>
-                                          </div>
-                                       </div>
+                                       <li class="nav-item dropdown">
+                                          <ul>
+                                             <li><a href="#" class="nav-link dropdown-toggle login-btn" data-toggle="dropdown"><i class="fas fa-user-tie" ></i> Login <span class="caret"></span></a></li>
+                                             <li class="dropdown-menu login-btn-menu">
+                                                <ul>
+                                                   <li><a href="#" class="dropdown-item hvr-center">Corporate </a></li>
+                                                   <li><a href="#" class="dropdown-item hvr-center">User </a></li>
+                                                   <li><a href="#" class="dropdown-item hvr-center">Employee/Business Partner </a></li>
+                                                </ul>
+                                             </li>
+                                          </ul>
+                                       </li>
                                        <li><a href="" class=""><i class="fas fa-users" ></i> Refer your friend</a></li>
                                     </ul>
                                  </div>
@@ -123,12 +127,11 @@
                      <div class="carousel-inner">
                         <div class="item active">
                            <img src="img/homepage/banners/bannerimg8.jpg" alt="Man driving luxury car A true Automotive Lifestyle">
-                           <div class="caption">
+                           <h1 class="caption">
                               <span class="animate__animated animate__backInLeft">A true Automotive Lifestyle Introducing the 
                               <mark>WOW</mark> factor
                               </span>
-                           </div>
-                         
+                           </h1>
                         </div>
                         <!-- <div class="item active ">
                            <div class="caption">
@@ -145,38 +148,34 @@
                            </div>  -->
                         <div class="item ">
                            <img src="img/homepage/banners/bannerimg6.jpg" alt="Girl brought new car in mart Way. Get your Dream Car">
-                           <div class="caption" style="background-color: #000000c2;">
+                           <h1 class="caption" style="background-color: #000000c2;">
                               <span class="animate__animated animate__backInLeft">
                               <mark>Smart Way</mark><br> To get your Dream Car
                               </span>
-                           </div>
-                           
+                           </h1>
                         </div>
                         <div class="item">
                            <img src="img/homepage/banners/bannerimg13s.jpg" alt="Finance Insurance Maintenance Resale all in Single EMI">
-                           <div class="caption">
+                           <h1 class="caption">
                               <span class="animate__animated animate__backInLeft ">Finance, Insurance, Maintenance, Resale all in 
                               <mark>Single EMI</mark>
                               </span>
-                           </div>
-                          
+                           </h1>
                         </div>
                         <div class="item">
                            <img src="img/homepage/banners/bannerimg11.jpg" alt="We Partner you to control your Ownership Cost">
-                           <div class="caption">
+                           <h1 class="caption">
                               <span class="animate__animated animate__backInLeft ">We Partner you to control your <br>
                               <mark>Ownership Cost</mark>
                               </span>
-                           </div>
-                          
+                           </h1>
                         </div>
                         <div class="item ">
                            <img src="img/homepage/banners/bannerimg12.jpg" alt="We deliver Aspiration in a flexible Cost Effective package">
-                           <div class="caption" style="background-color: #000000c2;">
+                           <h1 class="caption" style="background-color: #000000c2;">
                               <span class="animate__animated animate__backInLeft ">We deliver Aspiration in a flexible &amp; 
                               <mark>Cost Effective</mark> package</span>
-                           </div>
-                         
+                           </h1>
                         </div>
                      </div>
                      <!-- Left and right controls -->
@@ -198,9 +197,9 @@
                         <div class="col-md-4 col-sm-4">
                            <div class="box">
                               <div class="caption">
-                                 <p class="title">
+                                 <h3 class="title">
                                     <span>i</span>Lease
-                                 </p>
+                                 </h3>
                                  <p class="para big">Corporate Lease</p>
                                  <p class="para small">Intelligent Leasing for your Employees</p>
                                  <a href="corporate-lease.html" class="link hvr-right">Know more</a>
@@ -210,9 +209,9 @@
                         <div class="col-md-4 col-sm-4">
                            <div class="box">
                               <div class="caption">
-                                 <p class="title " >
+                                 <h3 class="title " >
                                     <span>Smart</span>EMI
-                                 </p>
+                                 </h3>
                                  <p class="para big" style="color: #ef0000;font-weight: 500;">Next Gen Auto Loan</p>
                                  <p class="para small">India's most effective Auto Loan</p>
                                  <a href="smart-emi-group.html" class="link hvr-right">Know more</a>
@@ -222,9 +221,9 @@
                         <div class="col-md-4 col-sm-4">
                            <div class="box">
                               <div class="caption">
-                                 <p class="title">
+                                 <h3 class="title">
                                     <span>Auto</span>life
-                                 </p>
+                                 </h3>
                                  <p class="para big">360° Mobile App  </p>
                                  <p class="para small">Manage Everything in one App</p>
                                  <a href="" class="link hvr-right">Coming Soon</a>
@@ -347,7 +346,6 @@
                                  <img class="honeycomb-cell__image" src="img/homepage/logos/clients/reliance-logo.png" alt="Reliance Logo">
                                  <div class="honeycomb-cell__title">Reliance</div>
                               </li>
-                              
                               <li  class="honeycomb-cell aos-init w7" data-aos="zoom-in">
                                  <img class="honeycomb-cell__image" src="img/homepage/logos/clients/ey-logo.png" alt="EY Logo">
                                  <div class="honeycomb-cell__title">EY</div>
@@ -377,7 +375,6 @@
                            <div class="btn-wrap">
                               <button class="more">Show more</button>
                            </div>
-                           
                         </div>
                      </div>
                   </div>
@@ -392,7 +389,6 @@
                      <div class="row">
                         <div class="col-md-12 background-bg">
                            <div id="testimonial-slider" class="carousel slide" data-ride="carousel">
-                             
                               <!-- Wrapper for slides -->
                               <div class="carousel-inner">
                                  <div class="item active">
@@ -402,121 +398,102 @@
                                        </div>
                                        <div class="content">
                                           <p class="Name">Best Seller</p>
-                                   
                                           <p class="para">
-                                            
                                              <span>In TranzLease, we found a team that was knowledgeable, had the right understanding, and who helped us not only in structuring an appropriate policy, but worked with our Finance & HR divisions tirelessly to ensure that our people get the right product.</span>
-                                             
                                           </p>
                                        </div>
                                     </div>
                                  </div>
-
                                  <div class="item">
                                     <div class="wrap">
-                                        <div class="img">
-                                            <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/piramal-logo.jpg" alt="">
-                                        </div>
-                                        <div class="content">
-                                            <p class="Name">Piramal Group</p>
-                                         
-                                            <p class="para">
-                                               
-                                                <span>They always take our feedback and suggestions and it is the inclusive process which perhaps help them to deliver time and again. We have had various kinds of products from them suitable for various categories of employees and some of their recent introductions like the zero liability scheme and flexible end of lease options are really beneficial.</span>
-                                            </p>
-                                        </div>
+                                       <div class="img">
+                                          <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/piramal-logo.jpg" alt="">
+                                       </div>
+                                       <div class="content">
+                                          <p class="Name">Piramal Group</p>
+                                          <p class="para">
+                                             <span>They always take our feedback and suggestions and it is the inclusive process which perhaps help them to deliver time and again. We have had various kinds of products from them suitable for various categories of employees and some of their recent introductions like the zero liability scheme and flexible end of lease options are really beneficial.</span>
+                                          </p>
+                                       </div>
                                     </div>
-                                </div>
-                                <div class="item ">
+                                 </div>
+                                 <div class="item ">
                                     <div class="wrap">
-                                        <div class="img">
-                                            <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/maxlife-logo.jpg" alt="">
-                                        </div>
-                                        <div class="content">
-                                            <p class="Name">Max Life Insurance </p>
-                                           
-                                            <p class="para">
-                                              
-                                                <span>We have been using TranzLease for our car lease program for quite some time now and we are happy to continue with them. Their products are suitable to our requirement, the registration of the car is on their name which provides lot of benefits and their pricing is transparent. So an employee knows what he is getting for what he is paying. Some of the recent product changes like zero liability schemes and flexible end of lease options are very useful.</span>
-                                            </p>
-                                        </div>
+                                       <div class="img">
+                                          <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/maxlife-logo.jpg" alt="">
+                                       </div>
+                                       <div class="content">
+                                          <p class="Name">Max Life Insurance </p>
+                                          <p class="para">
+                                             <span>We have been using TranzLease for our car lease program for quite some time now and we are happy to continue with them. Their products are suitable to our requirement, the registration of the car is on their name which provides lot of benefits and their pricing is transparent. So an employee knows what he is getting for what he is paying. Some of the recent product changes like zero liability schemes and flexible end of lease options are very useful.</span>
+                                          </p>
+                                       </div>
                                     </div>
-                                </div>
-                                <div class="item ">
+                                 </div>
+                                 <div class="item ">
                                     <div class="wrap">
-                                        <div class="img">
-                                            <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/colgate-logo.jpg" alt="">
-                                        </div>
-                                        <div class="content">
-                                            <p class="Name">Colgate </p>
-                                           
-                                             <p class="para"> <span>Car Lease is an important tool for employee benefits and TranzLease have been effectively serving us for long and we are happy with their service, approach and overall efficiency. In all our cars we do take full service lease including car maintenance and insurance. TranzLease have been effectively servicing us on all aspects of our car lease program.</span> 
-                                            </p>
-                                        </div>
+                                       <div class="img">
+                                          <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/colgate-logo.jpg" alt="">
+                                       </div>
+                                       <div class="content">
+                                          <p class="Name">Colgate </p>
+                                          <p class="para"> <span>Car Lease is an important tool for employee benefits and TranzLease have been effectively serving us for long and we are happy with their service, approach and overall efficiency. In all our cars we do take full service lease including car maintenance and insurance. TranzLease have been effectively servicing us on all aspects of our car lease program.</span> 
+                                          </p>
+                                       </div>
                                     </div>
-                                </div>
-                                <div class="item ">
+                                 </div>
+                                 <div class="item ">
                                     <div class="wrap">
-                                        <div class="img">
-                                            <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/indianoil-logo.jpg" alt="">
-                                        </div>
-                                        <div class="content">
-                                            <p class="Name">Indian Oil </p>
-                                            
-                                             <p class="para">
-                                                <span>TranzLease has been providing cars to IOCL senior officials since 2008 under various tenders and we have always found their services to be great. Our lease requirement is very comprehensive including full maintenance of the cars, chauffeur services, fuel cards and a lot more and TranzLease has been effectively catering to all our requirement. Even at end of the lease TranzLease provides various options to continue the usage of the cars or purchase of the cars by interested employees of IOCL and their pricing is good and clear.</span>
-                                               
-                                            </p>
-                                        </div>
+                                       <div class="img">
+                                          <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/indianoil-logo.jpg" alt="">
+                                       </div>
+                                       <div class="content">
+                                          <p class="Name">Indian Oil </p>
+                                          <p class="para">
+                                             <span>TranzLease has been providing cars to IOCL senior officials since 2008 under various tenders and we have always found their services to be great. Our lease requirement is very comprehensive including full maintenance of the cars, chauffeur services, fuel cards and a lot more and TranzLease has been effectively catering to all our requirement. Even at end of the lease TranzLease provides various options to continue the usage of the cars or purchase of the cars by interested employees of IOCL and their pricing is good and clear.</span>
+                                          </p>
+                                       </div>
                                     </div>
-                                </div>
-                                <div class="item ">
+                                 </div>
+                                 <div class="item ">
                                     <div class="wrap">
-                                        <div class="img">
-                                            <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/polycom-logo.jpg" alt="">
-                                        </div>
-                                        <div class="content">
-                                            <p class="Name">Polycom India</p>
-                                            
-                                             <p class="para">
-                                                <span> Their expertise on the subject matter impressed us and they have been instrumental in helping us to structure the policy and its roll out amongst our employees. The zero liability mechanism of their products and various user friendly options makes it an easy choice for our employees to get their dream car. TranzLease always adopts a consultative approach backed by an attractive pricing and a package deal that is very convenient. It’s a no hassle no trouble car buy experience.</span>
-                                               
-                                            </p>
-                                        </div>
+                                       <div class="img">
+                                          <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/polycom-logo.jpg" alt="">
+                                       </div>
+                                       <div class="content">
+                                          <p class="Name">Polycom India</p>
+                                          <p class="para">
+                                             <span> Their expertise on the subject matter impressed us and they have been instrumental in helping us to structure the policy and its roll out amongst our employees. The zero liability mechanism of their products and various user friendly options makes it an easy choice for our employees to get their dream car. TranzLease always adopts a consultative approach backed by an attractive pricing and a package deal that is very convenient. It’s a no hassle no trouble car buy experience.</span>
+                                          </p>
+                                       </div>
                                     </div>
-                                </div>
-                                <div class="item ">
+                                 </div>
+                                 <div class="item ">
                                     <div class="wrap">
-                                        <div class="img">
-                                            <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/niit-logo.jpg" alt="">
-                                        </div>
-                                        <div class="content">
-                                            <p class="Name">NIIT</p>
-                                          
-                                            <p class="para">
-                                            
-                                                <span>There are definite merits in having an employee car lease policy, it is easier said than done in reality. Employees, in an organization like ours, carry within them various likes and dislikes and accordingly a single product is not suitable; also, with passage of time product preferences change along with change in consumer behaviour. TranzLease, understands this very well and in fact, leads the same with product innovations which is a constant feature for them.</span>
-                                               
-                                            </p>
-                                        </div>
+                                       <div class="img">
+                                          <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/niit-logo.jpg" alt="">
+                                       </div>
+                                       <div class="content">
+                                          <p class="Name">NIIT</p>
+                                          <p class="para">
+                                             <span>There are definite merits in having an employee car lease policy, it is easier said than done in reality. Employees, in an organization like ours, carry within them various likes and dislikes and accordingly a single product is not suitable; also, with passage of time product preferences change along with change in consumer behaviour. TranzLease, understands this very well and in fact, leads the same with product innovations which is a constant feature for them.</span>
+                                          </p>
+                                       </div>
                                     </div>
-                                </div>
-                                <div class="item ">
+                                 </div>
+                                 <div class="item ">
                                     <div class="wrap">
-                                        <div class="img">
-                                            <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/pearson-logo.jpg" alt="">
-                                        </div>
-                                        <div class="content">
-                                            <p class="Name">Pearson</p>
-                                          
-                                            <p class="para">
-                                              
-                                                <span>In TranzLease, we found a team that was knowledgeable, had the right understanding, and who helped us not only in structuring an appropriate policy, but worked with our Finance &amp; HR divisions tirelessly to ensure that our people get the right product.</span>
-                                             
-                                            </p>
-                                        </div>
+                                       <div class="img">
+                                          <img class="animate__animated animate__slideInUp " src="img/homepage/logos/testimonials/pearson-logo.jpg" alt="">
+                                       </div>
+                                       <div class="content">
+                                          <p class="Name">Pearson</p>
+                                          <p class="para">
+                                             <span>In TranzLease, we found a team that was knowledgeable, had the right understanding, and who helped us not only in structuring an appropriate policy, but worked with our Finance &amp; HR divisions tirelessly to ensure that our people get the right product.</span>
+                                          </p>
+                                       </div>
                                     </div>
-                                </div>
+                                 </div>
                               </div>
                               <!-- Left and right controls -->
                               <a class="left carousel-control" href="#testimonial-slider" data-slide="prev">
@@ -590,6 +567,7 @@
                      </div>
                   </div>
                </footer>
+               <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-chevron-up" style="font-size: 48px;"></i></button>
                <!-- Footer -->
                <script src="js/jquery.min.js"></script>
                <script src="js/vendor/bootstrap.min.js"></script>
@@ -599,7 +577,8 @@
                <script>
                   AOS.init({});
                   // document.styleSheets.start_autoreload(50000)
+                  
+                    
                </script>
-               
             </body>
          </html>
