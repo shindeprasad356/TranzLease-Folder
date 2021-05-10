@@ -246,7 +246,7 @@
 		font-size: 24px;
 		line-height: 40px;
 		text-align: right;
-		width: 68%;
+		width: 75%;
 		float: right;
 		margin: 0px 0px 50px 0px;
 	}
@@ -653,6 +653,129 @@
 
 }
 
+
+.technologys .title.intro {
+    margin: 0px 0px 25px 0px;
+    font-size: 50px;
+    color: red;
+}
+
+.technologys .title.ilease {
+    font-size: 80px;
+    font-family: Roboto-Bold, sans-serif;
+}
+
+.technologys .left {
+    float: left;
+    width: 50%;
+    position: relative;
+    left: -15px;
+}
+
+.technologys .right {
+    text-align: right;
+    float: right;
+    width: 50%;
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 80px;    margin: 80px 0px 0px 0px;
+}
+
+.technologys {
+    float: left;
+    width: 100%;
+    padding: 90px 0px 225px 0px;
+}
+
+.technologys .right span {
+    float: right;
+    width: 100%;
+}
+
+.technologys {
+    float: left;
+    width: 100%;
+    padding-left: 30px;
+    font-size: 40px;
+    font-family: Roboto-Bold, sans-serif;
+    line-height: 58px;
+    background-image: url(../img/corporatelease/handsome-business-man-by-white-cars.png);
+    background-attachment: fixed;
+    position: relative;
+    background-size: 73%;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-image: url(../img/corporatelease/handsome-business-man-by-white-carss.png);
+}
+
+.technologys:before {
+    content: '';
+    background-image: url(../img/corporatelease/shape-transperantt.png);
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    min-height: 139vh;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    background-position: -180px -200px;
+}
+
+.technologys .title.ilease span {
+    color: red;
+    font-size: 109px;
+    font-style: italic;
+    padding: 0 5px 0 0;
+    font-weight: 600;
+    font-family: Roboto-Bold, sans-serif;
+}
+
+.technologys .right span.fully {
+
+
+    font-size: 65px;
+    margin: 0px 0px 20px 0px;
+color: red;
+
+}
+
+.technologys .right span.tech {
+    font-size: 65px;
+    margin: 0px 0px 25px 0px;
+    color: #1d3557;
+}
+
+.technologys .right span.unique {
+    font-size: 105px;
+    line-height: 65px;
+    margin: 0px 0px 40px 0px;
+    color: #1d3557;
+}
+
+.technologys .right span.lease {
+    font-size: 60px;
+    line-height: 50px;
+    margin: 10px 0px 20px 0px;
+    color: red;
+}
+
+.technologys .right span.basket {
+    font-size: 60px;
+    margin: 0px 0px 15px 0px;
+    color: red;
+}
+
+.technologys .right .title.main {
+    float: right;
+    position: relative;
+    right: -15px;
+}
+
+.ilease-para {
+    margin: 0px;
+}
+
 @media only screen and (max-width:1985px) {
 	.technology .right .main {
 		position: relative;
@@ -681,9 +804,14 @@
 		margin: -150px 0px 0px 0px
 	}
 
-	.ilease-para {
-		margin: -250px 0px 0px 0px
+	.technologys {
+	
+		background-size: 77%;background-position: -60px 0px;
+
 	}
+	.technologys {
+	
+		padding: 90px 0px 200px 0px;}
 
 }
 
@@ -702,7 +830,7 @@
 	}
 
 	.ilease-para {
-		margin: -290px 0px 0px 0px
+		
 	}
 
 	.ilease-para .para {
@@ -712,6 +840,22 @@
 	.technology .right .title.ilease:before {
 		right: -141.5px;
 		right: -142.5px
+	}
+	.technologys .right {
+	
+		margin: 15px 0px 0px 0px;
+	}
+	.technologys .right span.fully {
+		font-size: 60px;
+	
+	}
+	.technologys .right span.tech {
+		font-size: 60px;
+	
+	}
+	.technologys .right span.unique {
+		font-size: 100px;
+		
 	}
 
 }
@@ -796,9 +940,7 @@
 		padding: 30px 50px 20px 50px
 	}
 
-	.ilease-para {
-		margin: -250px 0px 0px 0px
-	}
+
 
 	.clients .title {
 		font-size: 42px;
@@ -828,7 +970,7 @@
 	}
 
 	.technology .right {
-		padding: 175px 0px 0px 0px
+		padding: 125px 0px 0px 0px;
 	}
 
 	.technology .right .title.ilease {
@@ -915,9 +1057,7 @@
 		margin: 50.47619px 12.5px 25px
 	}
 
-	.ilease-para {
-		margin: -300px 0px 0px 0px
-	}
+	
 
 	.glipms.bg {
 		padding: 70px 0px
@@ -930,6 +1070,19 @@
 	.technology .left .title.ilease span {
 		font-size: 108px
 	}
+	.glipms.bgs {
+	
+		padding: 70px 0px 20px 0px;
+	
+	}
+	.technologys {
+		padding: 60px 0px 200px 0px;
+	}
+	.technologys .right .title.main {
+	
+		margin: 35px 0px 0px 0px;
+	}
+
 
 }
 
@@ -947,12 +1100,9 @@
 	}
 
 	.technology .right {
-		padding: 90px 0px 0px 0px
+		padding: 75px 0px 0px 0px;
 	}
 
-	.ilease-para {
-		margin: -185px 0px 0px 0px
-	}
 
 	.ilease-para .title {
 		font-size: 40px;
@@ -1030,7 +1180,51 @@
 	.glipms.bgs.last {
 		margin: 0px
 	}
+	.glipms {
+	
+	
+		padding: 50px 0px 0px 0px;
+	}
+	.glipms.bgs {
+	
+		padding: 50px 0px 20px 0px;
+	
+	}
+	.glipms.bg {
+		padding: 50px 0px;
+	}
+	.glipms .content-box ul li:before {
+	
+		width: 8px;
+		height: 8px;
 
+		top: 11px;
+	}
+	.technologys .right .title.main {
+		margin: 0px 0px 0px 0px;
+	}
+	.technologys .right span.fully {
+		font-size: 50px;
+		margin: 0px 0px 15px 0px;
+	}
+	.technologys .right span.tech {
+		font-size: 50px;margin: 0px 0px 15px 0px;   
+	}
+	.technologys .right span.unique {
+		font-size: 90px; margin: 0px 0px 25px 0px;
+	}
+	.technologys .right span.lease {
+		font-size: 50px;
+	
+		margin: 10px 0px 15px 0px;
+	
+	}
+	.technologys .right span.basket {
+		font-size: 50px;
+		margin: 0px 0px 15px 0px;
+		
+	}
+	
 }
 
 @media only screen and (max-width:1290px) {
@@ -1090,7 +1284,124 @@
 		height: 8px;
 		top: 9px
 	}
+	.technology .left .ilease {
+		font-size: 65px;
+	}
+	.technology .left .title.ilease span {
+		font-size: 87px;
+	}
+	.technologys {
+		padding: 45px 0px 170px 0px;
+	}
+	.technologys .title.ilease {
+		font-size: 65px;
+		font-family: Roboto-Bold, sans-serif;
+	}
+	.technologys .title.intro {
+		margin: 0px 0px 15px 0px;
+		font-size: 40px;
+		color: red;
+	}
+	.ilease-para .title .f65 {
+		font-size: 55px;
+	}
+	.ilease-para .title .redcolor {
+	
+		font-size: 55px;
+	}
+	#topBtn {
+		width: 60px;
+		height: 60px;
+		padding: 12px 15px 15px 15px;
+		
+	}
 
+}
+@media only screen and (max-width:1210px) {
+.technology .left .intro:first-child {
+    font-size: 36px;
+    line-height: 54px;
+}
+.technology .left .ilease {
+    font-size: 60px;
+    line-height: 75px;
+}
+.technology .left .intro:first-child {
+    font-size: 36px;
+    line-height: 54px;
+}
+.technology .right span.tech {
+    font-size: 45px;
+  
+}
+.technology .right span.unique {
+    font-size: 70px;
+    line-height: 60px;
+   
+}
+.technology .right span.lease {
+    font-size: 52px;
+    line-height: 50px;
+ 
+}
+.technology .right span.basket {
+    font-size: 50px;
+}
+.ilease-para .title .redcolor {
+ 
+    font-size: 40px;
+}
+.ilease-para .title .f65 {
+    font-size: 50px;
+}
+.glipms .title {
+    font-size: 36px;
+    line-height: 54px;
+    margin: 0px 0px 70px 0px;
+}
+.glipms .title:after {
+
+    bottom: 45px;
+}
+.clients .title {
+    font-size: 36px;
+ 
+}
+.technologys .title.ilease {
+    font-size: 65px;
+
+}
+.technologys .title.ilease span {
+
+    font-size: 87px;
+
+}
+.technologys {
+    padding: 30px 0px 170px 0px;
+}
+.technologys .right .title.main {
+    margin: 30px 0px 0px 0px;
+}
+.technologys .right span.fully {
+    font-size: 45px;
+    margin: 0px 0px 10px 0px;
+}
+.technologys .right span.tech {
+    font-size: 45px;
+ 
+}
+.technologys .right span.unique {
+    font-size: 85px;
+    margin: 0px 0px 20px 0px;
+}
+.technologys .right span.lease {
+    font-size: 50px;
+    margin: 10px 0px 10px 0px;
+}
+.technologys {
+    background-size: 86%;
+    background-position: -125px 0px;
+}
 }
 
 @media only screen and (max-width:1030px) {
@@ -1162,9 +1473,7 @@
 		font-size: 55px
 	}
 
-	.ilease-para {
-		margin: -250px 0px 0px 0px
-	}
+
 
 	.ilease-para .title {
 		font-size: 35px;
@@ -1230,6 +1539,47 @@
 	.technology:before {
 		min-height: 125vh;
 		background-position: -125px -55px
+	}
+	.technologys .title.intro {
+		margin: 0px 0px 10px 0px;
+		font-size: 35px;
+
+	}
+	.technologys .title.ilease span {
+		font-size: 82px;
+	}
+	.technologys .title.ilease {
+		font-size: 60px;
+	}
+	.technologys .right span.fully {
+		font-size: 40px;
+		margin: 0px 0px 0px 0px;
+	}
+	.technologys .right span.tech {
+		font-size: 40px;
+		margin: 0px 0px 0px 0px;
+	}
+	.technologys .right span.unique {
+		font-size: 79px;
+		margin: 0px 0px 10px 0px;
+		line-height: 75px;
+	}
+	.technologys .right span.lease {
+		font-size: 45px;
+		margin: 10px 0px 10px 0px;
+	}
+	.technologys:before {
+
+		background-position: -145px -130px;
+	}
+	.technologys {
+		padding: 30px 0px 100px 0px;
+	}
+	.ilease-para .title .f65 {
+		font-size: 50px;
+	}
+	.ilease-para .title .redcolor {
+		font-size: 40px;
 	}
 
 }
@@ -1363,9 +1713,9 @@
 		font-family: Roboto-Medium, sans-serif;
 		text-decoration: none;
 		text-decoration-line: none;
-		text-decoration-thickness: initial;
-		text-decoration-style: initial;
-		text-decoration-color: initial;
+		// text-decoration-thickness: initial;
+		// text-decoration-style: initial;
+		// text-decoration-color: initial;
 		color: #f1faee;
 		color: #fff;
 		text-align: center;

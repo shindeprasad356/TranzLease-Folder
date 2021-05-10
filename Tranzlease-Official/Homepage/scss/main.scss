@@ -51,14 +51,14 @@ div#overlay {
   .companycar {
     top: 30%;
     position: absolute;
-    left: 36%;
+    left: 39%;
   }
   .companylogo {
     z-index: 9;
     top: 20%;
     position: absolute;
     width: 230px;
-    left: 41%;
+    left: 44%;
   }
 }
 .main-navigation {
@@ -472,7 +472,14 @@ footer {
   
 }
 @media only screen and (max-width: 1685px) {
-
+  div#overlay .companylogo {
+ 
+    left: 43%;
+}
+div#overlay .companycar {
+ 
+  left: 38%;
+}
  
   
 }
@@ -522,7 +529,12 @@ footer {
     }
   }
 }
-
+div#overlay .companylogo {
+  left: 42%;
+}
+div#overlay .companycar {
+  left: 36%;
+}
 }
 @media only screen and (max-width: 1370px) {
 
@@ -980,7 +992,7 @@ footer {
 }
 .shine {
   &:after {
-    z-index: 0.3;
+    
     height: 100%;
   }
 }

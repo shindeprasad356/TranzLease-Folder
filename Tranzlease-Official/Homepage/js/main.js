@@ -20,11 +20,13 @@
 // } catch (e) {
 //   window.attachEvent("onload", $buo_f)
 // }
-setInterval(function() {
-  setTimeout(function() {
-      $('#overlay').fadeOut();
-  }, 3000)
-}, 3000);
+
+
+// setInterval(function() {
+//   setTimeout(function() {
+//       $('#overlay').fadeOut();
+//   }, 3000)
+// }, 3000);
 
 $(window).load(function() {
   $(".loader").delay(000).fadeOut("slow");
@@ -45,8 +47,43 @@ $(window).load(function() {
 
 
 });
+  //Get the button
+  var mybutton = document.getElementById("topBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+     
+      $("#topBtn").fadeIn("slow");
+    } else {
+    
+      $("#topBtn").fadeOut("slow");
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  $(".about-us").click(function(){
+    $(".about-us-menu").toggleClass("opens");
+  });
+  $(document).click(function(e){ 
+    $(".about-us-menu").removeClass("opens");
+
+  });
+  $(".login-btn").click(function(){
+    $(".login-btn-menu").toggleClass("opens");
+  });
 
 $(document).ready(function() {
+
+
 
 
   function isScrolledIntoView(elem) {

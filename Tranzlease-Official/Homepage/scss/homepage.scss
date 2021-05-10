@@ -282,6 +282,17 @@ button {
 		max-width: inherit;
 	}
 	&:after {
+		// content: '';
+		// width: 100%;
+		// height: 210vh;
+		// left: 0px;
+		// top: 0px;
+		// z-index: 8;
+		// position: absolute;
+		// opacity: 0.6;
+		// background-image: url(../img/homepage/gredients.png);
+		// background-size: cover;
+		// background-position: 0% 0%;
 		content: '';
 		width: 100%;
 		height: 210vh;
@@ -289,10 +300,12 @@ button {
 		top: 0px;
 		z-index: 8;
 		position: absolute;
-		opacity: 0.6;
-		background-image: url(../img/homepage/gredients.png);
+		opacity: 0.3;
+		/* background-image: url(../img/homepage/gredients.png); */
 		background-size: cover;
 		background-position: 0% 0%;
+		background-color: #00255a;
+		background-color: #001738;
 	}
 	.wrapmain {
 		z-index: 9;
@@ -354,9 +367,9 @@ button {
 						font-family: Roboto-Medium, sans-serif;
 						text-decoration: none;
 						text-decoration-line: none;
-						text-decoration-thickness: initial;
-						text-decoration-style: initial;
-						text-decoration-color: initial;
+						// text-decoration-thickness: initial;
+						// text-decoration-style: initial;
+						// text-decoration-color: initial;
 						color: #f1faee;
 						color: #fff;
 						text-align: center;
@@ -780,9 +793,9 @@ button {
 			font-family: Roboto-Medium, sans-serif;
 			text-decoration: none;
 			text-decoration-line: none;
-			text-decoration-thickness: initial;
-			text-decoration-style: initial;
-			text-decoration-color: initial;
+			// text-decoration-thickness: initial;
+			// text-decoration-style: initial;
+			// text-decoration-color: initial;
 			color: #f1faee;
 			color: #fff;
 			text-align: center;
@@ -1055,7 +1068,7 @@ button {
 @media only screen and (max-width:1985px) {
 	.banner {
 	.carousel-indicators {
-		bottom: 100px;
+		bottom: 122px;
 	}
 }
 
@@ -1244,6 +1257,7 @@ button {
 			.para {
 				&.small {
 					min-height: 60px;
+					min-height: auto;
 				}
 			}
 		}
@@ -1567,7 +1581,7 @@ button {
 	}
 	.wrap {
 		.boxes {
-			min-height: 318px;
+			min-height: 325px;
 			&.img {
 				img {
 					top: 85px;
@@ -1631,9 +1645,63 @@ button {
 	}
 }
 
-
+.banner {
+	.carousel-inner {
+		.item {
+			img {
+				width: 125%;
+				max-width: inherit;
+				margin-left: 0%;
+			}
+		}
+	}
+}
 }
 
+@media only screen and (max-width:1210px) {
+	.banner .carousel-inner .item span {
+		font-size: 30px;
+		line-height: 45px;
+	}
+	.banner .carousel-inner>.item .caption {
+	
+		height: 275px;
+	  
+	}
+	.our-partner .wrap .boxes {
+		min-height: 325px;
+		min-height: 350px;
+	}
+	
+    .three-grid .box .caption .title span {
+        font-size: 55px;
+    }
+	.three-grid .box .caption .title {
+		font-size: 41px;
+	}
+	.introduction .title {
+		font-size: 36px;
+		line-height: 54px;
+	}
+	.our-partner .title {
+		font-size: 36px;
+		line-height: 54px;
+	}
+	.clients .title {
+		font-size: 36px;
+		margin: 0px 0px 30px 0px;
+		line-height: 54px;
+	}
+    .testimonials .title {
+		font-size: 36px;
+		line-height: 54px;
+	}	
+	
+	.banner .carousel-inner>.item span:after {
+
+	top: 12%;
+}
+	}
 @media only screen and (max-width:1030px) {
 	.banner {
 	.carousel-inner {
@@ -2180,9 +2248,9 @@ button {
 				font-family: Roboto-Medium, sans-serif;
 				text-decoration: none;
 				text-decoration-line: none;
-				text-decoration-thickness: initial;
-				text-decoration-style: initial;
-				text-decoration-color: initial;
+				// text-decoration-thickness: initial;
+				// text-decoration-style: initial;
+				// text-decoration-color: initial;
 				color: #f1faee;
 				color: #fff;
 				text-align: center;
