@@ -5,7 +5,7 @@
 	font-size: 40px;
 	font-family: Roboto-Bold, sans-serif;
 	line-height: 58px;
-	color: #ff0000;
+	color: #ff192f;
 	background-image: url(../img/corporatelease/handsome-business-man-by-white-cars.png);
 	background-attachment: fixed;
 	position: relative;
@@ -14,7 +14,7 @@
 	background-position: 0px 0px;
 	background-repeat: no-repeat;
 	z-index: 0;
-	background-image: url(../img/corporatelease/handsome-business-man-by-white-carss.png);
+	background-image: url(../img/corporatelease/handsome-business-man-by-white-carss.jpg);
 	&:after {
 		content: '';
 		width: 100%;
@@ -60,7 +60,7 @@
 				}
 				span {
 					font-family: Roboto-Bold, sans-serif;
-					color: #ff0000;
+					color: #ff192f;
 					font-size: 85px;
 					float: left;
 					width: 70%;
@@ -81,7 +81,7 @@
 			}
 			&.ilease {
 				span {
-					color: red;
+					color: #ff192f;
 					font-size: 122px;
 					font-style: italic;
 					padding: 0 5px 0 0;
@@ -104,7 +104,7 @@
 			line-height: 115px;
 			font-family: Roboto-Bold, sans-serif;
 			span {
-				color: red;
+				color: #ff192f;
 				font-size: 122px;
 				font-style: italic;
 				padding: 0 5px 0 0;
@@ -140,7 +140,7 @@
 				padding: 20px;
 				margin: 0px 0px 95px 0px;
 				span {
-					color: red;
+					color: #ff192f;
 					font-size: 96px;
 					font-style: italic;
 					padding: 0 5px 0 0;
@@ -233,7 +233,7 @@
 		float: right;
 		margin: 0px 0px 40px 0px;
 		.redcolor {
-			color: #ff0000;
+			color: #ff192f;
 			font-size: 50px;
 		}
 		.f65 {
@@ -298,7 +298,7 @@
 				content: '';
 				width: 340px;
 				height: 240px;
-				background-color: red;
+				background-color: #ff192f;
 				position: absolute;
 				left: -28px;
 				top: -13px;
@@ -328,7 +328,7 @@
 				content: '';
 				width: 340px;
 				height: 240px;
-				background-color: red;
+				background-color: #ff192f;
 				position: absolute;
 				left: -28px;
 				top: -13px;
@@ -355,7 +355,7 @@
 			text-align: left;
 			width: 100%;
 			position: relative;
-			color: red;
+			color: #ff192f;
 			font-family: Roboto-Bold, sans-serif;
 			margin: 0px 0px 45px 0px;
 			&:after {
@@ -376,7 +376,7 @@
 					font-family: Roboto-Bold, sans-serif;
 					font-style: italic;
 					font-size: 48px;
-					color: red;
+					color: #ff192f;
 					margin: 0px 3px 0px 0px;
 				}
 			}
@@ -395,7 +395,7 @@
 					float: left;
 					width: 100%;
 					margin: 15px 0px 0px 0px;
-					color: red;
+					color: #ff192f;
 					font-size: 26px;
 				}
 			}
@@ -657,7 +657,7 @@
 .technologys .title.intro {
     margin: 0px 0px 25px 0px;
     font-size: 50px;
-    color: red;
+    color: #ff192f;
 }
 
 .technologys .title.ilease {
@@ -705,7 +705,7 @@
     background-position: 0px 0px;
     background-repeat: no-repeat;
     z-index: 0;
-    background-image: url(../img/corporatelease/handsome-business-man-by-white-carss.png);
+    background-image: url(../img/corporatelease/handsome-business-man-by-white-carss.jpg);
 }
 
 .technologys:before {
@@ -723,7 +723,7 @@
 }
 
 .technologys .title.ilease span {
-    color: red;
+    color: #ff192f;
     font-size: 109px;
     font-style: italic;
     padding: 0 5px 0 0;
@@ -736,7 +736,7 @@
 
     font-size: 65px;
     margin: 0px 0px 20px 0px;
-color: red;
+	color: #ff192f;
 
 }
 
@@ -757,13 +757,13 @@ color: red;
     font-size: 60px;
     line-height: 50px;
     margin: 10px 0px 20px 0px;
-    color: red;
+    color: #ff192f;
 }
 
 .technologys .right span.basket {
     font-size: 60px;
     margin: 0px 0px 15px 0px;
-    color: red;
+    color: #ff192f;
 }
 
 .technologys .right .title.main {
@@ -1300,7 +1300,7 @@ color: red;
 	.technologys .title.intro {
 		margin: 0px 0px 15px 0px;
 		font-size: 40px;
-		color: red;
+		color: #ff192f;
 	}
 	.ilease-para .title .f65 {
 		font-size: 55px;
@@ -1481,15 +1481,17 @@ color: red;
 	}
 
 	.ilease-para .para {
-		width: 98%
+		    width: 96%;
+    font-size: 18px;
+    line-height: 30px;
 	}
 
 	.ilease-para .title .redcolor {
-		font-size: 45px
+	    font-size: 45px;
 	}
 
 	.ilease-para .title .f65 {
-		font-size: 52px
+		font-size: 45px
 	}
 
 	.ilease-para {
@@ -1575,9 +1577,7 @@ color: red;
 	.technologys {
 		padding: 30px 0px 100px 0px;
 	}
-	.ilease-para .title .f65 {
-		font-size: 50px;
-	}
+	
 	.ilease-para .title .redcolor {
 		font-size: 40px;
 	}
@@ -1687,7 +1687,80 @@ color: red;
 	.ilease-para .title {
 		margin: 0px 0px 30px 0px
 	}
-
+	.technologys {
+	    padding: 30px 0px 30px 0px;
+    background-size: 90%;
+    background-position: -130px top;
+    margin: 1px 0px 0px 0px;
+}
+.technologys:before {
+	background-color: #ffffff;
+    background-image: none;
+    right: 145px;
+    left: inherit;
+    top: 12px;
+    width: 41%;
+    transform: rotate(
+20deg
+);
+    
+}
+.technologys .title.intro {
+    margin: 0px 0px 5px 0px;
+    font-size: 30px;
+}
+.technologys .title.ilease {
+    font-size: 50px;
+    line-height: 45px;
+}
+.technologys .title.ilease span {
+    font-size: 69px;
+}
+.technologys .right .title.main {
+    margin: 0px 0px 0px 0px;
+}
+.technologys .right span.fully {
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+    line-height: 30px;
+}
+.technologys .right span.tech {
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+    line-height: 50px;
+}
+.technologys .right span.unique {
+    font-size: 65px;
+    margin: 0px 0px 5px 0px;
+    line-height: 50px;
+}
+.technologys .right span.lease {
+    font-size: 35px;
+    margin: 10px 0px 0px 0px;
+    line-height: 50px;
+}
+.technologys .right span.basket {
+    font-size: 35px;
+    margin: 0px 0px 15px 0px;
+    line-height: 40px;
+}
+.ilease-para {
+    background-size: 70%;
+    background-position: right 330px;
+    padding: 30px 0px;
+}
+.ilease-para .title {
+    margin: 0px 0px 30px 0px;
+    font-size: 30px;
+    line-height: 45px;
+}
+.ilease-para .title .redcolor {
+    font-size: 35px;
+}
+.ilease-para .title .f65 {
+    font-size: 45px;
+    line-height: 50px;
+}
 }
 
 @media only screen and (max-width:767.5px) {
@@ -1730,7 +1803,60 @@ color: red;
 	.clients .honeycomb.open .w7 {
 		display: block
 	}
+	.technologys:before {
 
+		right: 95px;
+	
+		top: 0px;
+	
+	}
+	.technologys .title.intro {
+		margin: 0px 0px 5px 0px;
+		font-size: 30px;
+		line-height: 45px;
+	}
+	.technologys .title.ilease {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	.technologys .title.ilease span {
+		font-size: 55px;
+	}
+	.technologys .right span.unique {
+		font-size: 60px;
+	
+		line-height: 50px;
+	}
+	.technologys:before {
+		right: 120px;
+		top: 0px;
+	}
+	.ilease-para .title .f65 {
+		font-size: 40px;
+		line-height: 45px;
+	}
+	.ilease-para .para {
+		width: 101%;
+
+	}
+	.ilease-para .title {
+    text-align: left;
+}
+.ilease-para .para {
+   
+    text-align: left;
+}
+.technologys:before {
+    right: 145px;
+    top: 0px;
+}
+}
+
+@media only screen and (max-width:670px) {
+.technologys:before {
+    right: 100px;
+    top: 0px;
+}
 }
 
 @media only screen and (max-width:560px) {
@@ -1743,14 +1869,394 @@ color: red;
 	.clients .btn-wrap button.more {
 		font-size: 18px
 	}
-
+	.technologys .container {
+		width: 95%;
+		max-width: 95%;
+		float: none;
+	}
+	.technologys .right {
+		width: 53%;
+		background-color: #ffffffe3;
+		text-align: left;
+		margin: 0px;
+		padding: 0px;
+		left: 27px;
+		position: relative;
+		margin-top: 45px;
+		padding: 10px 10px 0px 10px;
+	}
+	
+	.technologys .left {
+		width: 100%;
+		text-align: left;
+		left: 0px;
+	}
+	
+	.technologys .right span.fully {
+		float: left;
+		width: auto;
+		font-size: 24px;
+		line-height: 40px;
+		padding: 0px 10px 0px 0px;
+	}
+	
+	.technologys .right span.tech {
+		   float: left;
+		width: auto;
+		font-size: 24px;
+		line-height: 40px;
+	}
+	
+	.technologys .right span.unique {
+		float: left;
+		width: 100%;
+		font-size: 35px;
+		line-height: 35px;
+	    position: relative;
+    left: 40px;}
+	
+	.technologys .right span.lease {
+		float: left;
+		width: auto;
+		font-size: 24px;
+		line-height: 40px;
+		margin: 0px;
+		padding: 0px 10px 0px 0px;
+		}
+	
+	.technologys .right span.basket {   float: left;
+		width: auto;
+		font-size: 24px;
+		line-height: 40px;}
+	
+	
+	
+	.technologys:before {
+		transform: rotate(
+	35deg
+	);
+		opacity: 0;
+	}
+	
+	.technologys .right:before {content: "";width: 100px;height: 100px;/* background-color: #fff; */position: absolute;left: -49px;top: 20px;/* transform: rotate(-46deg); */top: 0;}
+	
+	.technologys {
+		padding: 30px 0px 0px 0px;
+		background-size: 100%;
+		background-position: 0px 0px;
+		margin: 1px 0px 0px 0px;
+		/* min-height: 418px; */
+	}
+	.ilease-para .title {
+		margin: 0px 0px 15gpx 0px;
+		font-size: 27px;
+		line-height: 40px;
+	}
+	.ilease-para .title .f65 {
+		font-size: 35px;
+		line-height: 45px;
+	}
+	.glipms .title:after {
+		left: 40%;
+		bottom: -20px;
+	}
+	.glipms.bg .wrap .img img {
+	
+		margin: -8px 0px 0px -8px;
+	}
+	.glipms .wrap .img.left img {
+	
+		margin: -8px 0px 0px -15px;
+	
+	}
+	.glipms .content-box {
+		padding: 15px 15px 15px 20px;
+	}
+	.glipms .content-box .title span {
+	
+		font-size: 25px;
+	}
+	.glipms .content-box .title span i {
+		font-size: 34px;
+	}
+	.glipms .content-box ul li:before {
+		width: 6px;
+		height: 6px;
+		top: 9px;
+	}
+	.ilease-para {
+		background-size: 88%;
+		background-position: right 400px;
+		padding: 30px 0px 0px 0px;
+	}
+	.glipms .title {
+		font-size: 27px;
+		line-height: 40px;
+		margin: 0px 0px 30px 0px;
+	}
+	.glipms .wrap .img:after {
+		width: 100px;
+		height: 70px;
+	}
+	.clients .title {
+		font-size: 26px;
+		line-height: 36px;}
 }
 
 @media only screen and (max-width:490px) {
 	.clients .title {
 		font-size: 27px;
 		line-height: 40px;
-		padding: 0% 0%
+		padding: 0% 0%;
 	}
+	.technologys .title.intro {
+		display: none;}
+		.technologys .title.ilease {
+			margin: 10px 0px 0px 0px;
+		}
+		.technologys .right {
+			width: 65%;}
+			.technologys .right span.unique {
+	
+				margin: 0px 0px 0px 0px;
+			
+			}
+			.technologys .right span.unique {
+		
+				letter-spacing: 0px;
+			}
+			div#overlay .companylogo {
+				left: 30%;
+			}
+			div#overlay .companycar {
+				left: 8%;
+			}
+			.ilease-para .title .redcolor {
+				font-size: 32px;
+			}
+
+			.technologys {
+				padding: 30px 0px 30px 0px;
+				background-size: 123%;
+				background-position: -100px -15px;
+				margin: 1px 0px 0px 0px;
+			}
+
+			.technologys .right {
+				width: 63%;
+    left: 28px;
+    margin-top: 45px;
+    padding: 10px 10px 0px 10px;
+    top: 30px;
+			}
+
+			section .container {
+				width: 95%;
+				max-width: 95%;
+				float: none;
+			}
+			.glipms .wrap .img:after {
+			
+				background-color: transparent !important;}
 
 }
+
+@media only screen and (max-width:450px) {
+	.technologys {
+		background-size: 127%;
+		background-position: -80px ​15px;
+		background-position: -85px 15px;
+	}
+.technologys .right {
+    width: 75%;}
+	.ilease-para .title {
+		margin: 0px 0px 20px 0px;}
+		section .container {
+			width: 95%;
+			max-width: 95%;
+			float: none;
+		}
+
+		.glipms.bg .wrap .img img {
+		
+			width: 145%;
+		}
+		.glipms .wrap .img.left img {
+		
+			width: 155%;
+		
+		}
+		.glipms .content-box .title {
+			font-size: 22px;
+			
+		}
+		.glipms .content-box .title span {
+			font-size: 22px;
+		}
+		.glipms .content-box p.para {
+			font-size: 16px;
+			line-height: 24px;
+		}
+		.glipms .content-box ul li {
+			font-size: 16px;
+			line-height: 24px;
+			float: left;
+			width: 100%;
+		}
+		.glipms .content-box ul li:before {
+		
+			left: 0px;
+		}
+		.glipms .content-box ul li {
+		
+			padding: 0px 0px 0px 20px;
+		
+		}
+		.glipms .content-box .title span i {
+			font-size: 30px;
+		}
+		.glipms .wrap .img.left img {
+			margin: -8px 0px 0px -152px;
+		}
+		.glipms .wrap .img.left img {
+			margin: -8px 0px 0px -152px;
+		}
+		.clients .title:after {
+			left: 34%;
+			bottom: -20px;
+		}
+		.ilease-para .para {
+		
+			font-size: 16px;
+			line-height: 27px;
+		}
+		.technologys .right {
+			width: 66%;
+		}
+		.clients .honeycomb-cell {
+	
+			margin-left: 25px;
+		}
+		.clients .btn-wrap button.more {
+			font-size: 16px;
+		}
+}
+
+@media only screen and (max-width:450px) {
+.glipms .title:after {
+    left: 39%;
+    bottom: -20px;
+}
+}
+@media only screen and (max-width:420px) {
+	.glipms .wrap .img.left img {
+		margin: -10px 0px 0px -152px;
+	}
+}
+@media only screen and (max-width:400px) {
+	.glipms .wrap .img.left img {
+		margin: -8px ​0px 0px -148p;
+	}
+	.clients .title:after {
+		left: 35%;
+	
+	}
+	.clients .honeycomb-cell {
+		margin-left: 15px;
+	}
+}
+
+@media only screen and (max-width:390px) {
+.glipms .wrap .img.left img {
+    margin: -8px 0px 0px -150px;
+}
+}
+
+@media only screen and (max-width:380px) {
+.technologys .right {
+    width: 80%;
+    margin-top: 18px;
+}
+.ilease-para .title .f65 {
+    font-size: 30px;
+    line-height: 35px;
+}
+.ilease-para .title {
+   
+	font-size: 26px;
+    line-height: 35px;
+}
+.ilease-para .title .redcolor {
+    font-size: 30px;
+}
+.glipms .title:after {
+    left: 35%;
+   
+}
+.main-content.clients .title:after {
+    bottom: -15px;
+    left: 33%;
+}
+.glipms .title:after {
+    left: 35%;
+    bottom: -20px;
+}
+.glipms .wrap .img.left img {
+	margin: -8px 0px 0px -136px;
+}
+.clients .title {
+    margin: 0px 0px 45px 0px;
+}
+
+}
+@media only screen and (max-width:360px) {
+.glipms .wrap .img.left img {
+    margin: -8px 0px 0px -135px;
+}
+}
+@media only screen and (max-width:350px) {
+.technologys {
+    background-size: 130%;background-position: -75px 15px;}.technologys .right {
+		width: 88%;
+	
+	}.glipms .wrap .img.left img {
+		margin: -8px 0px 0px -130px;
+	}
+	.clients .honeycomb-cell {
+		margin-left: 20px;
+	}
+}
+@media only screen and (max-width:340px) {
+.glipms .wrap .img.left img {
+    margin: -8px 0px 0px -118px;
+}
+}
+
+	@media only screen and (max-width:330px) {
+		.glipms .wrap .img.left img {
+			margin: -8px 0px 0px -118px;
+		}
+		}
+	@media only screen and (max-width:320px) {
+	.technologys .right {
+		width: 95%;
+
+	}
+	.ilease-para .title {
+		font-size: 24px;
+		
+	}
+	.glipms .title:after {
+		left: 33%;
+	
+	}
+	.glipms .wrap .img.left img {
+		margin: -8px 0px 0px -128px;
+	}
+
+	.glipms .wrap .img.left img {
+		margin: -8px 0px 0px -128px;
+	}
+}
+
+

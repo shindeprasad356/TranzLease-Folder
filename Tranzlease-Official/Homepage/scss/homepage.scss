@@ -34,7 +34,7 @@
 			span {
 				mark {
 					background: transparent;
-					color: red;
+					color: #ff192f;
 					font-size: 42px;
 				}
 				&:after {
@@ -42,7 +42,7 @@
 					position: absolute;
 					width: 4px;
 					height: 150px;
-					background-color: #ff0000;
+					background-color: #ff192f;
 					left: 0;
 					top: 24%;
 				}
@@ -66,7 +66,7 @@
 					padding: 0;
 					margin: 0;
 					font-family: Roboto-Black, sans-serif;
-					color: #ff0000;
+					color: #ff192f;
 					font-size: 42px;
 					text-shadow: 2px 3px 5px #000000;
 				}
@@ -99,8 +99,8 @@
 	.carousel-indicators {
 		bottom: 70px;
 		.active {
-			background-color: red;
-			border: 2px solid red;
+			background-color: #ff192f;
+			border: 2px solid #ff192f;
 			width: 20px;
 			height: 12px;
 		}
@@ -156,7 +156,7 @@
 				font-family: Roboto-Bold, sans-serif;
 				margin: 0 0 20px 0;
 				span {
-					color: red;
+					color: #ff192f;
 					font-size: 68px;
 					font-style: italic;
 					padding: 0 5px 0 0;
@@ -258,7 +258,7 @@ button {
 	min-height: 969px;
 	padding-top: 7%;
 	color: #e63946;
-	color: #ff0000;
+	color: #ff192f;
 	.title {
 		margin: 0px 0px 70px 0px;
 		font-size: 60px;
@@ -266,7 +266,7 @@ button {
 		font-size: 60px;
 		text-shadow: 2px 3px 5px #000000;
 		color: #e63946;
-		color: #ff0000;
+		color: #ff192f;
 	}
 	video#india-drives {
 		position: absolute;
@@ -393,7 +393,7 @@ button {
 		line-height: 45px;
 		padding: 0% 12%;
 		span {
-			color: #ff0000;
+			color: #ff192f;
 			font-family: 'Roboto-Black';
 			font-size: 36px;
 			text-shadow: 2px 3px 5px #000000;
@@ -470,7 +470,7 @@ button {
 				content: '';
 				width: 130px;
 				position: absolute;
-				background: #ff0000;
+				background: #ff192f;
 				height: 130px;
 				right: -15px;
 				top: -15px;
@@ -488,7 +488,7 @@ button {
 				content: '';
 				width: 130px;
 				position: absolute;
-				background: #ff0000;
+				background: #ff192f;
 				height: 130px;
 				left: -15px;
 				bottom: -15px;
@@ -568,7 +568,7 @@ button {
 	}
 	p {
 		&.Name {
-			color: #ff0000;
+			color: #ff192f;
 			text-align: left;
 			font-size: 34px;
 			color: #1d3557;
@@ -591,7 +591,7 @@ button {
 			}
 		}
 		&.desig {
-			color: #ff0000;
+			color: #ff192f;
 			text-align: left;
 			font-size: 20px;
 			font-family: 'Fira Sans';
@@ -777,7 +777,7 @@ button {
 		margin: 0px 0px 30px 0px;
 		text-align: center;
 		span {
-			color: #ff0000;
+			color: #ff192f;
 			font-family: Roboto-Medium, sans-serif;
 			font-family: Roboto-Bold, sans-serif;
 		}
@@ -825,7 +825,7 @@ button {
 		color: #1d3557;
 		text-align: left;
 		mark {
-			color: #ff0000;
+			color: #ff192f;
 			background-color: transparent;
 		}
 		&:after {
@@ -953,7 +953,7 @@ button {
 			}
 			&:hover {
 				.title {
-					color: #ff0000;
+					color: #ff192f;
 					transition: all ease 0.5s;
 				}
 			}
@@ -2378,6 +2378,15 @@ button {
 		font-size: 16px;
 		line-height: 27px;
 		margin-bottom: 20px;
+		br {
+			display: none;
+		}
+		 span {
+			float: left;
+			width: 100%;
+			margin: 0px 0px 15px 0px;
+			font-size: 20px;
+		}
 	}
 	.title {
 		margin: 0px 0px 40px 0px;
@@ -2426,8 +2435,8 @@ button {
 		left: -65%;
 	}
 	.title {
-		font-size: 27px;
-		line-height: 40px;
+		font-size: 26px;
+		line-height: 36px;
 	}
 	.semi-title {
 		font-size: 18px;
@@ -2459,8 +2468,8 @@ button {
 }
 .our-partner {
 	.title {
-		font-size: 27px;
-		line-height: 40px;
+		font-size: 26px;
+		line-height: 36px;
 		margin: 0px 0px 40px 0px;
 		&:after {
 			bottom: -55px;
@@ -2485,15 +2494,15 @@ button {
 }
 .introduction {
 	.title {
-		font-size: 27px;
-		line-height: 40px;
+		font-size: 26px;
+		line-height: 36px;
 		margin: 0px 0px 40px 0px;
 	}
 }
 .clients {
 	.title {
-		font-size: 27px;
-		line-height: 40px;
+		font-size: 26px;
+		line-height: 36px;
 		padding: 0% 15%;
 	}
 	.btn-wrap {
@@ -2609,10 +2618,23 @@ div#overlay {
 	}
 	.title {
 		&:after {
-			left: 35%;
-			bottom: -3px;
+			left: 40%;
+		
 		}
 	}
+}
+.main-content.clients .title:after {
+	bottom: -15px;
+    left: 38%;
+}
+
+.main-content.testimonials .title:after {
+    bottom: -5px;
+  
+}
+.main-content.india-drives .title:after {
+
+    bottom: -12px;
 }
 .banner {
 	.carousel-inner {
@@ -2730,15 +2752,15 @@ div#overlay {
 }
 .clients {
 	.title {
-		font-size: 27px;
-		line-height: 40px;
+		
 		padding: 0% 0%;
 	}
 }
 .testimonials {
 	.title {
 		margin: 0px 0px 30px 0px;
-		font-size: 27px;
+		font-size: 26px;
+		line-height: 36px;
 	}
 	.content {
 		padding: 10px;
@@ -2750,7 +2772,14 @@ div#overlay {
 	}
 }
 
-
+.introduction .link.hvr-right {
+  
+    font-size: 16px;
+  
+}
+.clients .btn-wrap button.more {
+    font-size: 16px;
+}
 }
 
 @media only screen and (max-width:450px) {
@@ -2818,8 +2847,14 @@ div#overlay {
 		}
 	}
 }
-
-
+.clients .title:after {
+    left: 34%;
+    bottom: -20px;
+}
+.clients .honeycomb-cell {
+	
+	margin-left: 25px;
+}
 }
 
 @media only screen and (max-width:380px) {
@@ -2832,6 +2867,49 @@ div#overlay {
 		}
 	}
 }
+.our-partner .title:after {
+    left: 38%;
+    bottom: -52px;
+}
 
+}
 
+@media only screen and (max-width:360px) {
+.india-drives .title {
+    font-size: 26px;
+    line-height: 36px;
+}
+.introduction .title {
+    font-size: 26px;
+    line-height: 36px;
+
+}
+.our-partner .title {
+    font-size: 26px;
+    line-height: 36px;
+    margin: 0px 0px 40px 0px;
+}
+.our-partner .title:after {
+    left: 35%;
+
+}
+.clients .title {
+    font-size: 26px;
+    line-height: 36px;
+
+}
+.main-content.clients .title:after {
+
+    left: 36%;
+}
+.testimonials .title {
+
+    font-size: 26px;
+}
+.main-content .title:after {
+    left: 35%;
+}
+.clients .honeycomb-cell {
+    margin-left: 20px;
+}
 }

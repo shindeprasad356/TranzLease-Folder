@@ -147,11 +147,11 @@ div#overlay {
             font-size: 18px;
             position: relative;
             top: 0;
-            color: red;
+            color: #ff192f;
           }
           &:hover {
             transition: all ease 0.5s;
-            color: red;
+            color: #ff192f;
             i {
               opacity: 1;
               transform: scale(1.2);
@@ -187,7 +187,7 @@ div#overlay {
           a {
             &:hover {
               transition: all ease 0.5s;
-              color: red;
+              color: #ff192f;
               i {
                 opacity: 1;
                 transform: scale(1.2);
@@ -226,7 +226,7 @@ div#overlay {
           font-size: 18px;
           position: relative;
           top: 0;
-          color: red;
+          color: #ff192f;
         }
       }
     }
@@ -334,7 +334,7 @@ footer {
           text-decoration: none;
           span {
             mark {
-              color: #ff0000;
+              color: #ff192f;
               background: transparent;
               font-size: 30px;
               color: #fff;
@@ -370,7 +370,7 @@ footer {
             font-family: 'Roboto-Black';
             margin: 5px 0px 0px 0px;
             padding: 0px 0px 0px 0px;
-            color: #ff0000;
+            color: #ff192f;
           }
         }
       }
@@ -422,7 +422,7 @@ footer {
         color: #fff;
         font-family: Roboto-Regular, sans-serif;
         span {
-          color: #ff0000;
+          color: #ff192f;
           font-family: Roboto-Regular, sans-serif;
           font-size: 20px;
           color: #457b9d;
@@ -440,7 +440,7 @@ footer {
   font-size: 20px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #ff192f;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -535,6 +535,14 @@ div#overlay .companylogo {
 div#overlay .companycar {
   left: 36%;
 }
+#topBtn {
+  width: 60px;
+  height: 60px;
+  padding: 10px 15px 10px 15px;
+}
+#topBtn i {
+  font-size: 35px !important;
+}
 }
 @media only screen and (max-width: 1370px) {
 
@@ -570,6 +578,7 @@ div#overlay .companycar {
   font-size: 35px !important;
 }
 }
+
 }
 
 @media only screen and (max-width: 1290px) {
@@ -686,6 +695,76 @@ div#overlay {
   
 }
 
+@media only screen and (max-width: 900px) {
+footer {
+  padding: 30px 0px 20px 0px;
+  text-align: center;
+  p {
+    &.para {
+      font-size: 16px;
+      line-height: 27px;
+      margin-bottom: 30px;
+      &.big {
+        font-size: 20px;
+      }
+    }
+  }
+  .ml-auto {
+    &.mt-cust {
+      padding-left: 20px;
+      float: left;
+      width: 50%;
+      margin: 0px 0px 30px 0px;
+    }
+  }
+  .list-unstyled {
+    &.links {
+      li {
+        &.contact-link {
+          margin: 0px 0px 5px 0px;
+          padding-left: 5px;
+          font-size: 22px;
+        }
+      }
+      a {
+        &.contact-link {
+          span {
+            font-size: 26px;
+            mark {
+              font-size: 26px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .col-md-12 {
+    &.text-md-left {
+      padding: 20px 0px 0px 0px;
+      margin: 20px 0px 0px 0px;
+    }
+  }
+  a {
+    &.footer-site-logo {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 5px;
+      img {
+        width: 200px;
+        margin: 0 auto;
+        float: none;
+      }
+    }
+  }
+  h3 {
+    &.titles {
+      text-align: left;
+      text-align: left;
+      font-size: 20px;
+    }
+  }
+}
+}
 @media only screen and (max-width: 770px) {
 .main-navigation {
   margin-bottom: -1px;
@@ -700,7 +779,7 @@ div#overlay {
     }
   }
   .top-nav {
-    padding: 2px 0 0;
+    padding: 2px 0px;
     .list {
       li {
         a {
@@ -841,6 +920,8 @@ footer {
   }
   .navbar {
     min-height: 60px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 2px 2px #f3adaddd;
   }
   .navbar-collapse {
     border: 1px solid #ddd;
@@ -905,6 +986,9 @@ footer {
         padding: 20px 0px 0px 0px;
         top: 0%;
         min-width: inherit;
+        position: relative;
+        border: none;
+        box-shadow: none;
         .dropdown-item {
           padding: 0px 0px 15px 0px;
           margin: 0px 0 15px 0px;
@@ -1027,8 +1111,31 @@ footer {
       font-size: 25px !important;
   }
 }
+.main-navigation a.navbar-brand {
+  padding: 20px 15px 0;
+  min-height: 75px;
+  min-width: 110px;
+  padding: 10px 15px 0;
+}
+div#overlay .companycar {
+  left: 20%;
+}
+div#overlay .companylogo {
+  left: 35%;
+  width: 200px;
+}
+#topBtn {
 
-  
+  right: 15px;}
+
+  .main-navigation .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+
+    margin: 10px 0 10px 0px;
+   
+}
+.main-navigation .navbar-nav .nav-item .dropdown-menu {
+  padding: 10px 0px 0px 0px;
+}
 }
 @media only screen and (max-width: 560px) {
 footer {
@@ -1044,10 +1151,10 @@ footer {
 }
 div#overlay {
   .companylogo {
-    left: 28%;
+    left: 32%;
   }
   .companycar {
-    left: 13%;
+    left: 14%;
   }
 }
 .main-navigation {
@@ -1055,7 +1162,7 @@ div#overlay {
     .navbar-nav {
       .wrap {
         .nav-item {
-          padding: 0 0 12px 15px;
+          padding: 0 0 12px 5px;
           margin: 0 0 12px 0px;
           font-size: 16px;
         }
@@ -1063,17 +1170,19 @@ div#overlay {
     }
   }
 }
-
+.main-navigation .navbar-collapse .navbar-nav .wrap .nav-item.dropdown {
+  padding: 0 0 12px 5px;
+}
   
 }
 
 @media only screen and (max-width: 490px) {
   div#overlay {
   .companylogo {
-    left: 26%;
+    left: 29%;
   }
   .companycar {
-    left: 9%;
+    left: 8%;
   }
 }
 .main-navigation {
@@ -1102,7 +1211,7 @@ div#overlay {
         padding: 10px 0px;
         a {
           font-size: 16px;
-          margin: 5px 0 0 20px;
+          margin: 2px 0 0 20px;
           i {
             font-size: 20px;
           }
@@ -1177,7 +1286,20 @@ div#overlay {
     }
   }
 }
+div#overlay .companylogo {
+  left: 28%;
+  width: 170px;
+}
+div#overlay .companycar {
+  left: 0%;
 
+  width: 100%;
+}
+div#overlay .companylogo {
+  left: 0%;
+  width: 100%;
+  padding: 0% 85px;
+}
 }
 
 @media only screen and (max-width: 380px) {
@@ -1192,26 +1314,26 @@ footer {
     }
   }
 }
-div#overlay {
-  .companylogo {
-    left: 22%;
-    width: 185px;
-  }
-  .companycar {
-    left: -4%;
-  }
-}
+// div#overlay {
+//   .companylogo {
+//     left: 22%;
+//     width: 185px;
+//   }
+//   .companycar {
+//     left: -4%;
+//   }
+// }
   }
 
   
   @media only screen and (max-width: 350px) {
-div#overlay {
-  .companylogo {
-    left: 20%;
-    width: 185px;
-  }
-  .companycar {
-    left: -11%;
-  }
-}
+// div#overlay {
+//   .companylogo {
+//     left: 20%;
+//     width: 185px;
+//   }
+//   .companycar {
+//     left: -11%;
+//   }
+// }
   }
