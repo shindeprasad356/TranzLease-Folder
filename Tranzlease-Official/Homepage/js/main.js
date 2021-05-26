@@ -22,11 +22,11 @@
 // }
 
 
-// setInterval(function() {
-//   setTimeout(function() {
-//       $('#overlay').fadeOut();
-//   }, 3000)
-// }, 3000);
+setInterval(function() {
+  setTimeout(function() {
+      $('#overlay').fadeOut();
+  }, 3000)
+}, 3000);
 
 $(window).load(function() {
   $(".loader").delay(000).fadeOut("slow");
@@ -139,5 +139,65 @@ $(document).ready(function() {
 
   $(".clients .more").click(function() {
     $(".honeycomb").toggleClass("open");
-});    
+});   
+
+// Detect request animation frame
+var scroll = window.requestAnimationFrame ||
+             // IE Fallback
+             function(callback){ window.setTimeout(callback, 1000/60)};
+var elementsToShow = document.querySelectorAll('.show-on-scroll'); 
+
+function loop() {
+
+    Array.prototype.forEach.call(elementsToShow, function(element){
+      if (isElementInViewport(element)) {
+        element.classList.add('is-visible');
+      } else {
+        element.classList.remove('is-visible');
+      }
+    });
+
+    scroll(loop);
+}
+
+// Call the loop for the first time
+loop();
+
+// Helper function from: http://stackoverflow.com/a/7557433/274826
+function isElementInViewport(el) {
+  // special bonus for those using jQuery
+  if (typeof jQuery === "function" && el instanceof jQuery) {
+    el = el[0];
+  }
+  var rect = el.getBoundingClientRect();
+  return (
+    (rect.top <= 0
+      && rect.bottom >= 0)
+    ||
+    (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+    ||
+    (rect.top >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+  );
+}
+
+if ($(window).width() < 560) {
+  $('.technologys .tech').removeClass('inline-photo show-on-scroll right');
+} else {
+  $('.technologys .tech').addClass('inline-photo show-on-scroll right');
+}
+
+const menuBtn = document.querySelector('.menu-btn');
+let menuOpen = false;
+menuBtn.addEventListener('click', () => {
+  if(!menuOpen) {
+    menuBtn.classList.add('open');
+    menuOpen = true;
+  } else {
+    menuBtn.classList.remove('open');
+    menuOpen = false;
+  }
+});
+
 });

@@ -6,7 +6,7 @@
 	font-family: Roboto-Bold, sans-serif;
 	line-height: 58px;
 	color: #ff192f;
-	background-image: url(../img/corporatelease/handsome-business-man-by-white-cars.png);
+	background-image: url(../img/corporatelease/CorporateLease-Tranzlease-CarLeases.png);
 	background-attachment: fixed;
 	position: relative;
 	min-height: 122vh;
@@ -27,7 +27,7 @@
 	}
 	&:before {
 		content: '';
-		background-image: url(../img/corporatelease/shape-transperantt.png);
+		background-image: url(../img/corporatelease/shape_transperant_bg.png);
 		right: 0px;
 		top: 0px;
 		width: 100%;
@@ -217,7 +217,7 @@
 	width: 100%;
 	margin: -30vh 0px 0px 0px;
 	z-index: 99;
-	background-image: url(../img/corporatelease/cars-background.png);
+	background-image: url(../img/corporatelease/CorporateLease-Tranzlease-CarLease-background.png);
 	background-repeat: no-repeat;
 	background-size: 42%;
 	background-position: right 290px;
@@ -435,24 +435,44 @@
 		&.left {
 			float: left;
 			box-shadow: -3px 4px 9px 1px #d0cfcf;
-			background-color: #ddd;
+			background-color: #e6e6e6;
 		}
 	}
 	&.bg {
-		background-color: #ddd;
+		background-color: #e6e6e6;
 		padding: 100px 0px;
+	
+		background-repeat: no-repeat;
+		// background-image: url(../img/corporatelease/grid-bgs.png);
+		background-image: url(../img/corporatelease/grid-bg.png);
+		background-position: 0px 0px;
+		background-size: 100%;
+		background-repeat: no-repeat;
 	}
 	&.bgs {
-		background-color: #f3f3f3;
-		padding: 100px 0px 20px 0px;
-		margin: 0px 0px 70px 0px;
-		background-color: #fff;
+		
+		padding: 100px 0px 90px 0px;
+		margin: 0px 0px 0px 0px;
+	
+	    // background-image: url(../img/corporatelease/grid-bg.png);
+		    background-image: url(../img/corporatelease/grid-bg.png);
+    background-position: 0px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+		
 	}
 }
 .clients {
-	margin: 0px 0px 170px 0px;
-	float: left;
-	width: 100%;
+    margin: 0px;
+    float: left;
+    width: 100%;
+    background-size: 126%;
+    background-image: url(../img/homepage/gridbgss.jpg);
+    background-repeat: no-repeat;
+    padding: 80px 0px 175px 0px;
+    background-image: url(../img/corporatelease/grid-bg.png);
+    background-position: -210px 0px;
+	background-color: #e6e6e6;
 	.title {
 		font-weight: 400;
 		width: 100%;
@@ -698,19 +718,18 @@
     font-size: 40px;
     font-family: Roboto-Bold, sans-serif;
     line-height: 58px;
-    background-image: url(../img/corporatelease/handsome-business-man-by-white-cars.png);
     background-attachment: fixed;
     position: relative;
     background-size: 73%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
     z-index: 0;
-    background-image: url(../img/corporatelease/handsome-business-man-by-white-carss.jpg);
+    background-image: url(../img/corporatelease/CorporateLease-Tranzlease-CarLeases.jpg);
 }
 
 .technologys:before {
     content: '';
-    background-image: url(../img/corporatelease/shape-transperantt.png);
+    background-image: url(../img/corporatelease/shape_transperantt.png);
     right: 0px;
     top: 0px;
     width: 100%;
@@ -775,6 +794,53 @@
 .ilease-para {
     margin: 0px;
 }
+section.glipms.bgs.last {
+    padding-bottom: 0px;
+}
+.Login-smartemi {
+    background-color: #457b9d;
+    color: #fff;
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 34px;
+    padding: 18px 20px;
+    min-width: 200px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 5px !important;
+    box-shadow: 3px 4px 6px 0px #544b4b;
+    text-decoration: none !important;
+    margin: 30px 0px 0px 0px;
+    position: fixed;
+    right: 90px;
+    z-index: 999;
+    bottom: 24px;
+}
+
+
+
+.Login-smartemi i {
+    position: relative;
+    top: 1px;
+    font-size: 30px;
+    left: 0px;
+    transition: all ease 0.5s;
+}
+
+.Login-smartemi:hover i {
+    left: 5px;
+}
+
+.Login-smartemi.hvr-right:before {
+      border-radius: 5px !important;
+}
+// body {
+  
+//     background-image: url(../img/corporatelease/grid-bg-fulls.png);
+//     background-size: 100%;
+//     background-repeat: repeat-x;
+//     background-position: 0px 0px;
+//     background-position: 6px 132px;
+// }
 
 @media only screen and (max-width:1985px) {
 	.technology .right .main {
@@ -812,6 +878,8 @@
 	.technologys {
 	
 		padding: 90px 0px 200px 0px;}
+		
+	
 
 }
 
@@ -950,6 +1018,22 @@
 	.technology .right span.lease {
 		margin: 10px 0px 20px 0px
 	}
+	.glipms.bg {
+
+		background-position: -100px 0px;
+		background-size: 121%;
+	
+	}
+	.glipms.bgs {
+		background-position: -100px 0px;
+		background-size: 121%;
+	}
+	.clients {
+	
+		background-size: 139%;
+		
+		background-position: -250px 0px;
+	}
 
 }
 
@@ -1060,7 +1144,7 @@
 	
 
 	.glipms.bg {
-		padding: 70px 0px
+		padding: 70px 0px;background-size: 124%;
 	}
 
 	.technology .left .ilease {
@@ -1072,7 +1156,7 @@
 	}
 	.glipms.bgs {
 	
-		padding: 70px 0px 20px 0px;
+		padding: 70px 0px 50px 0px;
 	
 	}
 	.technologys {
@@ -1081,6 +1165,11 @@
 	.technologys .right .title.main {
 	
 		margin: 35px 0px 0px 0px;
+	}
+	.Login-smartemi {
+	
+		right: 80px;
+		
 	}
 
 
@@ -1166,10 +1255,7 @@
 		font-size: 41px
 	}
 
-	.clients {
-		margin: 0px 0px 70px 0px;
-		padding: 40px 0px
-	}
+	
 
 	.clients .title {
 		font-size: 36px;
@@ -1223,6 +1309,19 @@
 		font-size: 50px;
 		margin: 0px 0px 15px 0px;
 		
+	}
+	.glipms.bg {
+		background-position: -190px -40px;
+		background-size: 121%;
+		padding: 50px 0px 60px 0px;
+	}
+	.glipms.bgs {
+		padding: 50px 0px 60px 0px;
+		background-position: -190px -40px;
+		background-size: 121%;
+	}
+	.technologys .right {
+		margin: -20px 0px 0px 0px;
 	}
 	
 }
@@ -1309,11 +1408,11 @@
 	
 		font-size: 55px;
 	}
-	#topBtn {
-		width: 60px;
-		height: 60px;
-		padding: 12px 15px 15px 15px;
-		
+	
+	.clients {
+		background-size: 139%;
+		background-position: -250px 0px;
+		padding: 80px 0px 130px 0px;
 	}
 
 }
@@ -1402,12 +1501,22 @@
     background-size: 86%;
     background-position: -125px 0px;
 }
+.Login-smartemi {
+
+    font-size: 30px;
+}
+.Login-smartemi i {
+
+    font-size: 26px;
+    left: 2px;
+
+}
 }
 
 @media only screen and (max-width:1030px) {
 	.clients {
-		margin: 0px 0px 50px 0px;
-		padding: 40px 0px
+		margin: 0px 0px 0px 0px;
+		padding: 40px 0px 90px 0px;
 	}
 
 	.clients .title {
@@ -1571,7 +1680,7 @@
 		margin: 10px 0px 10px 0px;
 	}
 	.technologys:before {
-
+		min-height: 90vh;
 		background-position: -145px -130px;
 	}
 	.technologys {
@@ -1581,6 +1690,20 @@
 	.ilease-para .title .redcolor {
 		font-size: 40px;
 	}
+	.glipms {
+		background-image: none !important;
+	}
+	.clients {
+		background-image: none !important;
+	}
+	.Login-smartemi {
+		right: 60px;
+	}
+	.Login-smartemi {
+		right: 60px;
+		padding: 13px 20px;
+	}
+	
 
 }
 
@@ -1691,14 +1814,14 @@
 	    padding: 30px 0px 30px 0px;
     background-size: 90%;
     background-position: -130px top;
-    margin: 1px 0px 0px 0px;
+    margin: 1px 0px 0px 0px;overflow: hidden;
 }
 .technologys:before {
-	background-color: #ffffff;
+    background-color: #ffffff;
     background-image: none;
-    right: 145px;
+    right: 35px;
     left: inherit;
-    top: 12px;
+    top: -25px;
     width: 41%;
     transform: rotate(
 20deg
@@ -1717,7 +1840,7 @@
     font-size: 69px;
 }
 .technologys .right .title.main {
-    margin: 0px 0px 0px 0px;
+    margin: 40px 0px 0px 0px;
 }
 .technologys .right span.fully {
     font-size: 30px;
@@ -1760,6 +1883,25 @@
 .ilease-para .title .f65 {
     font-size: 45px;
     line-height: 50px;
+}
+.Login-smartemi {
+    right: 40px;
+    padding: 13px 20px;
+    font-size: 25px;
+    min-width: 160px;
+}
+.Login-smartemi i {
+    font-size: 22px;
+    left: 2px;
+}
+#topBtn {
+    
+    right: inherit !important;
+    left: 5px !important;
+}
+.Login-smartemi {
+    right: 15px;
+
 }
 }
 
@@ -1948,7 +2090,7 @@
 		/* min-height: 418px; */
 	}
 	.ilease-para .title {
-		margin: 0px 0px 15gpx 0px;
+		margin: 0px 0px 15px 0px;
 		font-size: 27px;
 		line-height: 40px;
 	}
@@ -2001,6 +2143,19 @@
 	.clients .title {
 		font-size: 26px;
 		line-height: 36px;}
+		.technologys .right .title.main {
+			margin: 0px 0px 0px 0px;
+		}
+		.Login-smartemi {
+			right: 15px;
+			font-size: 20px;
+			padding: 5px 10px;
+			min-width: 125px;
+		}
+		.Login-smartemi i {
+			font-size: 18px;
+			left: 2px;
+		}
 }
 
 @media only screen and (max-width:490px) {
@@ -2058,13 +2213,17 @@
 			.glipms .wrap .img:after {
 			
 				background-color: transparent !important;}
+				.Login-smartemi {
+			
+					min-width: 115px;
+				}
 
 }
 
 @media only screen and (max-width:450px) {
 	.technologys {
 		background-size: 127%;
-		background-position: -80px ​15px;
+		
 		background-position: -85px 15px;
 	}
 .technologys .right {
@@ -2155,7 +2314,7 @@
 }
 @media only screen and (max-width:400px) {
 	.glipms .wrap .img.left img {
-		margin: -8px ​0px 0px -148p;
+		margin: -8px 0px 0px -148px;
 	}
 	.clients .title:after {
 		left: 35%;
@@ -2169,6 +2328,9 @@
 @media only screen and (max-width:390px) {
 .glipms .wrap .img.left img {
     margin: -8px 0px 0px -150px;
+}
+.technologys .right {
+    width: 75%;
 }
 }
 

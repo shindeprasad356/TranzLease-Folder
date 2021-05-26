@@ -2,7 +2,7 @@
     float: left;
     width: 100%;
     min-height: 100vh;
-    background-image: url(../img/company-profile/offices.jpg);
+    background-image: url(../img/company-profile/office-backgrounds.jpg);
     background-size: 65%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,7 +17,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background-image: url(../img/company-profile/whitebg.png);
+    background-image: url(../img/company-profile/white-background.png);
     background-size: 100%;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
@@ -116,7 +116,7 @@
     float: left;
     width: 100%;
     min-height: 100vh;
-    background-image: url(../img/company-profile/history.png);
+    background-image: url(../img/company-profile/Tranzlease-History-Carlease-finance.png);
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: 0% 25%;
@@ -264,7 +264,7 @@
     float: left;
     width: 100%;
     position: relative;
-    padding: 50px 0px;
+    padding: 70px 0px;
     .title {
       font-family: Roboto-Bold, sans-serif;
       font-size: 75px;
@@ -350,7 +350,7 @@
       position: relative;
       right: 0px;
       margin: -330px 0px 0px 0px;
-      box-shadow: 3px 4px 9px 1px #d0cfcf;
+      box-shadow: 3px 4px 9px 1px #dedede;
       border: 1px solid #e4e2e2;
       min-height: 400px;
       .title {
@@ -438,8 +438,8 @@
       }
       &.left {
         float: left;
-        box-shadow: -3px 4px 9px 1px #d0cfcf;
-        background-color: #ddd;
+        box-shadow: -3px 4px 9px 1px #dedede;
+        background-color: #e6e6e6;
       }
     }
     .content-box.center {
@@ -449,14 +449,24 @@
       min-height: 400px;
     }
     &.bg {
-      background-color: #ddd;
-      padding: 100px 0px;
+      background-color: #e6e6e6;
+  
+      background-image: url(../img/corporatelease/grid-bgs.png);
+      background-position: 0px 0px;
+      background-size: 105%;
+      background-repeat: no-repeat;
+
     }
     &.bgs {
-      background-color: #f3f3f3;
-      padding: 100px 0px 20px 0px;
-      margin: 0px 0px 70px 0px;
-      background-color: #fff;
+     
+      padding: 100px 0px 60px 0px;
+      margin: 0px 0px 0px 0px;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-image: url(../img/corporatelease/grid-bg.png);
+      background-position: 3px -40px;
+      background-size: 105%;
+      background-repeat: no-repeat;
     }
   }
   
@@ -486,13 +496,19 @@
     font-family: Roboto-Bold, sans-serif;
     font-size: 48px;
     line-height: 60px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 60px 0px;
     text-align: center;
   }
   .our-partner {
     float: left;
     width: 100%;
     padding: 50px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/corporatelease/grid-bgs.png);
+    background-position: 0px 0px;
+    background-size: 105%;
+    background-repeat: no-repeat;
   }
   
   .our-partner .title span {
@@ -524,14 +540,19 @@
     font-size: 26px;
     line-height: 45px;
     padding: 40px;
-    box-shadow: 5px 6px 6px 2px #ddd;
-    border: 1px solid #ddd;
-    background-color: #ddd;
+    box-shadow: 5px 6px 6px 2px #e6e6e6;
+    border: 1px solid #e6e6e6;
+    background-color: #e6e6e6;
   }
   
   .our-partner.bgs {
     padding: 50px 0px;
-    background-color: #ddd;
+    background-color: #e6e6e6;
+
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-image: url(../img/corporatelease/grid-bg.png);
+    background-position: 2px -4px;
   }
   .our-partner.bgs .box {
     box-shadow: 5px 6px 6px 2px #b7b7b7;
@@ -554,7 +575,7 @@
     content: '';
     width: 100px;
     height: 4px;
-    background: #457b9d;
+    // background: #457b9d;
     position: absolute;
     left: 47%;
     bottom: -25px;
@@ -567,7 +588,13 @@
     right: 50%;
     position: relative;
 }
+// body {
 
+//   background-image: url(../img/corporatelease/grid-bg-fulls.png);
+//   background-size: 100%;
+//   background-repeat: repeat-x;
+//   background-position: 0px 540px;
+// }
   @media only screen and (max-width: 1985px) {
     .profile .col-md-12 {
       padding: 0px 0px 0px 0px;
@@ -589,11 +616,43 @@
     .glipms.bg .content-box {
       margin: -260px 0px 0px 0px;
     }
+    .our-partner {
+			background-position: right -42px;
+			background-size: 130%;
+		}
+		.our-partner.bgs{
+			background-position: right -42px;
+			background-size: 130%;background-position: 0px 0px;
+		}
+    .glipms.bg {
+	
+			background-position: 0px 0px;
+			background-size: 107%;
+		
+		}
+		.glipms.bgs {
+			
+			background-position: 3px -40px;
+			background-size: 107%;
+		
+		}
+		.glipms.bg {
+	
+			background-position: 65% 0px;
+			background-size: 130%;
+			
+		}
+		section.glipms.bgs {
+			background-size: 130%;
+		}
+    .profile {
+      background-position: 100% 0%;
+    }
   }
   
   @media only screen and (max-width: 1610px) {
     .profile {
-      padding: 125px 0px 0px 0px;
+      padding: 125px 0px 0px 0px;    background-position: 100% 0%;
     }
     .profile .title {
       margin: 0px 0px 50px 0px;
@@ -862,6 +921,11 @@
     .glipms .content-box {
       padding: 30px 40px;
     }
+    .profile {
+      max-height: 500px;
+      min-height: 500px;
+    }
+
   }
   @media only screen and (max-width: 1290px) {
     .profile .sub-title .one {
@@ -1034,7 +1098,7 @@
     .profile {
         background-position: 100% 0%;
         padding: 55px 0px 30px 0px;
-        min-height: auto;
+        min-height: auto;    min-height: 500px; background-position: 150% 0%;background-size: 76%;
     }
     .history {
         padding: 50px 0px 30px 0px;
@@ -1058,6 +1122,9 @@
    
         left: -7%;
    
+    }
+    .glipms{
+background-image: none;
     }
   }
 
@@ -1183,7 +1250,7 @@
 }
 .history {
 
-  background-image: url(../img/company-profile/history.png);
+
   background-size: 55%;
 
   background-position: -21% 10%;
@@ -1308,6 +1375,10 @@ body .glipms.bgs .title:after {
   left: 6%;
   bottom: -10px;
 }
+.profile {
+
+  background-size: 115%;
+}
   }
 
   @media only screen and (max-width: 600px) {
@@ -1341,12 +1412,12 @@ body .glipms.bgs .title:after {
 .profile .sub-title .one {
 
   margin: 0px 0px 15px 0px;
-  width: 100%;
+  width: 100%; text-align: center;
 }
 .profile .sub-title .two {
   font-size: 20px;
   line-height: 30px;
-  margin: 0px 0px 15px 0px;    width: 100%;
+  margin: 0px 0px 15px 0px;    width: 100%;text-align: center;
 }
 .profile .sub-title .three {
   font-size: 22px;
@@ -1378,7 +1449,7 @@ body .glipms.bgs .title:after {
   margin-top: 175px;
   margin-bottom: 125px;
   position: relative;
-  left: 59%;
+  left: 57%;
 }
 .history .wrap {
   float: right;
@@ -1436,19 +1507,19 @@ body .glipms.bgs .title:after {
   margin: 0px;
   padding: 0px;
   float: left;
-  position: relative;    padding-top: 15px;
+  position: relative;    padding-top: 15px;    margin-bottom: -15px;
 }
 .glipms .content-box.center {
   width: 100%;
   margin: 0px;
   padding: 25px;
   min-height: auto;
-  border: none;
+  border: none;    box-shadow: none;
 }
 .glipms.bgs .title {
   font-size: 32px;
    margin-top: 0px;
-  background-color: #ddd;    padding-top: 15px;
+  background-color: #e6e6e6;    padding-top: 15px;    margin-bottom: -15px;
 }
 .glipms .content-box.left {
   margin: 0px;
@@ -1471,4 +1542,237 @@ body .glipms.bgs .title:after {
   
     padding: 50px 0px 50px 0px;
 }
+.our-partner .title:after {
+  left: 39.5%;
+}
+.our-partner .img img {
+  width: 110%;
+  left: -5%;
+}
+.our-partner .box {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 25px;
+}
+.our-partner .box {
+ 
+  box-shadow: 5px 6px 6px 2px #b1b1b1c9;
+  border: 1px solid #e6e6e6;
+  background-color: #e6e6e6;
+}
+.glipms .content-box p.para {
+  font-size: 18px;
+  line-height: 27px;
+}
+.glipms .content-box ul li {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0px 0px 0px 18px;
+}
+.our-partner .title:after {
+  left: 38.5%;
+}
+.profile .title {
+
+  left: 15px;
+}
+.profile {
+  background-position: 0px -65px;
+  background-size: 108%;
+}
+.profile .title {
+  left: 10px;
+}
+.our-partner .title {
+  margin: 0px 0px 20px 0px;
+  font-size: 26px;
+  line-height: 46px;
+}
   }
+
+  @media only screen and (max-width:480px) {
+  .profile .title {
+    font-size: 25px;
+    line-height: 35px;
+  
+}
+.profile {
+  margin-bottom: 15px;
+}
+.history .sub-title .one {
+  font-size: 22px;
+  line-height: 32px;
+
+}
+  }
+
+  @media only screen and (max-width:450px) {
+  .profile .sub-title .two {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0px 15px 0px;
+    width: 120%;
+    text-align: center;
+    left: -10%;
+}
+.history .title {
+  margin-top: 170px;
+  margin-bottom: 100px;
+
+}
+.history {
+  background-size: 100%;
+  background-position: 0% 6%;
+  padding: 50px 0px 30px 0px;
+  min-height: auto;
+}
+  }
+  @media only screen and (max-width:430px) {
+  .profile {
+
+    background-size: 120%;
+}
+  }
+  @media only screen and (max-width:440px) {
+  .profile {
+    background-position: 0px -65px;
+    background-size: 120%;
+}
+.profile {
+  margin-bottom: -10px;
+}
+
+.history .title {
+  margin-top: 3px;
+  margin-bottom: 25px;
+  left: 0px;
+}
+.history .sub-title .one {
+  font-size: 20px;
+  line-height: 30px;
+}
+.profile .sub-title {
+
+  padding: 20px 20px 0px 20px;
+ 
+}
+.glipms.bg .container {
+  width: 95%;
+  max-width: 95%;
+}
+  }
+
+  @media only screen and (max-width:440px) {
+  .profile {
+    background-position: 0px -65px;
+    background-size: 138%;
+}
+.profile .sub-title .one {
+  font-size: 18px;
+  line-height: 27px;
+
+}
+.profile .sub-title .two {
+  font-size: 18px;
+  line-height: 27px;
+ 
+}
+.history .sub-title .one {
+    font-size: 20px;
+    line-height: 30px;
+}
+.history .sub-title .two {
+  font-size: 16px;
+  line-height: 27px;
+  padding: 3px 0px 0px 25px;
+}
+.history .sub-title .three {
+  font-size: 16px;
+  line-height: 27px;
+  padding: 3px 0px 0px 25px;
+}
+.history .sub-title .three span {
+  font-size: 16px;
+}
+
+
+.history .container {
+    width: 95%;
+    max-width: 95%;
+}
+.history .wrap .para {
+  font-size: 16px;
+  line-height: 26px;
+
+}
+.glipms .content-box.center {
+
+  padding: 15px;
+ 
+}
+.glipms .content-box p.para {
+  font-size: 16px;
+  line-height: 26px;
+}
+.glipms .title {
+  font-size: 30px;}
+  .glipms .content-box p.para {
+ 
+    margin: 0px 0px 10px 0px;}
+    
+
+.glipms.bgs .container {
+    width: 95%;
+    max-width: 95%;
+}
+.glipms .content-box.left {
+
+  padding: 15px;
+}
+.glipms .content-box {
+
+  padding: 15px;
+}
+.glipms .title {
+
+  padding-top: 5px;
+  margin-bottom: -15px;
+}
+.glipms.bgs .title {
+
+  padding-top: 5px;
+  margin-bottom: -15px;
+}
+.glipms .content-box ul li {
+  font-size: 16px;
+  line-height: 27px;
+  padding: 0px 0px 0px 15px;
+  margin: 0px 0px 8px 0px;
+}
+.our-partner .title:after {
+  left: 32.5%;
+}
+.our-partner .box {
+  font-size: 16px;
+  line-height: 27px;
+  padding: 20px 15px;
+}
+.our-partner .title:after {
+  left: 34.5%;
+  bottom: -12px;
+}
+.glipms.bgs {
+  margin: 0px 0px 20px 0px;
+}
+
+.history {
+  margin: 60px 0px 0px 0px;
+}
+.history .title {
+  margin-top: 390px;
+  margin-bottom: 15px;
+  left: 0px;
+}
+  }
+
+
