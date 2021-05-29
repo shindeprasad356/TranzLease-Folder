@@ -155,7 +155,7 @@ $(document).ready(function() {
           if (isElementInViewport(element)) {
               element.classList.add('is-visible');
           } else {
-              element.classList.remove('is-visible');
+              element.classList.remove('is-visibles');
           }
       });
 
