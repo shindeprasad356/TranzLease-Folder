@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+<html lang=zxx>
+<title>Smart Discount Coupon| Tranzlease</title>
+<meta charset=UTF-8>
+<link href=../img/logos/favicon.png rel="shortcut icon">
+<meta content="width=device-width,initial-scale=1,maximum-scale=1"name=viewport>
+<link href=../css/bootstrap.min.css rel=stylesheet>
+<link href=../css/font-awesome.css rel=stylesheet>
+<link href=../css/icomoon.css rel=stylesheet>
+<link href=../css/animate.css rel=stylesheet>
+<link href=../css/owl.carousel.css rel=stylesheet>
+<link href=../css/default.css rel=stylesheet>
+<link href="../css/styles.css?v=1.02" rel=stylesheet>
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900"rel=stylesheet>
+<style>
+/*form styles*/
+
+
+
+#msform {
+	text-align: center;
+	position: relative;
+	margin-top: 30px;
+}
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 0px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	/*stacking fieldsets above each other*/
+	position: relative;
+}
+/*Hide all except first fieldset*/
+/*#msform fieldset:not(:first-of-type) {
+    display: none;
+}*/
+
+/*inputs*/
+#msform input, #msform textarea, #msform select {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 0px;
+	margin-bottom: 2px;
+	width: 100%;
+	box-sizing: border-box;
+	color: #2C3E50;
+	font-size: 13px;
+}
+#msform input:focus, #msform textarea:focus, #msform select:focus {
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border: 1px solid #ee0979;
+	outline-width: 0;
+	transition: All 0.5s ease-in;
+	-webkit-transition: All 0.5s ease-in;
+	-moz-transition: All 0.5s ease-in;
+	-o-transition: All 0.5s ease-in;
+}
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #3a3a3a;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 25px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+	font-size: 18px;
+    width: 165px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #CE1725;
+	background: #CE1725;
+}
+#msform .action-button-previous {
+	width: 100px;
+	background: #cacaca;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 25px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+	letter-spacing: 0px;
+	font-weight: bold;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+#progressbar li {
+	list-style-type: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 33.33%;
+	float: left;
+	position: relative;
+	letter-spacing: 1px;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 24px;
+	height: 24px;
+	line-height: 26px;
+	display: block;
+	font-size: 12px;
+	color: #333;
+	background: white;
+	border-radius: 25px;
+	margin: 0 auto 10px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none;
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before, #progressbar li.active:after {
+	background: #ee0979;
+	color: white;
+}
+/* Not relevant to this form */
+.dme_link {
+	margin-top: 30px;
+	text-align: center;
+}
+.dme_link a {
+	background: #FFF;
+	font-weight: bold;
+	color: #ee0979;
+	border: 0 none;
+	border-radius: 25px;
+	cursor: pointer;
+	padding: 5px 25px;
+	font-size: 12px;
+}
+.dme_link a:hover, .dme_link a:focus {
+	background: #C5C5F1;
+	text-decoration: none;
+}
+.form_inputs label {
+	display: block;
+	text-align: left;
+	color: #000;
+	font-weight: 500;
+}
+.form_inputs {
+	padding-bottom: 10px;
+}
+.page-title-section {
+	padding: 0;
+}
+.info_msg {
+	color: #a0a0a0;
+}
+.info_msg a {
+	color: #1e77fb;
+}
+.error_msg {
+	color: #ff0000;
+	text-align:center;
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+.otp_send {
+	color: #041ccc;
+	text-align: left;
+	padding-bottom: 10px;
+}
+.success_msg {
+	color: #029c14;
+	font-size: 20px;
+}
+.ErrorMsg {
+	color: #fe2500;
+	font-size: 18px;
+}
+#msform input#VoucherID{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #670099;
+    font-size: 30px;
+    height: 68px;
+    text-align: center;
+	font-weight:bold;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #B4B4B4;
+  opacity: 1; /* Firefox */
+  font-weight:normal;
+}
+</style>
+<section>
+<header>
+
+<div class="nav-wrapper">
+    <nav class="navbar navbar-custom navbar-default">
+    <div class="container">
+      <div class="row">
+           <div class="navbar-header navbar-header-custom" style="padding-top:10px;">
+            <button type=button aria-expanded=false class="collapsed menu-icon navbar-toggle" data-target=#bs-example-navbar-collapse-1 data-toggle=collapse> 
+                    <span class=icon-bar></span> <span class=icon-bar></span> <span class=icon-bar></span>
+                    </button>
+                    <a href="../../index.html" class="navbar-logo pull-left navbar-right logo_pd"><img alt="logo" src="../img/logos/smartemi.png"></a> 
+          </div>
+          <div class="collapse navbar-collapse" id=bs-example-navbar-collapse-1>
+            <ul class="nav navbar-links-custom navbar-nav navbar-right">
+              <li><a href="../../index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+              <li class="active_link"><a href="../smart-emi-group.html">Smart EMI</a></li>
+             <!--  <li><a href="../../corporate-lease.html">Corporate Lease</a></li>
+              <li class=dropdown><a href="#" class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown">About Us</a>
+                <ul class="dropdown-menu dropdown-menu-left">
+                  <li><a href="../../company-profile.html">Company Profile</a></li>
+                  <li><a href="../../our-promoters.html">Our Promoters</a></li>
+             
+                </ul>
+              </li>
+              <li><a href="../../our-news.html">Our News</a></li>
+              <li><a href="../../contact-us.html">Contact Us</a></li> -->
+            </ul>
+          </div>
+        </div>
+      
+    </div>
+    </nav>
+  </div>
+
+
+
+
+</header>
+</section>
+
+<div class="" id="top-bar">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center">
+      <ul class="top_links">
+          <li>
+            <a href="../discountcoupon/index.html">
+            <i class="fa fa-rupee"></i> Smart Discount Coupon</a>
+            </li>
+            <li>|</li>
+            <li class="dropdown ">
+                <a href="#" class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown">
+                    <i class="fa fa-key"></i> Login <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-left login_dropdown"> 
+                <li>
+                <a href="https://smartemi.tranzlease.in/Account/ClientLogin" target="_blank"> Corporate Login</a><br />
+                <a href="https://smartemi.tranzlease.in/Account/Login" target="_blank"> User Login</a><br />
+                <a href="https://smartemi.tranzlease.in/Account/InternalLogin" target="_blank"> Employee/Business Partner login</a>
+                </li>
+                </ul>
+            </li>
+            <li>|</li>
+            <li>
+            <a href="../referral.html">
+            <i class="fa fa-user"></i> Refer your friend</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<p style="color:#B41216;padding-top: 10px;"><marquee>Tranzlease and ICICI jointly launch SMART EMI : India’s most advanced Next-Gen Auto Loan Program</marquee></p>
+</div>
+<div class=page-title-section > <img src="../img/bg/bonuscoupon-banner.jpg"> 
+  <!--<div class=container>
+    <h1>TZL Influencer Reward Program</h1>
+    <h1>&nbsp;</h1>
+  </div>--> 
+</div>
+<div class=section-block>
+  <div class=container>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3" ng-app="app" ng-controller="PromoCodeRequestController" ng-cloack>
+        <!--<h2 class="fs-title text-center">tzl influencer reward program</h2>-->
+        <!--------- Signup Form-------------->
+        <form class="form-horizontal" id="msform" name="signupform" >
+          <div class="form_group">
+            <fieldset>
+              <h2 class="fs-title">register to get promo code</h2>
+              <h3 class="fs-subtitle"></h3>
+              <div class="form_inputs">
+                
+                <input type="number" id="VoucherID" name="VoucherID"  placeholder="Enter Voucher ID" ng-model="VoucherID" required ng-maxlength="6"/>
+                <div class="error_msg" ng-show="signupform.VoucherID.$error.maxlength"> VoucherID must be less than 6 chars </div>
+                <div class="error_msg" ng-show="signupform.VoucherID.$error.required  &&  (!signupform.VoucherID.$pristine || signupform.$submitted)"> VoucherID is Required </div>
+              </div>
+			  <div class ="error" ng-show="ErrorMsg !=''">{{ErrorMsg}}</div>
+              <div>
+			  <label ng-show="IsSubmitted">{{btnCaption}}</label>
+                <input type="submit" name="next" ng-hide="IsSubmitted || (signupform.VoucherID.$error.maxlength)"  class="next action-button" value="{{btnCaption}}" style="background:#090;"ng-click="OnValidateVoucherID()"/>
+              </div>
+              
+            </fieldset>
+          </div>
+        </form>
+		<!--Box-->
+      </div>
+    </div>
+    <!-- /.MultiStep Form --> 
+  </div>
+</div>
+<footer>
+  <div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-4">
+      <div class="footer_logo"><img alt="footer-logo" src="../img/logos/tzl.png" width="200" style="padding-bottom:10px;">
+        <p style="color:#fff; font-style:italic; padding-top:10px; letter-spacing:1px;">GET YOUR DREAM CAR, INTELLIGENTLY !</p>
+        <p class="mt-25">We are one of the fastest growing automobile leasing company in India. We are an institution dedicated to create an automotive lifestyle for the Indian consumer... <a href="../../company-profile.html" class="" style="color:#fff;">Read More</a></p>
+      </div>
+      <div class="mt-25"></div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-2">
+      <h3>Quick Links</h3>
+      <ul class="footer-list">
+           <li><a href="../../index.html">Home</a></li>
+        <li><a href="../smart-emi.html">Smart EMI</a></li>
+        <!-- <li><a href="../../corporate-lease.html">Corporate Lease</a></li>
+        <li><a href="../../company-profile.html">Company Profile</a></li>
+        <li><a href="../../our-promoters.html">Our Promoters</a></li>
+        <li><a href="testimonials.html">Customers</a></li>
+        <li><a href="../../contact-us.html">Contact Us</a></li> -->
+      </ul>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <h3>Login to</h3>
+      <ul class="footer-list">
+          <li><a href="https://smartemi.tranzlease.in/Account/clientLogin" target="_blank">Corporate Login</a></li>
+          <li><a href="http://smartemi.tranzlease.in/Account/Login" target="_blank">User Login</a></li>
+          <li><a href="https://smartemi.tranzlease.in/Account/InternalLogin" target="_blank"> Employee/Business Partner login</a></li>
+        </ul>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <h3>Office Address</h3>
+      <ul class="footer-list">
+        <li>Tranzlease Holdings (I) Pvt. Ltd. <br>
+          A 601, 6th Floor, Thane One, DIL Complex, Ghodbunder Road, Majiwada, Thane (West), Mumbai Pincode - 400610</li>
+        <li><a><strong>Office</strong> +91 22 6250 3333</a></li>
+        <li><a><strong>Smart EMI</strong> +91 8130680080</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bar">
+    <div class="row">
+      <div class="col-md-6">
+        <p><span class="primary-color">Tranzlease</span> © 2021. All Rights Reserved.</p>
+      </div>
+      <!--<div class="col-md-6 text-right">
+            <img src="img/bsi-mang-sm.png" width="100">
+            <img src="img/bsi-tech-sm.png" width="100">
+            <img src="img/symantec.png" width="100">
+          </div>--> 
+    </div>
+  </div>
+</div></footer>
+<a href=# class=scroll-to-top><i class="fa fa-angle-up"aria-hidden=true></i></a> 
+<script src=../js/jquery.min.js></script>
+<script src=../js/bootstrap.min.js></script>
+<script src=../js/owl.carousel.js></script>
+<script src=../js/wow.min.js></script>
+<script src=../js/jquery.counterup.min.js></script>
+<script src=../js/waypoints.min.js></script>
+<script src=../js/tabs.min.js></script>
+<script src=../js/jquery.mb.YTPlayer.min.js></script>
+<script src=../js/isotope.pkgd.min.js></script>
+<script src=../js/modernizr.js></script>
+<script src=../js/map.js></script>
+<script src=../js/main.js></script> 
+<script src=../js/angular-1.6.7/angular.min.js></script>
+<script src=../js/angular-1.6.7/angular-animate.min.js></script> 
+<script src=../js/NgScript/app.js></script> 
