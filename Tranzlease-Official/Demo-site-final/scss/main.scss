@@ -53,13 +53,14 @@ div#overlay {
   text-align: center;
   height: 100%;
   .companycar {
-    top: 30%;
+        top: 50%;
     position: absolute;
-    left: 39%;
+    left: 48%;
+    width: 75px;
   }
   .companylogo {
     z-index: 9;
-    top: 20%;
+    top: 35%;
     position: absolute;
     width: 230px;
     left: 44%;
@@ -649,9 +650,7 @@ body {
   div#overlay .companylogo {
     left: 43%;
   }
-  div#overlay .companycar {
-    left: 38%;
-  }
+ 
 }
 @media only screen and (max-width: 1555px) {
   footer {
@@ -699,9 +698,7 @@ body {
   div#overlay .companylogo {
     left: 42%;
   }
-  div#overlay .companycar {
-    left: 36%;
-  }
+ 
   #topBtn {
     width: 60px;
     height: 60px;
@@ -842,7 +839,7 @@ body {
       left: 38%;
     }
     .companycar {
-      left: 30%;
+      left: 46%;
     }
   }
   .shine:after {
@@ -994,7 +991,7 @@ body {
       left: 35%;
     }
     .companycar {
-      left: 22%;
+     
     }
   }
   footer {
@@ -1287,7 +1284,7 @@ body {
     padding: 10px 15px 0;
   }
   div#overlay .companycar {
-    left: 20%;
+
   }
   div#overlay .companylogo {
     left: 35%;
@@ -1331,7 +1328,7 @@ footer .col-md-12.text-md-left p .term {
       left: 32%;
     }
     .companycar {
-      left: 14%;
+    
     }
   }
   .main-navigation {
@@ -1362,7 +1359,7 @@ footer .col-md-12.text-md-left p .term {
       left: 29%;
     }
     .companycar {
-      left: 8%;
+   
     }
   }
   .main-navigation {
@@ -1434,6 +1431,10 @@ footer .col-md-12.text-md-left p .term {
     width: 40px;
     height: 40px;
   }
+  div#overlay .companycar {
+    left: 45%;
+    width: 55px;
+}
 }
 
 @media only screen and (max-width: 470px) {
@@ -1462,9 +1463,11 @@ footer .col-md-12.text-md-left p .term {
       left: 25%;
       width: 200px;
     }
-    .companycar {
-      left: 2%;
-    }
+  .companycar {
+    left: 45%;
+    width: 55px;
+    top: 52%;
+}
   }
   .main-navigation {
     button {
@@ -1481,11 +1484,7 @@ footer .col-md-12.text-md-left p .term {
     left: 28%;
     width: 170px;
   }
-  div#overlay .companycar {
-    left: 0%;
-
-    width: 100%;
-  }
+ 
   div#overlay .companylogo {
     left: 0%;
     width: 100%;

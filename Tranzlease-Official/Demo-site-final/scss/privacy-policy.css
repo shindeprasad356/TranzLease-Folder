@@ -1,0 +1,119 @@
+.privacy-policy {
+  float: left;
+  width: 100%;
+  padding: 50px 0px; }
+  .privacy-policy .title {
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 38px;
+    line-height: 50px;
+    margin: 0px 0px 25px 0px; }
+  .privacy-policy .para {
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0px 15px 0px;
+    font-family: Roboto-Regular, sans-serif; }
+    .privacy-policy .para .link {
+      float: inherit;
+      width: auto;
+      padding: 0px; }
+      .privacy-policy .para .link:after {
+        content: none; }
+  .privacy-policy .sub-title {
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 26px;
+    float: left;
+    width: 100%;
+    margin: 40px 0px 25px 0px; }
+  .privacy-policy .link {
+    color: #457b9d;
+    float: left;
+    width: 100%;
+    text-decoration: underline;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 22px;
+    position: relative;
+    padding: 0px 0px 0px 20px; }
+    .privacy-policy .link:after {
+      content: "";
+      width: 8px;
+      height: 8px;
+      background-color: #1d3557;
+      position: absolute;
+      left: 0px;
+      top: 11px;
+      border-radius: 23px;
+      display: block; }
+  .privacy-policy ul.list {
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+    float: left;
+    width: 100%; }
+    .privacy-policy ul.list li {
+      font-family: Roboto-Medium, sans-serif;
+      font-size: 20px;
+      line-height: 30px;
+      margin: 0px 0px 15px 0px;
+      font-family: Roboto-Regular, sans-serif;
+      list-style: disc;
+      margin: 0px 0px 8px 20px; }
+
+@media only screen and (max-width: 1030px) {
+  .privacy-policy .title {
+    font-size: 34px;
+    line-height: 50px; }
+
+  .privacy-policy .para {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px 0px 10px 0px; }
+
+  .privacy-policy .sub-title {
+    font-size: 22px;
+    margin: 40px 0px 15px 0px; }
+
+  .privacy-policy .link {
+    font-size: 20px; }
+
+  .privacy-policy .sub-title {
+    font-size: 22px;
+    margin: 20px 0px 15px 0px; }
+
+  .privacy-policy ul.list {
+    margin: 0px 0px 10px 0px; }
+
+  .privacy-policy ul.list li {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 5px 20px; } }
+@media only screen and (max-width: 1030px) {
+  .privacy-policy .title {
+    font-size: 32px;
+    line-height: 45px;
+    margin: 0px 0px 15px 0px; } }
+@media only screen and (max-width: 500px) {
+  .privacy-policy .title {
+    font-size: 28px;
+    line-height: 40px;
+    margin: 0px 0px 15px 0px; }
+
+  .privacy-policy .para {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0px 0px 10px 0px; }
+
+  .privacy-policy .sub-title {
+    font-size: 20px;
+    margin: 25px 0px 10px 0px; }
+
+  .privacy-policy .link {
+    font-size: 18px; }
+
+  .privacy-policy ul.list li {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 5px 20px; } }
+
+/*# sourceMappingURL=privacy-policy.css.map */

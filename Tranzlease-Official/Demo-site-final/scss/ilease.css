@@ -1,0 +1,3947 @@
+.technology {
+  float: left;
+  width: 100%;
+  padding-left: 30px;
+  font-size: 40px;
+  font-family: Roboto-Bold, sans-serif;
+  line-height: 58px;
+  color: #ff192f;
+  background-image: url(../img/corporatelease/CorporateLease-Tranzlease-CarLeases.png);
+  background-attachment: fixed;
+  position: relative;
+  min-height: 122vh;
+  background-size: 73%;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-image: url(../img/corporatelease/handsome-business-man-by-white-carss.jpg); }
+  .technology:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0.5;
+    z-index: 0; }
+  .technology:before {
+    content: '';
+    background-image: url(../img/corporatelease/shape_transperant_bg.png);
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    min-height: 139vh;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    background-position: -180px -200px; }
+  .technology .col-md-12 {
+    z-index: 9;
+    padding: 0px; }
+  .technology .left {
+    float: left;
+    width: 50%;
+    padding: 80px 0% 0% 0%;
+    z-index: 9;
+    position: relative;
+    left: -25px; }
+    .technology .left .title.intro.glow {
+      margin: 0px 0px 50px 0px;
+      color: #fff;
+      font-family: Roboto-Bold, sans-serif;
+      font-size: 55px;
+      text-align: left; }
+    .technology .left .title.intro span {
+      font-family: Roboto-Bold, sans-serif;
+      color: #ff192f;
+      font-size: 85px;
+      float: left;
+      width: 70%;
+      animation: none;
+      line-height: 95px;
+      color: #1d3557; }
+    .technology .left .title .technology .left .intro:first-child {
+      margin: 0px 0px 15px 0px;
+      font-size: 55px; }
+    .technology .left .title.ilease span {
+      color: #ff192f;
+      font-size: 122px;
+      font-style: italic;
+      padding: 0 5px 0 0;
+      font-weight: 600;
+      font-family: Roboto-Bold, sans-serif; }
+    .technology .left .ilease {
+      color: #1d3557;
+      font-size: 90px;
+      font-weight: 500;
+      line-height: 115px;
+      font-family: Roboto-Bold, sans-serif;
+      position: relative;
+      left: -5px;
+      color: #1d3557;
+      font-size: 90px;
+      font-weight: 500;
+      line-height: 115px;
+      font-family: Roboto-Bold, sans-serif; }
+      .technology .left .ilease span {
+        color: #ff192f;
+        font-size: 122px;
+        font-style: italic;
+        padding: 0 5px 0 0;
+        font-weight: 600;
+        font-family: Roboto-Bold, sans-serif; }
+    .technology .left .intro:first-child {
+      margin: 0px 0px 20px 0px;
+      font-size: 50px; }
+  .technology .right {
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding: 170px 0px 0px 0px;
+    z-index: 9; }
+    .technology .right .title.ilease {
+      color: #1d3557;
+      font-size: 70px;
+      font-weight: 500;
+      line-height: 65px;
+      font-family: Roboto-Bold, sans-serif;
+      margin: 0px 0px 33px 0px;
+      position: relative;
+      min-width: 225px;
+      display: block;
+      float: right;
+      padding: 20px;
+      margin: 0px 0px 95px 0px; }
+      .technology .right .title.ilease span {
+        color: #ff192f;
+        font-size: 96px;
+        font-style: italic;
+        padding: 0 5px 0 0;
+        font-weight: 600;
+        font-family: Roboto-Bold, sans-serif; }
+      .technology .right .title.ilease:after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-bottom: 114px solid #457b9d30;
+        border-left: 100px solid transparent;
+        position: absolute;
+        left: -100px;
+        top: 0px; }
+      .technology .right .title.ilease:before {
+        content: '';
+        background-color: #457b9d30;
+        position: absolute;
+        width: 400px;
+        height: 114px;
+        right: -142.5px;
+        top: 0px; }
+    .technology .right span.fully {
+      font-size: 65px;
+      margin: 0px 0px 30px 0px; }
+    .technology .right span.tech {
+      font-size: 65px;
+      margin: 0px 0px 35px 0px;
+      color: #1d3557; }
+    .technology .right span.unique {
+      font-size: 105px;
+      line-height: 65px;
+      margin: 0px 0px 40px 0px;
+      color: #1d3557; }
+    .technology .right span.lease {
+      font-size: 60px;
+      line-height: 50px;
+      margin: 10px 0px 30px 0px; }
+    .technology .right span.basket {
+      font-size: 60px;
+      margin: 0px 0px 15px 0px; }
+    .technology .right .main span {
+      float: right;
+      width: 100%; }
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate; }
+
+.ilease-para {
+  float: left;
+  width: 100%;
+  margin: -400px 0px 0px 0px;
+  z-index: 99;
+  float: left;
+  width: 100%;
+  margin: -30vh 0px 0px 0px;
+  z-index: 99;
+  background-image: url(../img/corporatelease/CorporateLease-Tranzlease-CarLease-background.png);
+  background-repeat: no-repeat;
+  background-size: 42%;
+  background-position: right 290px;
+  position: relative;
+  padding: 0px 0px 50px 0px; }
+  .ilease-para .title {
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1d3557;
+    text-align: right;
+    width: 100%;
+    float: right;
+    margin: 0px 0px 40px 0px; }
+    .ilease-para .title .redcolor {
+      color: #ff192f;
+      font-size: 50px; }
+    .ilease-para .title .f65 {
+      font-size: 65px; }
+  .ilease-para .para {
+    font-family: Roboto-Regular, sans-serif;
+    color: #1d3557;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: right;
+    width: 75%;
+    float: right;
+    margin: 0px 0px 50px 0px; }
+  .ilease-para:after {
+    background: #ffffffd9;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 55%;
+    height: 100%;
+    z-index: -1; }
+
+.glipms {
+  float: left;
+  width: 100%;
+  position: relative;
+  padding: 50px 0px; }
+  .glipms .title {
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    width: 100%;
+    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 100px 0px; }
+    .glipms .title:after {
+      content: '';
+      width: 100px;
+      height: 4px;
+      background: #457b9d;
+      position: absolute;
+      left: 47%;
+      bottom: 60px; }
+  .glipms .wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin: 0px 0px 0px 0px; }
+    .glipms .wrap .img {
+      float: left;
+      width: 70%;
+      height: auto;
+      overflow: hidden;
+      position: relative; }
+      .glipms .wrap .img:after {
+        content: '';
+        width: 340px;
+        height: 240px;
+        background-color: #ff192f;
+        position: absolute;
+        left: -28px;
+        top: -13px;
+        z-index: -1; }
+      .glipms .wrap .img img {
+        width: 100%;
+        margin: 30px 0px 0px 30px;
+        margin: 0px 0px 0px 0px; }
+      .glipms .wrap .img.left {
+        float: right; }
+        .glipms .wrap .img.left:after {
+          right: -28px;
+          left: inherit; }
+        .glipms .wrap .img.left img {
+          margin: 30px 30px 0px 0px;
+          padding-right: 30px;
+          margin: 0px 0px 0px 0px;
+          padding-right: 0px; }
+    .glipms .wrap .img-box:after {
+      content: '';
+      width: 340px;
+      height: 240px;
+      background-color: #ff192f;
+      position: absolute;
+      left: -28px;
+      top: -13px;
+      z-index: -1; }
+    .glipms .wrap.last {
+      margin: 0px 0px 80px 0px; }
+  .glipms .content-box {
+    background-color: #fff;
+    padding: 40px 50px;
+    float: right;
+    width: 50%;
+    position: relative;
+    right: 0px;
+    margin: -330px 0px 0px 0px;
+    box-shadow: 3px 4px 9px 1px #d0cfcf;
+    border: 1px solid #e4e2e2; }
+    .glipms .content-box .title {
+      font-family: Roboto-Medium, sans-serif;
+      font-size: 36px;
+      text-align: left;
+      width: 100%;
+      position: relative;
+      color: #ff192f;
+      font-family: Roboto-Bold, sans-serif;
+      margin: 0px 0px 45px 0px; }
+      .glipms .content-box .title:after {
+        content: '';
+        width: 100px;
+        height: 4px;
+        background: #457b9d;
+        position: absolute;
+        left: 0%;
+        bottom: -15px; }
+      .glipms .content-box .title span {
+        font-family: Roboto-Bold, sans-serif;
+        color: #1d3557;
+        font-style: normal;
+        font-weight: bold; }
+        .glipms .content-box .title span i {
+          font-family: Roboto-Bold, sans-serif;
+          font-style: italic;
+          font-size: 48px;
+          color: #ff192f;
+          margin: 0px 3px 0px 0px; }
+    .glipms .content-box p.para {
+      font-family: Roboto-Regular, sans-serif;
+      font-size: 24px;
+      line-height: 35px;
+      color: #1d3557;
+      margin: 0px 0px 15px 0px;
+      font-family: Roboto-Medium, sans-serif;
+      float: left;
+      width: 100%; }
+      .glipms .content-box p.para span {
+        float: left;
+        width: 100%;
+        margin: 15px 0px 0px 0px;
+        color: #ff192f;
+        font-size: 26px; }
+    .glipms .content-box ul {
+      float: left;
+      width: 100%;
+      margin: 0px 0px 10px 0px; }
+      .glipms .content-box ul li {
+        font-family: Roboto-Regular, sans-serif;
+        font-size: 22px;
+        line-height: 33px;
+        color: #1d3557;
+        float: left;
+        width: 50%;
+        margin: 0px 0px 10px 0px;
+        padding: 0px 0px 0px 25px;
+        position: relative; }
+        .glipms .content-box ul li:before {
+          content: '';
+          width: 10px;
+          height: 10px;
+          border-radius: 20px;
+          background-color: #1d3557;
+          position: absolute;
+          left: 5px;
+          top: 10px;
+          top: 12px; }
+      .glipms .content-box ul.w100 li {
+        width: 100%; }
+    .glipms .content-box.left {
+      float: left;
+      box-shadow: -3px 4px 9px 1px #d0cfcf;
+      background-color: #e6e6e6; }
+  .glipms.bg {
+    background-color: #e6e6e6;
+    padding: 100px 0px;
+    background-repeat: no-repeat;
+    background-image: url(../img/corporatelease/grid-bg.png);
+    background-position: 0px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+  .glipms.bgs {
+    padding: 100px 0px 90px 0px;
+    margin: 0px 0px 0px 0px;
+    background-image: url(../img/corporatelease/grid-bg.png);
+    background-position: 0px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+
+.clients {
+  margin: 0px;
+  float: left;
+  width: 100%;
+  background-size: 126%;
+  background-image: url(../img/homepage/gridbgss.jpg);
+  background-repeat: no-repeat;
+  padding: 80px 0px 175px 0px;
+  background-image: url(../img/corporatelease/grid-bg.png);
+  background-position: -210px 0px;
+  background-color: #e6e6e6; }
+  .clients .title {
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    font-family: Roboto-Bold, sans-serif;
+    line-height: 60px;
+    position: relative;
+    z-index: 9;
+    margin: 0px 0px 50px 0px;
+    font-size: 48px;
+    color: #1d3557; }
+    .clients .title:after {
+      content: '';
+      width: 100px;
+      height: 4px;
+      background: #457b9d;
+      position: absolute;
+      left: 47%;
+      bottom: -25px; }
+  .clients .btn-wrap {
+    display: none; }
+  .clients .honeycomb {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    transform: translateY(34.375px); }
+  .clients .honeycomb-cell {
+    flex: 0 1 250px;
+    max-width: 250px;
+    height: 137.5px;
+    margin: 65.4761904762px 12.5px 25px;
+    position: relative;
+    padding: 0.5em;
+    text-align: center;
+    z-index: 1; }
+    .clients .honeycomb-cell::before {
+      background: #fff;
+      transform: scale(1.045);
+      transition: opacity 0.5s;
+      transition: all ease 0.5s; }
+    .clients .honeycomb-cell::after {
+      background: #457b9d;
+      opacity: 0.9;
+      transition: opacity 350ms;
+      background-color: #733716;
+      background-color: #1d3557;
+      background-color: #264653;
+      background-color: #222732;
+      background-color: #38455f; }
+    .clients .honeycomb-cell:hover .honeycomb-cell__title {
+      opacity: 0; }
+    .clients .honeycomb-cell:hover::before {
+      background: #e63946; }
+    .clients .honeycomb-cell:hover::after {
+      opacity: 0; }
+  .clients .honeycomb-cell__title {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    hyphens: auto;
+    word-break: break-word;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1.75em;
+    transition: opacity 350ms;
+    font-size: 24px;
+    font-family: Roboto-Medium, sans-serif;
+    line-height: 36px;
+    width: 100%;
+    padding: 0% 8%;
+    text-shadow: 2px 2px 4px #000;
+    color: #f1faee;
+    color: #fff; }
+    .clients .honeycomb-cell__title > small {
+      font-weight: 300;
+      margin-top: 0.25em; }
+  .clients .honeycomb-cell__image {
+    object-fit: cover;
+    object-position: center; }
+  .clients .honeycomb__placeholder {
+    display: none;
+    opacity: 0;
+    width: 250px;
+    margin: 0 12.5px; }
+
+.clients *,
+.clients *::before,
+.clients *::after {
+  box-sizing: border-box; }
+
+.clients .honeycomb-cell::before,
+.clients .honeycomb-cell::after {
+  content: ''; }
+
+.clients .honeycomb-cell::before,
+.clients .honeycomb-cell::after,
+.clients .honeycomb-cell__image {
+  top: -50%;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  display: block;
+  position: absolute;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  z-index: -1;
+  background-color: #fff;
+  transition: opacity 0.5s;
+  transition: all ease 0.5s; }
+
+.clients .honeycomb-cell::after {
+  background: #457b9d;
+  opacity: 0.9;
+  transition: opacity 350ms;
+  background-color: #733716;
+  background-color: #1d3557;
+  background-color: #264653;
+  background-color: #222732;
+  background-color: #38455f; }
+
+@-webkit-keyframes {
+  glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073; } }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6; } }
+@media (max-width: 550px) {
+  .clients .honeycomb-cell {
+    margin: 81.25px 25px; } }
+@media (min-width: 550px) and (max-width: 825px) {
+  .clients .honeycomb-cell:nth-child(3n) {
+    margin-right: calc(50% - 125px);
+    margin-left: calc(50% - 125px); }
+
+  .clients .honeycomb__placeholder:nth-child(3n + 5) {
+    display: block; } }
+@media (min-width: 825px) and (max-width: 1100px) {
+  .clients .honeycomb-cell:nth-child(5n + 4) {
+    margin-left: calc(50% - 275px); }
+
+  .clients .honeycomb-cell:nth-child(5n + 5) {
+    margin-right: calc(50% - 275px); }
+
+  .clients .honeycomb__placeholder:nth-child(5n),
+  .clients .honeycomb__placeholder:nth-child(5n + 3) {
+    display: block; } }
+@media (min-width: 1100px) {
+  .clients .honeycomb-cell:nth-child(7n + 5) {
+    margin-left: calc(50% - 400px); }
+
+  .clients .honeycomb-cell:nth-child(7n + 7),
+  .clients .honeycomb-cell:nth-child(7n + 5):nth-last-child(2) {
+    margin-right: calc(50% - 400px); }
+
+  .clients .honeycomb__placeholder:nth-child(7n + 7),
+  .clients .honeycomb__placeholder:nth-child(7n + 9),
+  .clients .honeycomb__placeholder:nth-child(7n + 11) {
+    display: block; } }
+.technologys {
+  float: left;
+  width: 100%;
+  padding: 90px 0px 225px 0px;
+  float: left;
+  width: 100%;
+  padding-left: 30px;
+  font-size: 40px;
+  font-family: Roboto-Bold, sans-serif;
+  line-height: 58px;
+  background-attachment: fixed;
+  position: relative;
+  background-size: 73%;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-image: url(../img/corporatelease/CorporateLease-Tranzlease-CarLeases.jpg); }
+  .technologys .title.intro {
+    margin: 0px 0px 25px 0px;
+    font-size: 50px;
+    color: #ff192f; }
+  .technologys .title.ilease {
+    font-size: 80px;
+    font-family: Roboto-Bold, sans-serif; }
+    .technologys .title.ilease span {
+      color: #ff192f;
+      font-size: 109px;
+      font-style: italic;
+      padding: 0 5px 0 0;
+      font-weight: 600;
+      font-family: Roboto-Bold, sans-serif; }
+  .technologys .left {
+    float: left;
+    width: 50%;
+    position: relative;
+    left: -15px; }
+  .technologys .right {
+    text-align: right;
+    float: right;
+    width: 50%;
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 80px;
+    margin: 80px 0px 0px 0px; }
+    .technologys .right span {
+      float: right;
+      width: 100%; }
+      .technologys .right span.fully {
+        font-size: 65px;
+        margin: 0px 0px 20px 0px;
+        color: #ff192f; }
+      .technologys .right span.tech {
+        font-size: 65px;
+        margin: 0px 0px 25px 0px;
+        color: #1d3557; }
+      .technologys .right span.unique {
+        font-size: 105px;
+        line-height: 65px;
+        margin: 0px 0px 40px 0px;
+        color: #1d3557; }
+      .technologys .right span.lease {
+        font-size: 60px;
+        line-height: 50px;
+        margin: 10px 0px 20px 0px;
+        color: #ff192f; }
+      .technologys .right span.basket {
+        font-size: 60px;
+        margin: 0px 0px 15px 0px;
+        color: #ff192f; }
+    .technologys .right .title.main {
+      float: right;
+      position: relative;
+      right: -15px; }
+  .technologys:before {
+    content: '';
+    background-image: url(../img/corporatelease/shape_transperantt.png);
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    min-height: 139vh;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    background-position: -180px -200px; }
+
+.ilease-para {
+  margin: 0px; }
+
+section.glipms.bgs.last {
+  padding-bottom: 0px; }
+
+.Login-smartemi {
+  background-color: #457b9d;
+  color: #fff;
+  font-family: Roboto-Bold, sans-serif;
+  font-size: 34px;
+  padding: 18px 20px;
+  min-width: 200px;
+  text-align: center;
+  line-height: 34px;
+  border-radius: 5px !important;
+  box-shadow: 3px 4px 6px 0px #544b4b;
+  text-decoration: none !important;
+  margin: 30px 0px 0px 0px;
+  position: fixed;
+  right: 90px;
+  z-index: 999;
+  bottom: 24px; }
+  .Login-smartemi i {
+    position: relative;
+    top: 1px;
+    font-size: 30px;
+    left: 0px;
+    transition: all ease 0.5s; }
+  .Login-smartemi:hover i {
+    left: 5px; }
+  .Login-smartemi.hvr-right:before {
+    border-radius: 5px !important; }
+
+@media only screen and (max-width: 1985px) {
+  .technology .right .main {
+    position: relative;
+    right: -15px; } }
+@media only screen and (max-width: 1685px) {
+  .technology {
+    min-height: 125vh;
+    background-size: 82%;
+    background-position: -150px -15px; }
+
+  .technology:before {
+    min-height: 125vh;
+    background-position: -150px -120px; }
+
+  .ilease-para .para {
+    width: 87%; }
+
+  .glipms .content-box {
+    margin: -150px 0px 0px 0px; }
+
+  .technologys {
+    background-size: 77%;
+    background-position: -60px 0px; }
+
+  .technologys {
+    padding: 90px 0px 200px 0px; } }
+@media only screen and (max-width: 1610px) {
+  .technology .right {
+    padding: 140px 0px 0px 0px; }
+
+  .technology .right .title.ilease {
+    margin: 0px 0px 65px 0px; }
+
+  .technology .left .title.intro span {
+    font-size: 70px;
+    line-height: 80px; }
+
+  .ilease-para .para {
+    width: 90%; }
+
+  .technology .right .title.ilease:before {
+    right: -141.5px;
+    right: -142.5px; }
+
+  .technologys .right {
+    margin: 15px 0px 0px 0px; }
+
+  .technologys .right span.fully {
+    font-size: 60px; }
+
+  .technologys .right span.tech {
+    font-size: 60px; }
+
+  .technologys .right span.unique {
+    font-size: 100px; } }
+@media only screen and (max-width: 1555px) {
+  .technology .right .title.ilease:after {
+    left: -101px; }
+
+  .technology .left {
+    padding: 70px 0% 0% 0%;
+    left: -25px; }
+
+  .technology .left .intro:first-child {
+    margin: 0px 0px 12px 0px; }
+
+  .technology .left .title.intro span {
+    font-size: 65px;
+    width: 70%;
+    line-height: 75px; }
+
+  .technology .right {
+    padding: 175px 0px 0px 0px; }
+
+  .technology .right .title.ilease {
+    margin: 0px 0px 35px 0px;
+    font-size: 67px; }
+
+  .technology .right .title.ilease:before {
+    right: -151.5px; }
+
+  .technology .right .title.ilease span {
+    font-size: 90px; }
+
+  .technology .right span.fully {
+    font-size: 45px;
+    margin: 0px 0px 10px 0px; }
+
+  .technology .right span.tech {
+    font-size: 50px;
+    margin: 0px 0px 10px 0px; }
+
+  .technology .right span.unique {
+    font-size: 75px;
+    line-height: 65px;
+    margin: 0px 0px 10px 0px; }
+
+  .ilease-para .para {
+    width: 84%; }
+
+  .ilease-para .title {
+    font-size: 45px;
+    line-height: 60px; }
+
+  .ilease-para .title .f65 {
+    font-size: 62px; }
+
+  .ilease-para {
+    background-size: 50%;
+    background-position: right 295px; }
+
+  .glipms .content-box p.para {
+    font-size: 22px;
+    line-height: 33px; }
+
+  .glipms .content-box {
+    padding: 30px 50px 20px 50px; }
+
+  .clients .title {
+    font-size: 42px;
+    line-height: 62px; }
+
+  .technology .right span.lease {
+    margin: 10px 0px 20px 0px; }
+
+  .glipms.bg {
+    background-position: -100px 0px;
+    background-size: 121%; }
+
+  .glipms.bgs {
+    background-position: -100px 0px;
+    background-size: 121%; }
+
+  .clients {
+    background-size: 139%;
+    background-position: -250px 0px; } }
+@media only screen and (max-width: 1445px) {
+  .technology .left {
+    padding: 45px 0% 0% 0%;
+    left: -30px; }
+
+  .technology .left .intro:first-child {
+    margin: 0px 0px 12px 0px; }
+
+  .technology .left .title.intro span {
+    font-size: 65px;
+    width: 70%;
+    line-height: 75px; }
+
+  .technology .right {
+    padding: 125px 0px 0px 0px; }
+
+  .technology .right .title.ilease {
+    margin: 0px 0px 35px 0px;
+    font-size: 67px; }
+
+  .technology .right .title.ilease:before {
+    right: -150.5px; }
+
+  .technology .right .title.ilease span {
+    font-size: 90px; }
+
+  .technology .right span.fully {
+    font-size: 45px;
+    margin: 0px 0px 10px 0px; }
+
+  .technology .right span.tech {
+    font-size: 50px;
+    margin: 0px 0px 10px 0px; }
+
+  .technology .right span.unique {
+    font-size: 75px;
+    line-height: 65px;
+    margin: 0px 0px 10px 0px; }
+
+  .ilease-para .para {
+    width: 92%; }
+
+  .ilease-para .title {
+    font-size: 45px;
+    line-height: 60px; }
+
+  .ilease-para .title .f65 {
+    font-size: 62px; }
+
+  .ilease-para {
+    background-size: 50%;
+    background-position: right 295px; }
+
+  .glipms .content-box p.para {
+    font-size: 22px;
+    line-height: 33px; }
+
+  .glipms .content-box {
+    padding: 30px 50px 20px 50px; }
+
+  .technology {
+    min-height: 125vh;
+    background-size: 81%;
+    background-position: -130px 0px; }
+
+  .clients .title {
+    font-size: 44px; }
+
+  .clients .honeycomb-cell {
+    flex: 0 1 200px;
+    max-width: 200px;
+    height: 110.5px;
+    margin: 50.47619px 12.5px 25px; }
+
+  .clients .title {
+    font-size: 44px; }
+
+  .clients .honeycomb-cell {
+    flex: 0 1 200px;
+    max-width: 200px;
+    height: 110.5px;
+    margin: 50.47619px 12.5px 25px; }
+
+  .glipms.bg {
+    padding: 70px 0px;
+    background-size: 124%; }
+
+  .technology .left .ilease {
+    font-size: 80px; }
+
+  .technology .left .title.ilease span {
+    font-size: 108px; }
+
+  .glipms.bgs {
+    padding: 70px 0px 50px 0px; }
+
+  .technologys {
+    padding: 60px 0px 200px 0px; }
+
+  .technologys .right .title.main {
+    margin: 35px 0px 0px 0px; }
+
+  .Login-smartemi {
+    right: 80px; } }
+@media only screen and (max-width: 1380px) {
+  .technology .right .title.ilease:before {
+    right: -150.5px;
+    background-color: #dce6ed;
+    z-index: -1; }
+
+  .technology .left .title.intro span {
+    font-size: 60px;
+    width: 70%;
+    line-height: 65px; }
+
+  .technology .right {
+    padding: 75px 0px 0px 0px; }
+
+  .ilease-para .title {
+    font-size: 40px;
+    line-height: 55px; }
+
+  .ilease-para .title .f65 {
+    font-size: 58px; }
+
+  .ilease-para .para {
+    width: 90%;
+    font-size: 20px;
+    line-height: 35px; }
+
+  .ilease-para {
+    background-size: 42%;
+    background-position: right 295px; }
+
+  .glipms .title {
+    font-size: 40px;
+    line-height: 55px; }
+
+  .glipms .content-box .title {
+    font-size: 30px;
+    margin: 0px 0px 35px 0px; }
+
+  .glipms .content-box .title:after {
+    height: 3px;
+    bottom: -10px; }
+
+  .glipms .content-box p.para {
+    font-size: 20px;
+    line-height: 32px; }
+
+  .glipms .content-box ul li {
+    font-size: 20px;
+    line-height: 30px; }
+
+  .glipms .wrap .img:after {
+    width: 300px;
+    height: 200px; }
+
+  .glipms .content-box {
+    margin: -200px 0px 0px 0px; }
+
+  .glipms .content-box p.para span {
+    font-size: 24px; }
+
+  .glipms .content-box .title span i {
+    font-size: 41px; }
+
+  .clients .title {
+    font-size: 36px;
+    margin: 0px 0px 30px 0px;
+    font-size: 40px; }
+
+  .glipms.bgs.last {
+    margin: 0px; }
+
+  .glipms {
+    padding: 50px 0px 0px 0px; }
+
+  .glipms.bgs {
+    padding: 50px 0px 20px 0px; }
+
+  .glipms.bg {
+    padding: 50px 0px; }
+
+  .glipms .content-box ul li:before {
+    width: 8px;
+    height: 8px;
+    top: 11px; }
+
+  .technologys .right .title.main {
+    margin: 0px 0px 0px 0px; }
+
+  .technologys .right span.fully {
+    font-size: 50px;
+    margin: 0px 0px 15px 0px; }
+
+  .technologys .right span.tech {
+    font-size: 50px;
+    margin: 0px 0px 15px 0px; }
+
+  .technologys .right span.unique {
+    font-size: 90px;
+    margin: 0px 0px 25px 0px; }
+
+  .technologys .right span.lease {
+    font-size: 50px;
+    margin: 10px 0px 15px 0px; }
+
+  .technologys .right span.basket {
+    font-size: 50px;
+    margin: 0px 0px 15px 0px; }
+
+  .glipms.bg {
+    background-position: -190px -40px;
+    background-size: 121%;
+    padding: 50px 0px 60px 0px; }
+
+  .glipms.bgs {
+    padding: 50px 0px 60px 0px;
+    background-position: -190px -40px;
+    background-size: 121%; }
+
+  .technologys .right {
+    margin: -20px 0px 0px 0px; } }
+@media only screen and (max-width: 1290px) {
+  .technology .left .intro:first-child {
+    margin: 0px 0px 0px 0px; }
+
+  .technology .left .intro:first-child {
+    font-size: 40px; }
+
+  .technology .right span.lease {
+    margin: 10px 0px 10px 0px; }
+
+  .technology .right span.basket {
+    font-size: 55px; }
+
+  .ilease-para .para {
+    width: 94%; }
+
+  ection.glipms .title {
+    margin: 0px 0px 70px 0px; }
+
+  .glipms .title:after {
+    left: 45%;
+    bottom: 35px; }
+
+  .glipms .content-box {
+    padding: 20px 20px 15px 40px; }
+
+  .glipms .wrap .img {
+    width: 80%; }
+
+  .glipms .content-box {
+    margin: -250px 0px 0px 0px; }
+
+  .glipms .content-box p.para {
+    font-size: 18px;
+    line-height: 27px; }
+
+  .glipms .content-box ul li {
+    font-size: 18px;
+    line-height: 27px; }
+
+  .glipms .content-box ul li:before {
+    width: 8px;
+    height: 8px;
+    top: 9px; }
+
+  .technology .left .ilease {
+    font-size: 65px; }
+
+  .technology .left .title.ilease span {
+    font-size: 87px; }
+
+  .technologys {
+    padding: 45px 0px 170px 0px; }
+
+  .technologys .title.ilease {
+    font-size: 65px;
+    font-family: Roboto-Bold, sans-serif; }
+
+  .technologys .title.intro {
+    margin: 0px 0px 15px 0px;
+    font-size: 40px;
+    color: #ff192f; }
+
+  .ilease-para .title .f65 {
+    font-size: 55px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 55px; }
+
+  .clients {
+    background-size: 139%;
+    background-position: -250px 0px;
+    padding: 80px 0px 130px 0px; } }
+@media only screen and (max-width: 1210px) {
+  .technology .left .intro:first-child {
+    font-size: 36px;
+    line-height: 54px; }
+
+  .technology .left .ilease {
+    font-size: 60px;
+    line-height: 75px; }
+
+  .technology .left .intro:first-child {
+    font-size: 36px;
+    line-height: 54px; }
+
+  .technology .right span.tech {
+    font-size: 45px; }
+
+  .technology .right span.unique {
+    font-size: 70px;
+    line-height: 60px; }
+
+  .technology .right span.lease {
+    font-size: 52px;
+    line-height: 50px; }
+
+  .technology .right span.basket {
+    font-size: 50px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 40px; }
+
+  .ilease-para .title .f65 {
+    font-size: 50px; }
+
+  .glipms .title {
+    font-size: 36px;
+    line-height: 54px;
+    margin: 0px 0px 70px 0px; }
+
+  .glipms .title:after {
+    bottom: 45px; }
+
+  .clients .title {
+    font-size: 36px; }
+
+  .technologys .title.ilease {
+    font-size: 65px; }
+
+  .technologys .title.ilease span {
+    font-size: 87px; }
+
+  .technologys {
+    padding: 30px 0px 170px 0px; }
+
+  .technologys .right .title.main {
+    margin: 30px 0px 0px 0px; }
+
+  .technologys .right span.fully {
+    font-size: 45px;
+    margin: 0px 0px 10px 0px; }
+
+  .technologys .right span.tech {
+    font-size: 45px; }
+
+  .technologys .right span.unique {
+    font-size: 85px;
+    margin: 0px 0px 20px 0px; }
+
+  .technologys .right span.lease {
+    font-size: 50px;
+    margin: 10px 0px 10px 0px; }
+
+  .technologys {
+    background-size: 86%;
+    background-position: -125px 0px; }
+
+  .Login-smartemi {
+    font-size: 30px; }
+
+  .Login-smartemi i {
+    font-size: 26px;
+    left: 2px; } }
+@media only screen and (max-width: 1030px) {
+  .clients {
+    margin: 0px 0px 0px 0px;
+    padding: 40px 0px 90px 0px; }
+
+  .clients .title {
+    font-size: 32px; }
+
+  .clients .honeycomb-cell {
+    flex: 0 1 200px;
+    max-width: 200px;
+    height: 100px;
+    margin: 20px 0px 30px; }
+
+  .clients .honeycomb-cell__title {
+    font-size: 18px;
+    line-height: 27px;
+    width: 90%;
+    padding: 0%;
+    margin-top: -10px; }
+
+  .clients .honeycomb-cell::before,
+  .clients .honeycomb-cell::after,
+  .clients .honeycomb-cell__image {
+    width: 90%;
+    height: 185%; }
+
+  .technology {
+    min-height: 125vh;
+    background-size: 90%;
+    background-position: -145px 32px; }
+
+  .technology .left .ilease {
+    line-height: 100px; }
+
+  .technology .right {
+    padding: 80px 0px 0px 0px; }
+
+  .technology .right span.fully {
+    font-size: 40px;
+    margin: 0px 0px 5px 0px; }
+
+  .technology .right span.tech {
+    font-size: 45px;
+    margin: 0px 0px 10px 0px; }
+
+  .technology .right span.unique {
+    font-size: 70px;
+    line-height: 60px;
+    margin: 0px 0px 10px 0px; }
+
+  .technology .right span.lease {
+    font-size: 55px;
+    line-height: 50px; }
+
+  .technology .right span.basket {
+    font-size: 55px; }
+
+  .ilease-para .title {
+    font-size: 35px;
+    line-height: 50px; }
+
+  .ilease-para .para {
+    width: 96%;
+    font-size: 18px;
+    line-height: 30px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 45px; }
+
+  .ilease-para .title .f65 {
+    font-size: 45px; }
+
+  .ilease-para {
+    padding: 0px 0px 0px 0px; }
+
+  .glipms .title {
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0px 0px 50px 0px; }
+
+  .glipms .title:after {
+    left: 44%;
+    bottom: 25px; }
+
+  .glipms .content-box .title {
+    font-size: 25px;
+    margin: 0px 0px 25px 0px; }
+
+  .glipms .content-box .title:after {
+    bottom: -5px; }
+
+  .glipms.bgs {
+    background-color: #f3f3f3;
+    padding: 50px 0px 20px 0px;
+    margin: 0px 0px 30px 0px;
+    background-color: #fff; }
+
+  .glipms.bgs.last {
+    margin: 0px;
+    padding: 50px 0px 0px 0px; }
+
+  .glipms .wrap.last {
+    margin: 0px 0px 30px 0px; }
+
+  .glipms .content-box p.para span {
+    font-size: 20px; }
+
+  .technology:before {
+    min-height: 125vh;
+    background-position: -125px -55px; }
+
+  .technologys .title.intro {
+    margin: 0px 0px 10px 0px;
+    font-size: 35px; }
+
+  .technologys .title.ilease span {
+    font-size: 82px; }
+
+  .technologys .title.ilease {
+    font-size: 60px;
+    position: relative;
+    left: 0px; }
+
+  .technologys .right span.fully {
+    font-size: 40px;
+    margin: 0px 0px 0px 0px; }
+
+  .technologys .right span.tech {
+    font-size: 40px;
+    margin: 0px 0px 0px 0px; }
+
+  .technologys .right span.unique {
+    font-size: 79px;
+    margin: 0px 0px 10px 0px;
+    line-height: 75px; }
+
+  .technologys .right span.lease {
+    font-size: 45px;
+    margin: 10px 0px 10px 0px; }
+
+  .technologys:before {
+    min-height: 90vh;
+    background-position: -145px -130px; }
+
+  .technologys {
+    padding: 30px 0px 100px 0px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 40px; }
+
+  .glipms {
+    background-image: none !important; }
+
+  .clients {
+    background-image: none !important; }
+
+  .Login-smartemi {
+    right: 60px; }
+
+  .Login-smartemi {
+    right: 60px;
+    padding: 13px 20px; } }
+@media only screen and (max-width: 770px) {
+  .clients .title {
+    font-size: 30px;
+    line-height: 45px; }
+
+  .ilease-para {
+    margin: 0px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 40px; }
+
+  .ilease-para .title .f65 {
+    font-size: 50px;
+    line-height: 55px; }
+
+  .ilease-para .para {
+    width: 100%;
+    text-align: center; }
+
+  .ilease-para {
+    background-size: 90%;
+    background-position: right 330px; }
+
+  .glipms .title {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0px 0px 30px 0px; }
+
+  .glipms {
+    padding: 10px 0px 30px 0px; }
+
+  .glipms .title:after {
+    left: 43%;
+    bottom: -25px; }
+
+  .glipms.bg {
+    padding: 30px 0px; }
+
+  .glipms .wrap .img {
+    width: 100%; }
+
+  .glipms.bg .wrap .img {
+    width: calc(100% + 12px);
+    position: relative;
+    left: -12px; }
+
+  .glipms.bg .wrap .img img {
+    width: calc(100% + 60px);
+    margin: 30px 0px 0px 30px;
+    margin: -15px 0px 0px -15px; }
+
+  .glipms .content-box {
+    margin: -30px 0px 0px 0px;
+    width: 100%;
+    float: left; }
+
+  .glipms .wrap .img.left {
+    float: right;
+    position: relative;
+    right: -10px;
+    width: calc(100% + 12px); }
+
+  .glipms .wrap .img.left img {
+    margin: 30px 30px 0px 0px;
+    padding-right: 30px;
+    margin: -15px 0px 0px -8px;
+    padding-right: 0px;
+    width: calc(100% + 61px);
+    position: relative;
+    right: 40px; }
+
+  .clients .title {
+    margin: 0px 0px 60px 0px; }
+
+  .clients .title:after {
+    left: 41%;
+    bottom: -25px; }
+
+  .ilease-para .title {
+    text-align: center; }
+
+  .ilease-para .title {
+    margin: 0px 0px 30px 0px; }
+
+  .technologys {
+    padding: 30px 0px 30px 0px;
+    background-size: 90%;
+    background-position: -130px top;
+    margin: 1px 0px 0px 0px;
+    overflow: hidden; }
+
+  .technologys:before {
+    background-color: #ffffff;
+    background-image: none;
+    right: 35px;
+    left: inherit;
+    top: -25px;
+    width: 41%;
+    transform: rotate(20deg); }
+
+  .technologys .title.intro {
+    margin: 0px 0px 5px 0px;
+    font-size: 30px; }
+
+  .technologys .title.ilease {
+    font-size: 50px;
+    line-height: 45px; }
+
+  .technologys .title.ilease span {
+    font-size: 69px; }
+
+  .technologys .right .title.main {
+    margin: 40px 0px 0px 0px; }
+
+  .technologys .right span.fully {
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+    line-height: 30px; }
+
+  .technologys .right span.tech {
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+    line-height: 50px; }
+
+  .technologys .right span.unique {
+    font-size: 65px;
+    margin: 0px 0px 5px 0px;
+    line-height: 50px; }
+
+  .technologys .right span.lease {
+    font-size: 35px;
+    margin: 10px 0px 0px 0px;
+    line-height: 50px; }
+
+  .technologys .right span.basket {
+    font-size: 35px;
+    margin: 0px 0px 15px 0px;
+    line-height: 40px; }
+
+  .ilease-para {
+    background-size: 70%;
+    background-position: right 330px;
+    padding: 30px 0px; }
+
+  .ilease-para .title {
+    margin: 0px 0px 30px 0px;
+    font-size: 30px;
+    line-height: 45px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 35px; }
+
+  .ilease-para .title .f65 {
+    font-size: 45px;
+    line-height: 50px; }
+
+  .Login-smartemi {
+    right: 40px;
+    padding: 13px 20px;
+    font-size: 25px;
+    min-width: 160px; }
+
+  .Login-smartemi i {
+    font-size: 22px;
+    left: 2px; }
+
+  #topBtn {
+    right: inherit !important;
+    left: 5px !important; }
+
+  .Login-smartemi {
+    right: 15px; } }
+@media only screen and (max-width: 767.5px) {
+  .clients .btn-wrap {
+    text-align: center;
+    float: left;
+    width: 100%;
+    display: block; }
+
+  .clients .btn-wrap button.more {
+    float: none;
+    width: auto;
+    position: relative;
+    top: 55px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    min-width: 200px;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 20px;
+    background: #457b9d !important;
+    font-family: Roboto-Medium, sans-serif;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #f1faee;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    border: none; }
+
+  .clients .honeycomb .w7 {
+    display: none; }
+
+  .clients .honeycomb.open .w7 {
+    display: block; }
+
+  .technologys .title.intro {
+    margin: 0px 0px 5px 0px;
+    font-size: 30px;
+    line-height: 45px; }
+
+  .technologys .title.ilease {
+    font-size: 40px;
+    line-height: 40px; }
+
+  .technologys .title.ilease span {
+    font-size: 55px; }
+
+  .technologys .right span.unique {
+    font-size: 60px;
+    line-height: 50px; }
+
+  .technologys:before {
+    right: 60px;
+    top: 0px; }
+
+  .ilease-para .title .f65 {
+    font-size: 40px;
+    line-height: 45px; }
+
+  .ilease-para .para {
+    width: 101%; }
+
+  .ilease-para .title {
+    text-align: left; }
+
+  .ilease-para .para {
+    text-align: left; } }
+@media only screen and (max-width: 670px) {
+  .technologys:before {
+    right: 100px;
+    top: 0px; } }
+@media only screen and (max-width: 560px) {
+  .clients .title {
+    font-size: 27px;
+    line-height: 40px;
+    padding: 0% 15%; }
+
+  .clients .btn-wrap button.more {
+    font-size: 18px; }
+
+  .technologys .container {
+    width: 95%;
+    max-width: 95%;
+    float: none; }
+
+  .technologys .right {
+    width: 53%;
+    background-color: #ffffffe3;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    left: 27px;
+    position: relative;
+    margin-top: 45px;
+    padding: 10px 10px 0px 10px; }
+
+  .technologys .left {
+    width: 100%;
+    text-align: left;
+    left: 0px; }
+
+  .technologys .right span.fully {
+    float: left;
+    width: auto;
+    font-size: 24px;
+    line-height: 40px;
+    padding: 0px 10px 0px 0px; }
+
+  .technologys .right span.tech {
+    float: left;
+    width: auto;
+    font-size: 24px;
+    line-height: 40px; }
+
+  .technologys .right span.unique {
+    float: left;
+    width: 100%;
+    font-size: 35px;
+    line-height: 35px;
+    position: relative;
+    left: 40px; }
+
+  .technologys .right span.lease {
+    float: left;
+    width: auto;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 0px;
+    padding: 0px 10px 0px 0px; }
+
+  .technologys .right span.basket {
+    float: left;
+    width: auto;
+    font-size: 24px;
+    line-height: 40px; }
+
+  .technologys:before {
+    transform: rotate(35deg);
+    opacity: 0; }
+
+  .technologys .right:before {
+    content: '';
+    width: 100px;
+    height: 100px;
+    /* background-color: #fff; */
+    position: absolute;
+    left: -49px;
+    top: 20px;
+    /* transform: rotate(-46deg); */
+    top: 0; }
+
+  .technologys {
+    padding: 30px 0px 0px 0px;
+    background-size: 100%;
+    background-position: 0px 0px;
+    margin: 1px 0px 0px 0px;
+    /* min-height: 418px; */ }
+
+  .ilease-para .title {
+    margin: 0px 0px 15px 0px;
+    font-size: 27px;
+    line-height: 40px; }
+
+  .ilease-para .title .f65 {
+    font-size: 35px;
+    line-height: 45px; }
+
+  .glipms .title:after {
+    left: 40%;
+    bottom: -20px; }
+
+  .glipms.bg .wrap .img img {
+    margin: -8px 0px 0px -8px; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -15px; }
+
+  .glipms .content-box {
+    padding: 15px 15px 15px 20px; }
+
+  .glipms .content-box .title span {
+    font-size: 25px; }
+
+  .glipms .content-box .title span i {
+    font-size: 34px; }
+
+  .glipms .content-box ul li:before {
+    width: 6px;
+    height: 6px;
+    top: 9px; }
+
+  .ilease-para {
+    background-size: 88%;
+    background-position: right 400px;
+    padding: 30px 0px 0px 0px; }
+
+  .glipms .title {
+    font-size: 27px;
+    line-height: 40px;
+    margin: 0px 0px 30px 0px; }
+
+  .glipms .wrap .img:after {
+    width: 100px;
+    height: 70px; }
+
+  .clients .title {
+    font-size: 26px;
+    line-height: 36px; }
+
+  .technologys .right .title.main {
+    margin: 0px 0px 0px 0px; }
+
+  .Login-smartemi {
+    right: 15px;
+    font-size: 20px;
+    padding: 5px 10px;
+    min-width: 125px; }
+
+  .Login-smartemi i {
+    font-size: 18px;
+    left: 2px; } }
+@media only screen and (max-width: 490px) {
+  .clients .title {
+    font-size: 27px;
+    line-height: 40px;
+    padding: 0% 0%; }
+
+  .technologys .title.intro {
+    display: none; }
+
+  .technologys .title.ilease {
+    margin: 10px 0px 0px 0px; }
+
+  .technologys .right {
+    width: 65%; }
+
+  .technologys .right span.unique {
+    margin: 0px 0px 0px 0px; }
+
+  .technologys .right span.unique {
+    letter-spacing: 0px; }
+
+  div#overlay .companylogo {
+    left: 30%; }
+
+  div#overlay .companycar {
+    left: 8%; }
+
+  .ilease-para .title .redcolor {
+    font-size: 32px; }
+
+  .technologys {
+    padding: 30px 0px 30px 0px;
+    background-size: 123%;
+    background-position: -100px -15px;
+    margin: 1px 0px 0px 0px; }
+
+  .technologys .right {
+    width: 63%;
+    left: 28px;
+    margin-top: 45px;
+    padding: 10px 10px 0px 10px;
+    top: 30px; }
+
+  section .container {
+    width: 95%;
+    max-width: 95%;
+    float: none; }
+
+  .glipms .wrap .img:after {
+    background-color: transparent !important; }
+
+  .Login-smartemi {
+    min-width: 115px; } }
+@media only screen and (max-width: 450px) {
+  .technologys {
+    background-size: 127%;
+    background-position: -85px 15px; }
+
+  .technologys .right {
+    width: 75%; }
+
+  .ilease-para .title {
+    margin: 0px 0px 20px 0px; }
+
+  section .container {
+    width: 95%;
+    max-width: 95%;
+    float: none; }
+
+  .glipms.bg .wrap .img img {
+    width: 145%; }
+
+  .glipms .wrap .img.left img {
+    width: 155%; }
+
+  .glipms .content-box .title {
+    font-size: 22px; }
+
+  .glipms .content-box .title span {
+    font-size: 22px; }
+
+  .glipms .content-box p.para {
+    font-size: 16px;
+    line-height: 24px; }
+
+  .glipms .content-box ul li {
+    font-size: 16px;
+    line-height: 24px;
+    float: left;
+    width: 100%; }
+
+  .glipms .content-box ul li:before {
+    left: 0px; }
+
+  .glipms .content-box ul li {
+    padding: 0px 0px 0px 20px; }
+
+  .glipms .content-box .title span i {
+    font-size: 30px; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -152px; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -152px; }
+
+  .clients .title:after {
+    left: 34%;
+    bottom: -20px; }
+
+  .ilease-para .para {
+    font-size: 16px;
+    line-height: 27px; }
+
+  .technologys .right {
+    width: 66%; }
+
+  .clients .honeycomb-cell {
+    margin-left: 25px; }
+
+  .clients .btn-wrap button.more {
+    font-size: 16px; } }
+@media only screen and (max-width: 450px) {
+  .glipms .title:after {
+    left: 39%;
+    bottom: -20px; } }
+@media only screen and (max-width: 420px) {
+  .glipms .wrap .img.left img {
+    margin: -10px 0px 0px -152px; } }
+@media only screen and (max-width: 400px) {
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -148px; }
+
+  .clients .title:after {
+    left: 35%; }
+
+  .clients .honeycomb-cell {
+    margin-left: 15px; } }
+@media only screen and (max-width: 390px) {
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -150px; }
+
+  .technologys .right {
+    width: 75%; } }
+@media only screen and (max-width: 380px) {
+  .technologys .right {
+    width: 80%;
+    margin-top: 18px; }
+
+  .ilease-para .title .f65 {
+    font-size: 30px;
+    line-height: 35px; }
+
+  .ilease-para .title {
+    font-size: 26px;
+    line-height: 35px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 30px; }
+
+  .glipms .title:after {
+    left: 35%; }
+
+  .main-content.clients .title:after {
+    bottom: -15px;
+    left: 33%; }
+
+  .glipms .title:after {
+    left: 35%;
+    bottom: -20px; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -136px; }
+
+  .clients .title {
+    margin: 0px 0px 45px 0px; } }
+@media only screen and (max-width: 360px) {
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -135px; } }
+@media only screen and (max-width: 350px) {
+  .technologys {
+    background-size: 130%;
+    background-position: -75px 15px; }
+
+  .technologys .right {
+    width: 88%; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -130px; }
+
+  .clients .honeycomb-cell {
+    margin-left: 20px; } }
+@media only screen and (max-width: 340px) {
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -118px; } }
+@media only screen and (max-width: 330px) {
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -118px; } }
+@media only screen and (max-width: 320px) {
+  .technologys .right {
+    width: 95%; }
+
+  .ilease-para .title {
+    font-size: 24px; }
+
+  .glipms .title:after {
+    left: 33%; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -128px; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -128px; } }
+.technology {
+  float: left;
+  width: 100%;
+  padding-left: 30px;
+  font-size: 40px;
+  font-family: Roboto-Bold, sans-serif;
+  line-height: 58px;
+  color: #ff192f;
+  background-image: url(../img/corporatelease/CorporateLease-Tranzlease-CarLeases.png);
+  background-attachment: fixed;
+  position: relative;
+  min-height: 122vh;
+  background-size: 73%;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-image: url(../img/corporatelease/handsome-business-man-by-white-carss.jpg); }
+  .technology:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0.5;
+    z-index: 0; }
+  .technology:before {
+    content: '';
+    background-image: url(../img/corporatelease/shape_transperant_bg.png);
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    min-height: 139vh;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    background-position: -180px -200px; }
+  .technology .col-md-12 {
+    z-index: 9;
+    padding: 0px; }
+  .technology .left {
+    float: left;
+    width: 50%;
+    padding: 80px 0% 0% 0%;
+    z-index: 9;
+    position: relative;
+    left: -25px; }
+    .technology .left .title.intro.glow {
+      margin: 0px 0px 50px 0px;
+      color: #fff;
+      font-family: Roboto-Bold, sans-serif;
+      font-size: 55px;
+      text-align: left; }
+    .technology .left .title.intro span {
+      font-family: Roboto-Bold, sans-serif;
+      color: #ff192f;
+      font-size: 85px;
+      float: left;
+      width: 70%;
+      animation: none;
+      line-height: 95px;
+      color: #1d3557; }
+    .technology .left .title .technology .left .intro:first-child {
+      margin: 0px 0px 15px 0px;
+      font-size: 55px; }
+    .technology .left .title.ilease span {
+      color: #ff192f;
+      font-size: 122px;
+      font-style: italic;
+      padding: 0 5px 0 0;
+      font-weight: 600;
+      font-family: Roboto-Bold, sans-serif; }
+    .technology .left .ilease {
+      color: #1d3557;
+      font-size: 90px;
+      font-weight: 500;
+      line-height: 115px;
+      font-family: Roboto-Bold, sans-serif;
+      position: relative;
+      left: -5px;
+      color: #1d3557;
+      font-size: 90px;
+      font-weight: 500;
+      line-height: 115px;
+      font-family: Roboto-Bold, sans-serif; }
+      .technology .left .ilease span {
+        color: #ff192f;
+        font-size: 122px;
+        font-style: italic;
+        padding: 0 5px 0 0;
+        font-weight: 600;
+        font-family: Roboto-Bold, sans-serif; }
+    .technology .left .intro:first-child {
+      margin: 0px 0px 20px 0px;
+      font-size: 50px; }
+  .technology .right {
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding: 170px 0px 0px 0px;
+    z-index: 9; }
+    .technology .right .title.ilease {
+      color: #1d3557;
+      font-size: 70px;
+      font-weight: 500;
+      line-height: 65px;
+      font-family: Roboto-Bold, sans-serif;
+      margin: 0px 0px 33px 0px;
+      position: relative;
+      min-width: 225px;
+      display: block;
+      float: right;
+      padding: 20px;
+      margin: 0px 0px 95px 0px; }
+      .technology .right .title.ilease span {
+        color: #ff192f;
+        font-size: 96px;
+        font-style: italic;
+        padding: 0 5px 0 0;
+        font-weight: 600;
+        font-family: Roboto-Bold, sans-serif; }
+      .technology .right .title.ilease:after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-bottom: 114px solid #457b9d30;
+        border-left: 100px solid transparent;
+        position: absolute;
+        left: -100px;
+        top: 0px; }
+      .technology .right .title.ilease:before {
+        content: '';
+        background-color: #457b9d30;
+        position: absolute;
+        width: 400px;
+        height: 114px;
+        right: -142.5px;
+        top: 0px; }
+    .technology .right span.fully {
+      font-size: 65px;
+      margin: 0px 0px 30px 0px; }
+    .technology .right span.tech {
+      font-size: 65px;
+      margin: 0px 0px 35px 0px;
+      color: #1d3557; }
+    .technology .right span.unique {
+      font-size: 105px;
+      line-height: 65px;
+      margin: 0px 0px 40px 0px;
+      color: #1d3557; }
+    .technology .right span.lease {
+      font-size: 60px;
+      line-height: 50px;
+      margin: 10px 0px 30px 0px; }
+    .technology .right span.basket {
+      font-size: 60px;
+      margin: 0px 0px 15px 0px; }
+    .technology .right .main span {
+      float: right;
+      width: 100%; }
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate; }
+
+.ilease-para {
+  float: left;
+  width: 100%;
+  margin: -400px 0px 0px 0px;
+  z-index: 99;
+  float: left;
+  width: 100%;
+  margin: -30vh 0px 0px 0px;
+  z-index: 99;
+  background-image: url(../img/corporatelease/CorporateLease-Tranzlease-CarLease-background.png);
+  background-repeat: no-repeat;
+  background-size: 42%;
+  background-position: right 290px;
+  position: relative;
+  padding: 0px 0px 50px 0px; }
+  .ilease-para .title {
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1d3557;
+    text-align: right;
+    width: 100%;
+    float: right;
+    margin: 0px 0px 40px 0px; }
+    .ilease-para .title .redcolor {
+      color: #ff192f;
+      font-size: 50px; }
+    .ilease-para .title .f65 {
+      font-size: 65px; }
+  .ilease-para .para {
+    font-family: Roboto-Regular, sans-serif;
+    color: #1d3557;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: right;
+    width: 75%;
+    float: right;
+    margin: 0px 0px 50px 0px; }
+  .ilease-para:after {
+    background: #ffffffd9;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 55%;
+    height: 100%;
+    z-index: -1; }
+
+.glipms {
+  float: left;
+  width: 100%;
+  position: relative;
+  padding: 50px 0px; }
+  .glipms .title {
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    width: 100%;
+    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 100px 0px; }
+    .glipms .title:after {
+      content: '';
+      width: 100px;
+      height: 4px;
+      background: #457b9d;
+      position: absolute;
+      left: 47%;
+      bottom: 60px; }
+  .glipms .wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin: 0px 0px 0px 0px; }
+    .glipms .wrap .img {
+      float: left;
+      width: 70%;
+      height: auto;
+      overflow: hidden;
+      position: relative; }
+      .glipms .wrap .img:after {
+        content: '';
+        width: 340px;
+        height: 240px;
+        background-color: #ff192f;
+        position: absolute;
+        left: -28px;
+        top: -13px;
+        z-index: -1; }
+      .glipms .wrap .img img {
+        width: 100%;
+        margin: 30px 0px 0px 30px;
+        margin: 0px 0px 0px 0px; }
+      .glipms .wrap .img.left {
+        float: right; }
+        .glipms .wrap .img.left:after {
+          right: -28px;
+          left: inherit; }
+        .glipms .wrap .img.left img {
+          margin: 30px 30px 0px 0px;
+          padding-right: 30px;
+          margin: 0px 0px 0px 0px;
+          padding-right: 0px; }
+    .glipms .wrap .img-box:after {
+      content: '';
+      width: 340px;
+      height: 240px;
+      background-color: #ff192f;
+      position: absolute;
+      left: -28px;
+      top: -13px;
+      z-index: -1; }
+    .glipms .wrap.last {
+      margin: 0px 0px 80px 0px; }
+  .glipms .content-box {
+    background-color: #fff;
+    padding: 40px 50px;
+    float: right;
+    width: 50%;
+    position: relative;
+    right: 0px;
+    margin: -330px 0px 0px 0px;
+    box-shadow: 3px 4px 9px 1px #d0cfcf;
+    border: 1px solid #e4e2e2; }
+    .glipms .content-box .title {
+      font-family: Roboto-Medium, sans-serif;
+      font-size: 36px;
+      text-align: left;
+      width: 100%;
+      position: relative;
+      color: #ff192f;
+      font-family: Roboto-Bold, sans-serif;
+      margin: 0px 0px 45px 0px; }
+      .glipms .content-box .title:after {
+        content: '';
+        width: 100px;
+        height: 4px;
+        background: #457b9d;
+        position: absolute;
+        left: 0%;
+        bottom: -15px; }
+      .glipms .content-box .title span {
+        font-family: Roboto-Bold, sans-serif;
+        color: #1d3557;
+        font-style: normal;
+        font-weight: bold; }
+        .glipms .content-box .title span i {
+          font-family: Roboto-Bold, sans-serif;
+          font-style: italic;
+          font-size: 48px;
+          color: #ff192f;
+          margin: 0px 3px 0px 0px; }
+    .glipms .content-box p.para {
+      font-family: Roboto-Regular, sans-serif;
+      font-size: 24px;
+      line-height: 35px;
+      color: #1d3557;
+      margin: 0px 0px 15px 0px;
+      font-family: Roboto-Medium, sans-serif;
+      float: left;
+      width: 100%; }
+      .glipms .content-box p.para span {
+        float: left;
+        width: 100%;
+        margin: 15px 0px 0px 0px;
+        color: #ff192f;
+        font-size: 26px; }
+    .glipms .content-box ul {
+      float: left;
+      width: 100%;
+      margin: 0px 0px 10px 0px; }
+      .glipms .content-box ul li {
+        font-family: Roboto-Regular, sans-serif;
+        font-size: 22px;
+        line-height: 33px;
+        color: #1d3557;
+        float: left;
+        width: 50%;
+        margin: 0px 0px 10px 0px;
+        padding: 0px 0px 0px 25px;
+        position: relative; }
+        .glipms .content-box ul li:before {
+          content: '';
+          width: 10px;
+          height: 10px;
+          border-radius: 20px;
+          background-color: #1d3557;
+          position: absolute;
+          left: 5px;
+          top: 10px;
+          top: 12px; }
+      .glipms .content-box ul.w100 li {
+        width: 100%; }
+    .glipms .content-box.left {
+      float: left;
+      box-shadow: -3px 4px 9px 1px #d0cfcf;
+      background-color: #e6e6e6; }
+  .glipms.bg {
+    background-color: #e6e6e6;
+    padding: 100px 0px;
+    background-repeat: no-repeat;
+    background-image: url(../img/corporatelease/grid-bg.png);
+    background-position: 0px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+  .glipms.bgs {
+    padding: 100px 0px 90px 0px;
+    margin: 0px 0px 0px 0px;
+    background-image: url(../img/corporatelease/grid-bg.png);
+    background-position: 0px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+
+.clients {
+  margin: 0px;
+  float: left;
+  width: 100%;
+  background-size: 126%;
+  background-image: url(../img/homepage/gridbgss.jpg);
+  background-repeat: no-repeat;
+  padding: 80px 0px 175px 0px;
+  background-image: url(../img/corporatelease/grid-bg.png);
+  background-position: -210px 0px;
+  background-color: #e6e6e6; }
+  .clients .title {
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    font-family: Roboto-Bold, sans-serif;
+    line-height: 60px;
+    position: relative;
+    z-index: 9;
+    margin: 0px 0px 50px 0px;
+    font-size: 48px;
+    color: #1d3557; }
+    .clients .title:after {
+      content: '';
+      width: 100px;
+      height: 4px;
+      background: #457b9d;
+      position: absolute;
+      left: 47%;
+      bottom: -25px; }
+  .clients .btn-wrap {
+    display: none; }
+  .clients .honeycomb {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    transform: translateY(34.375px); }
+  .clients .honeycomb-cell {
+    flex: 0 1 250px;
+    max-width: 250px;
+    height: 137.5px;
+    margin: 65.4761904762px 12.5px 25px;
+    position: relative;
+    padding: 0.5em;
+    text-align: center;
+    z-index: 1; }
+    .clients .honeycomb-cell::before {
+      background: #fff;
+      transform: scale(1.045);
+      transition: opacity 0.5s;
+      transition: all ease 0.5s; }
+    .clients .honeycomb-cell::after {
+      background: #457b9d;
+      opacity: 0.9;
+      transition: opacity 350ms;
+      background-color: #733716;
+      background-color: #1d3557;
+      background-color: #264653;
+      background-color: #222732;
+      background-color: #38455f; }
+    .clients .honeycomb-cell:hover .honeycomb-cell__title {
+      opacity: 0; }
+    .clients .honeycomb-cell:hover::before {
+      background: #e63946; }
+    .clients .honeycomb-cell:hover::after {
+      opacity: 0; }
+  .clients .honeycomb-cell__title {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    hyphens: auto;
+    word-break: break-word;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1.75em;
+    transition: opacity 350ms;
+    font-size: 24px;
+    font-family: Roboto-Medium, sans-serif;
+    line-height: 36px;
+    width: 100%;
+    padding: 0% 8%;
+    text-shadow: 2px 2px 4px #000;
+    color: #f1faee;
+    color: #fff; }
+    .clients .honeycomb-cell__title > small {
+      font-weight: 300;
+      margin-top: 0.25em; }
+  .clients .honeycomb-cell__image {
+    object-fit: cover;
+    object-position: center; }
+  .clients .honeycomb__placeholder {
+    display: none;
+    opacity: 0;
+    width: 250px;
+    margin: 0 12.5px; }
+
+.clients *,
+.clients *::before,
+.clients *::after {
+  box-sizing: border-box; }
+
+.clients .honeycomb-cell::before,
+.clients .honeycomb-cell::after {
+  content: ''; }
+
+.clients .honeycomb-cell::before,
+.clients .honeycomb-cell::after,
+.clients .honeycomb-cell__image {
+  top: -50%;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  display: block;
+  position: absolute;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  z-index: -1;
+  background-color: #fff;
+  transition: opacity 0.5s;
+  transition: all ease 0.5s; }
+
+.clients .honeycomb-cell::after {
+  background: #457b9d;
+  opacity: 0.9;
+  transition: opacity 350ms;
+  background-color: #733716;
+  background-color: #1d3557;
+  background-color: #264653;
+  background-color: #222732;
+  background-color: #38455f; }
+
+@-webkit-keyframes {
+  glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073; } }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6; } }
+@media (max-width: 550px) {
+  .clients .honeycomb-cell {
+    margin: 81.25px 25px; } }
+@media (min-width: 550px) and (max-width: 825px) {
+  .clients .honeycomb-cell:nth-child(3n) {
+    margin-right: calc(50% - 125px);
+    margin-left: calc(50% - 125px); }
+
+  .clients .honeycomb__placeholder:nth-child(3n + 5) {
+    display: block; } }
+@media (min-width: 825px) and (max-width: 1100px) {
+  .clients .honeycomb-cell:nth-child(5n + 4) {
+    margin-left: calc(50% - 275px); }
+
+  .clients .honeycomb-cell:nth-child(5n + 5) {
+    margin-right: calc(50% - 275px); }
+
+  .clients .honeycomb__placeholder:nth-child(5n),
+  .clients .honeycomb__placeholder:nth-child(5n + 3) {
+    display: block; } }
+@media (min-width: 1100px) {
+  .clients .honeycomb-cell:nth-child(7n + 5) {
+    margin-left: calc(50% - 400px); }
+
+  .clients .honeycomb-cell:nth-child(7n + 7),
+  .clients .honeycomb-cell:nth-child(7n + 5):nth-last-child(2) {
+    margin-right: calc(50% - 400px); }
+
+  .clients .honeycomb__placeholder:nth-child(7n + 7),
+  .clients .honeycomb__placeholder:nth-child(7n + 9),
+  .clients .honeycomb__placeholder:nth-child(7n + 11) {
+    display: block; } }
+.technologys .title.intro {
+  margin: 0px 0px 25px 0px;
+  font-size: 50px;
+  color: #ff192f; }
+
+.technologys .title.ilease {
+  font-size: 80px;
+  font-family: Roboto-Bold, sans-serif;
+  position: relative;
+  left: 0px; }
+
+.technologys .left {
+  float: left;
+  width: 50%;
+  position: relative;
+  left: -15px; }
+
+.technologys .right {
+  text-align: right;
+  float: right;
+  width: 50%;
+  font-family: Roboto-Bold, sans-serif;
+  font-size: 80px;
+  margin: 80px 0px 0px 0px; }
+
+.technologys {
+  float: left;
+  width: 100%;
+  padding: 90px 0px 225px 0px; }
+
+.technologys .right span {
+  float: right;
+  width: 100%; }
+
+.technologys {
+  float: left;
+  width: 100%;
+  padding-left: 30px;
+  font-size: 40px;
+  font-family: Roboto-Bold, sans-serif;
+  line-height: 58px;
+  background-attachment: fixed;
+  position: relative;
+  background-size: 73%;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-image: url(../img/corporatelease/CorporateLease-Tranzlease-CarLeases.jpg); }
+
+.technologys:before {
+  content: '';
+  background-image: url(../img/corporatelease/shape_transperantt.png);
+  right: 0px;
+  top: 0px;
+  width: 100%;
+  min-height: 139vh;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  background-position: -180px -200px; }
+
+.technologys .title.ilease span {
+  color: #ff192f;
+  font-size: 109px;
+  font-style: italic;
+  padding: 0 5px 0 0;
+  font-weight: 600;
+  font-family: Roboto-Bold, sans-serif; }
+
+.technologys .right span.fully {
+  font-size: 65px;
+  margin: 0px 0px 20px 0px;
+  color: #ff192f; }
+
+.technologys .right span.tech {
+  font-size: 65px;
+  margin: 0px 0px 25px 0px;
+  color: #1d3557; }
+
+.technologys .right span.unique {
+  font-size: 105px;
+  line-height: 65px;
+  margin: 0px 0px 40px 0px;
+  color: #1d3557; }
+
+.technologys .right span.lease {
+  font-size: 60px;
+  line-height: 50px;
+  margin: 10px 0px 20px 0px;
+  color: #ff192f; }
+
+.technologys .right span.basket {
+  font-size: 60px;
+  margin: 0px 0px 15px 0px;
+  color: #ff192f; }
+
+.technologys .right .title.main {
+  float: right;
+  position: relative;
+  right: -15px; }
+
+.ilease-para {
+  margin: 0px; }
+
+section.glipms.bgs.last {
+  padding-bottom: 0px; }
+
+.Login-smartemi {
+  background-color: #457b9d;
+  color: #fff;
+  font-family: Roboto-Bold, sans-serif;
+  font-size: 34px;
+  padding: 18px 20px;
+  min-width: 200px;
+  text-align: center;
+  line-height: 34px;
+  border-radius: 5px !important;
+  box-shadow: 3px 4px 6px 0px #544b4b;
+  text-decoration: none !important;
+  margin: 30px 0px 0px 0px;
+  position: fixed;
+  right: 90px;
+  z-index: 999;
+  bottom: 24px; }
+
+.Login-smartemi i {
+  position: relative;
+  top: 1px;
+  font-size: 30px;
+  left: 0px;
+  transition: all ease 0.5s; }
+
+.Login-smartemi:hover i {
+  left: 5px; }
+
+.Login-smartemi.hvr-right:before {
+  border-radius: 5px !important; }
+
+@media only screen and (max-width: 1985px) {
+  .technology .right .main {
+    position: relative;
+    right: -15px; } }
+@media only screen and (max-width: 1685px) {
+  .technology {
+    min-height: 125vh;
+    background-size: 82%;
+    background-position: -150px -15px; }
+
+  .technology:before {
+    min-height: 125vh;
+    background-position: -150px -120px; }
+
+  .ilease-para .para {
+    width: 87%; }
+
+  .glipms .content-box {
+    margin: -150px 0px 0px 0px; }
+
+  .technologys {
+    background-size: 77%;
+    background-position: -60px 0px; }
+
+  .technologys {
+    padding: 90px 0px 200px 0px; } }
+@media only screen and (max-width: 1610px) {
+  .technology .right {
+    padding: 140px 0px 0px 0px; }
+
+  .technology .right .title.ilease {
+    margin: 0px 0px 65px 0px; }
+
+  .technology .left .title.intro span {
+    font-size: 70px;
+    line-height: 80px; }
+
+  .ilease-para .para {
+    width: 90%; }
+
+  .technology .right .title.ilease:before {
+    right: -141.5px;
+    right: -142.5px; }
+
+  .technologys .right {
+    margin: 15px 0px 0px 0px; }
+
+  .technologys .right span.fully {
+    font-size: 60px; }
+
+  .technologys .right span.tech {
+    font-size: 60px; }
+
+  .technologys .right span.unique {
+    font-size: 100px; } }
+@media only screen and (max-width: 1555px) {
+  .technology .right .title.ilease:after {
+    left: -101px; }
+
+  .technology .left {
+    padding: 70px 0% 0% 0%;
+    left: -25px; }
+
+  .technology .left .intro:first-child {
+    margin: 0px 0px 12px 0px; }
+
+  .technology .left .title.intro span {
+    font-size: 65px;
+    width: 70%;
+    line-height: 75px; }
+
+  .technology .right {
+    padding: 175px 0px 0px 0px; }
+
+  .technology .right .title.ilease {
+    margin: 0px 0px 35px 0px;
+    font-size: 67px; }
+
+  .technology .right .title.ilease:before {
+    right: -151.5px; }
+
+  .technology .right .title.ilease span {
+    font-size: 90px; }
+
+  .technology .right span.fully {
+    font-size: 45px;
+    margin: 0px 0px 10px 0px; }
+
+  .technology .right span.tech {
+    font-size: 50px;
+    margin: 0px 0px 10px 0px; }
+
+  .technology .right span.unique {
+    font-size: 75px;
+    line-height: 65px;
+    margin: 0px 0px 10px 0px; }
+
+  .ilease-para .para {
+    width: 84%; }
+
+  .ilease-para .title {
+    font-size: 45px;
+    line-height: 60px; }
+
+  .ilease-para .title .f65 {
+    font-size: 62px; }
+
+  .ilease-para {
+    background-size: 50%;
+    background-position: right 295px; }
+
+  .glipms .content-box p.para {
+    font-size: 22px;
+    line-height: 33px; }
+
+  .glipms .content-box {
+    padding: 30px 50px 20px 50px; }
+
+  .clients .title {
+    font-size: 42px;
+    line-height: 62px; }
+
+  .technology .right span.lease {
+    margin: 10px 0px 20px 0px; }
+
+  .glipms.bg {
+    background-position: -100px 0px;
+    background-size: 121%; }
+
+  .glipms.bgs {
+    background-position: -100px 0px;
+    background-size: 121%; }
+
+  .clients {
+    background-size: 139%;
+    background-position: -250px 0px; } }
+@media only screen and (max-width: 1445px) {
+  .technology .left {
+    padding: 45px 0% 0% 0%;
+    left: -30px; }
+
+  .technology .left .intro:first-child {
+    margin: 0px 0px 12px 0px; }
+
+  .technology .left .title.intro span {
+    font-size: 65px;
+    width: 70%;
+    line-height: 75px; }
+
+  .technology .right {
+    padding: 125px 0px 0px 0px; }
+
+  .technology .right .title.ilease {
+    margin: 0px 0px 35px 0px;
+    font-size: 67px; }
+
+  .technology .right .title.ilease:before {
+    right: -150.5px; }
+
+  .technology .right .title.ilease span {
+    font-size: 90px; }
+
+  .technology .right span.fully {
+    font-size: 45px;
+    margin: 0px 0px 10px 0px; }
+
+  .technology .right span.tech {
+    font-size: 50px;
+    margin: 0px 0px 10px 0px; }
+
+  .technology .right span.unique {
+    font-size: 75px;
+    line-height: 65px;
+    margin: 0px 0px 10px 0px; }
+
+  .ilease-para .para {
+    width: 92%; }
+
+  .ilease-para .title {
+    font-size: 45px;
+    line-height: 60px; }
+
+  .ilease-para .title .f65 {
+    font-size: 62px; }
+
+  .ilease-para {
+    background-size: 50%;
+    background-position: right 295px; }
+
+  .glipms .content-box p.para {
+    font-size: 22px;
+    line-height: 33px; }
+
+  .glipms .content-box {
+    padding: 30px 50px 20px 50px; }
+
+  .technology {
+    min-height: 125vh;
+    background-size: 81%;
+    background-position: -130px 0px; }
+
+  .clients .title {
+    font-size: 44px; }
+
+  .clients .honeycomb-cell {
+    flex: 0 1 200px;
+    max-width: 200px;
+    height: 110.5px;
+    margin: 50.47619px 12.5px 25px; }
+
+  .clients .title {
+    font-size: 44px; }
+
+  .clients .honeycomb-cell {
+    flex: 0 1 200px;
+    max-width: 200px;
+    height: 110.5px;
+    margin: 50.47619px 12.5px 25px; }
+
+  .glipms.bg {
+    padding: 70px 0px;
+    background-size: 124%; }
+
+  .technology .left .ilease {
+    font-size: 80px; }
+
+  .technology .left .title.ilease span {
+    font-size: 108px; }
+
+  .glipms.bgs {
+    padding: 70px 0px 50px 0px; }
+
+  .technologys {
+    padding: 60px 0px 200px 0px; }
+
+  .technologys .right .title.main {
+    margin: 35px 0px 0px 0px; }
+
+  .Login-smartemi {
+    right: 80px; } }
+@media only screen and (max-width: 1380px) {
+  .technology .right .title.ilease:before {
+    right: -150.5px;
+    background-color: #dce6ed;
+    z-index: -1; }
+
+  .technology .left .title.intro span {
+    font-size: 60px;
+    width: 70%;
+    line-height: 65px; }
+
+  .technology .right {
+    padding: 75px 0px 0px 0px; }
+
+  .ilease-para .title {
+    font-size: 40px;
+    line-height: 55px; }
+
+  .ilease-para .title .f65 {
+    font-size: 58px; }
+
+  .ilease-para .para {
+    width: 90%;
+    font-size: 20px;
+    line-height: 35px; }
+
+  .ilease-para {
+    background-size: 42%;
+    background-position: right 295px; }
+
+  .glipms .title {
+    font-size: 40px;
+    line-height: 55px; }
+
+  .glipms .content-box .title {
+    font-size: 30px;
+    margin: 0px 0px 35px 0px; }
+
+  .glipms .content-box .title:after {
+    height: 3px;
+    bottom: -10px; }
+
+  .glipms .content-box p.para {
+    font-size: 20px;
+    line-height: 32px; }
+
+  .glipms .content-box ul li {
+    font-size: 20px;
+    line-height: 30px; }
+
+  .glipms .wrap .img:after {
+    width: 300px;
+    height: 200px; }
+
+  .glipms .content-box {
+    margin: -200px 0px 0px 0px; }
+
+  .glipms .content-box p.para span {
+    font-size: 24px; }
+
+  .glipms .content-box .title span i {
+    font-size: 41px; }
+
+  .clients .title {
+    font-size: 36px;
+    margin: 0px 0px 30px 0px;
+    font-size: 40px; }
+
+  .glipms.bgs.last {
+    margin: 0px; }
+
+  .glipms {
+    padding: 50px 0px 0px 0px; }
+
+  .glipms.bgs {
+    padding: 50px 0px 20px 0px; }
+
+  .glipms.bg {
+    padding: 50px 0px; }
+
+  .glipms .content-box ul li:before {
+    width: 8px;
+    height: 8px;
+    top: 11px; }
+
+  .technologys .right .title.main {
+    margin: 0px 0px 0px 0px; }
+
+  .technologys .right span.fully {
+    font-size: 50px;
+    margin: 0px 0px 13px 0px; }
+
+  .technologys .right span.tech {
+    font-size: 50px;
+    margin: 0px 0px 13px 0px; }
+
+  .technologys .right span.unique {
+    font-size: 90px;
+    margin: 0px 0px 22px 0px; }
+
+  .technologys .right span.lease {
+    font-size: 50px;
+    margin: 10px 0px 8px 0px; }
+
+  .technologys .right span.basket {
+    font-size: 50px;
+    margin: 0px 0px 13px 0px; }
+
+  .glipms.bg {
+    background-position: -190px -40px;
+    background-size: 121%;
+    padding: 50px 0px 60px 0px; }
+
+  .glipms.bgs {
+    padding: 50px 0px 60px 0px;
+    background-position: -190px -40px;
+    background-size: 121%; }
+
+  .technologys .right {
+    margin: -20px 0px 0px 0px; } }
+@media only screen and (max-width: 1290px) {
+  .technology .left .intro:first-child {
+    margin: 0px 0px 0px 0px; }
+
+  .technology .left .intro:first-child {
+    font-size: 40px; }
+
+  .technology .right span.lease {
+    margin: 10px 0px 10px 0px; }
+
+  .technology .right span.basket {
+    font-size: 55px; }
+
+  .ilease-para .para {
+    width: 94%; }
+
+  ection.glipms .title {
+    margin: 0px 0px 70px 0px; }
+
+  .glipms .title:after {
+    left: 45%;
+    bottom: 35px; }
+
+  .glipms .content-box {
+    padding: 20px 20px 15px 40px; }
+
+  .glipms .wrap .img {
+    width: 80%; }
+
+  .glipms .content-box {
+    margin: -250px 0px 0px 0px; }
+
+  .glipms .content-box p.para {
+    font-size: 18px;
+    line-height: 27px; }
+
+  .glipms .content-box ul li {
+    font-size: 18px;
+    line-height: 27px; }
+
+  .glipms .content-box ul li:before {
+    width: 8px;
+    height: 8px;
+    top: 9px; }
+
+  .technology .left .ilease {
+    font-size: 65px; }
+
+  .technology .left .title.ilease span {
+    font-size: 87px; }
+
+  .technologys {
+    padding: 45px 0px 170px 0px; }
+
+  .technologys .title.ilease {
+    font-size: 65px;
+    font-family: Roboto-Bold, sans-serif; }
+
+  .technologys .title.intro {
+    margin: 0px 0px 15px 0px;
+    font-size: 40px;
+    color: #ff192f; }
+
+  .ilease-para .title .f65 {
+    font-size: 55px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 55px; }
+
+  .clients {
+    background-size: 139%;
+    background-position: -250px 0px;
+    padding: 80px 0px 130px 0px; } }
+@media only screen and (max-width: 1210px) {
+  .technology .left .intro:first-child {
+    font-size: 36px;
+    line-height: 54px; }
+
+  .technology .left .ilease {
+    font-size: 60px;
+    line-height: 75px; }
+
+  .technology .left .intro:first-child {
+    font-size: 36px;
+    line-height: 54px; }
+
+  .technology .right span.tech {
+    font-size: 45px; }
+
+  .technology .right span.unique {
+    font-size: 70px;
+    line-height: 60px; }
+
+  .technology .right span.lease {
+    font-size: 52px;
+    line-height: 50px; }
+
+  .technology .right span.basket {
+    font-size: 50px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 40px; }
+
+  .ilease-para .title .f65 {
+    font-size: 50px; }
+
+  .glipms .title {
+    font-size: 36px;
+    line-height: 54px;
+    margin: 0px 0px 70px 0px; }
+
+  .glipms .title:after {
+    bottom: 45px; }
+
+  .clients .title {
+    font-size: 36px; }
+
+  .technologys .title.ilease {
+    font-size: 65px; }
+
+  .technologys .title.ilease span {
+    font-size: 87px; }
+
+  .technologys {
+    padding: 30px 0px 170px 0px; }
+
+  .technologys .right .title.main {
+    margin: 30px 0px 0px 0px; }
+
+  .technologys .right span.fully {
+    font-size: 45px;
+    margin: 0px 0px 10px 0px; }
+
+  .technologys .right span.tech {
+    font-size: 45px; }
+
+  .technologys .right span.unique {
+    font-size: 85px;
+    margin: 0px 0px 20px 0px; }
+
+  .technologys .right span.lease {
+    font-size: 50px;
+    margin: 10px 0px 10px 0px; }
+
+  .technologys {
+    background-size: 86%;
+    background-position: -125px 0px; }
+
+  .Login-smartemi {
+    font-size: 30px; }
+
+  .Login-smartemi i {
+    font-size: 26px;
+    left: 2px; } }
+@media only screen and (max-width: 1030px) {
+  .clients {
+    margin: 0px 0px 0px 0px;
+    padding: 40px 0px 90px 0px; }
+
+  .clients .title {
+    font-size: 32px; }
+
+  .clients .honeycomb-cell {
+    flex: 0 1 200px;
+    max-width: 200px;
+    height: 100px;
+    margin: 20px 0px 30px; }
+
+  .clients .honeycomb-cell__title {
+    font-size: 18px;
+    line-height: 27px;
+    width: 90%;
+    padding: 0%;
+    margin-top: -10px; }
+
+  .clients .honeycomb-cell::before,
+  .clients .honeycomb-cell::after,
+  .clients .honeycomb-cell__image {
+    width: 90%;
+    height: 185%; }
+
+  .technology {
+    min-height: 125vh;
+    background-size: 90%;
+    background-position: -145px 32px; }
+
+  .technology .left .ilease {
+    line-height: 100px; }
+
+  .technology .right {
+    padding: 80px 0px 0px 0px; }
+
+  .technology .right span.fully {
+    font-size: 40px;
+    margin: 0px 0px 5px 0px; }
+
+  .technology .right span.tech {
+    font-size: 45px;
+    margin: 0px 0px 10px 0px; }
+
+  .technology .right span.unique {
+    font-size: 70px;
+    line-height: 60px;
+    margin: 0px 0px 10px 0px; }
+
+  .technology .right span.lease {
+    font-size: 55px;
+    line-height: 50px; }
+
+  .technology .right span.basket {
+    font-size: 55px; }
+
+  .ilease-para .title {
+    font-size: 35px;
+    line-height: 50px; }
+
+  .ilease-para .para {
+    width: 96%;
+    font-size: 18px;
+    line-height: 30px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 45px; }
+
+  .ilease-para .title .f65 {
+    font-size: 45px; }
+
+  .ilease-para {
+    padding: 0px 0px 0px 0px; }
+
+  .glipms .title {
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0px 0px 50px 0px; }
+
+  .glipms .title:after {
+    left: 44%;
+    bottom: 25px; }
+
+  .glipms .content-box .title {
+    font-size: 25px;
+    margin: 0px 0px 25px 0px; }
+
+  .glipms .content-box .title:after {
+    bottom: -5px; }
+
+  .glipms.bgs {
+    background-color: #f3f3f3;
+    padding: 50px 0px 20px 0px;
+    margin: 0px 0px 30px 0px;
+    background-color: #fff; }
+
+  .glipms.bgs.last {
+    margin: 0px;
+    padding: 50px 0px 0px 0px; }
+
+  .glipms .wrap.last {
+    margin: 0px 0px 30px 0px; }
+
+  .glipms .content-box p.para span {
+    font-size: 20px; }
+
+  .technology:before {
+    min-height: 125vh;
+    background-position: -125px -55px; }
+
+  .technologys .title.intro {
+    margin: 0px 0px 10px 0px;
+    font-size: 35px; }
+
+  .technologys .title.ilease span {
+    font-size: 82px; }
+
+  .technologys .title.ilease {
+    font-size: 60px; }
+
+  .technologys .right span.fully {
+    font-size: 40px;
+    margin: 0px 0px 0px 0px; }
+
+  .technologys .right span.tech {
+    font-size: 40px;
+    margin: 0px 0px 0px 0px; }
+
+  .technologys .right span.unique {
+    font-size: 79px;
+    margin: 0px 0px 10px 0px;
+    line-height: 75px; }
+
+  .technologys .right span.lease {
+    font-size: 45px;
+    margin: 10px 0px 10px 0px; }
+
+  .technologys:before {
+    min-height: 90vh;
+    background-position: -145px -130px; }
+
+  .technologys {
+    padding: 30px 0px 100px 0px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 40px; }
+
+  .glipms {
+    background-image: none !important; }
+
+  .clients {
+    background-image: none !important; }
+
+  .Login-smartemi {
+    right: 60px; }
+
+  .Login-smartemi {
+    right: 60px;
+    padding: 13px 20px; } }
+@media only screen and (max-width: 770px) {
+  .clients .title {
+    font-size: 30px;
+    line-height: 45px; }
+
+  .ilease-para {
+    margin: 0px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 40px; }
+
+  .ilease-para .title .f65 {
+    font-size: 50px;
+    line-height: 55px; }
+
+  .ilease-para .para {
+    width: 100%;
+    text-align: center; }
+
+  .ilease-para {
+    background-size: 90%;
+    background-position: right 330px; }
+
+  .glipms .title {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0px 0px 30px 0px; }
+
+  .glipms {
+    padding: 10px 0px 30px 0px; }
+
+  .glipms .title:after {
+    left: 43%;
+    bottom: -25px; }
+
+  .glipms.bg {
+    padding: 30px 0px; }
+
+  .glipms .wrap .img {
+    width: 100%; }
+
+  .glipms.bg .wrap .img {
+    width: calc(100% + 12px);
+    position: relative;
+    left: -12px; }
+
+  .glipms.bg .wrap .img img {
+    width: calc(100% + 60px);
+    margin: 30px 0px 0px 30px;
+    margin: -15px 0px 0px -15px; }
+
+  .glipms .content-box {
+    margin: -30px 0px 0px 0px;
+    width: 100%;
+    float: left; }
+
+  .glipms .wrap .img.left {
+    float: right;
+    position: relative;
+    right: -10px;
+    width: calc(100% + 12px); }
+
+  .glipms .wrap .img.left img {
+    margin: 30px 30px 0px 0px;
+    padding-right: 30px;
+    margin: -15px 0px 0px -8px;
+    padding-right: 0px;
+    width: calc(100% + 61px);
+    position: relative;
+    right: 40px; }
+
+  .clients .title {
+    margin: 0px 0px 60px 0px; }
+
+  .clients .title:after {
+    left: 41%;
+    bottom: -25px; }
+
+  .ilease-para .title {
+    text-align: center; }
+
+  .ilease-para .title {
+    margin: 0px 0px 30px 0px; }
+
+  .technologys {
+    padding: 30px 0px 30px 0px;
+    background-size: 90%;
+    background-position: -130px top;
+    margin: 1px 0px 0px 0px;
+    overflow: hidden; }
+
+  .technologys:before {
+    background-color: #ffffff;
+    background-image: none;
+    right: 35px;
+    left: inherit;
+    top: -25px;
+    width: 41%;
+    transform: rotate(20deg); }
+
+  .technologys .title.intro {
+    margin: 0px 0px 5px 0px;
+    font-size: 30px; }
+
+  .technologys .title.ilease {
+    font-size: 50px;
+    line-height: 45px; }
+
+  .technologys .title.ilease span {
+    font-size: 69px; }
+
+  .technologys .right .title.main {
+    margin: 40px 0px 0px 0px; }
+
+  .technologys .right span.fully {
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+    line-height: 30px; }
+
+  .technologys .right span.tech {
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+    line-height: 50px; }
+
+  .technologys .right span.unique {
+    font-size: 65px;
+    margin: 0px 0px 5px 0px;
+    line-height: 50px; }
+
+  .technologys .right span.lease {
+    font-size: 35px;
+    margin: 10px 0px 0px 0px;
+    line-height: 50px; }
+
+  .technologys .right span.basket {
+    font-size: 35px;
+    margin: 0px 0px 15px 0px;
+    line-height: 40px; }
+
+  .ilease-para {
+    background-size: 70%;
+    background-position: right 330px;
+    padding: 30px 0px; }
+
+  .ilease-para .title {
+    margin: 0px 0px 30px 0px;
+    font-size: 30px;
+    line-height: 45px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 35px; }
+
+  .ilease-para .title .f65 {
+    font-size: 45px;
+    line-height: 50px; }
+
+  .Login-smartemi {
+    right: 40px;
+    padding: 13px 20px;
+    font-size: 25px;
+    min-width: 160px; }
+
+  .Login-smartemi i {
+    font-size: 22px;
+    left: 2px; }
+
+  #topBtn {
+    right: inherit !important;
+    left: 5px !important; }
+
+  .Login-smartemi {
+    right: 15px; } }
+@media only screen and (max-width: 767.5px) {
+  .clients .btn-wrap {
+    text-align: center;
+    float: left;
+    width: 100%;
+    display: block; }
+
+  .clients .btn-wrap button.more {
+    float: none;
+    width: auto;
+    position: relative;
+    top: 55px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    min-width: 200px;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 20px;
+    background: #457b9d !important;
+    font-family: Roboto-Medium, sans-serif;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #f1faee;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    border: none; }
+
+  .clients .honeycomb .w7 {
+    display: none; }
+
+  .clients .honeycomb.open .w7 {
+    display: block; }
+
+  .technologys:before {
+    right: 95px;
+    top: 0px; }
+
+  .technologys .title.intro {
+    margin: 25px 0px 5px 0px;
+    font-size: 30px;
+    line-height: 45px; }
+
+  .technologys .title.ilease {
+    font-size: 40px;
+    line-height: 40px; }
+
+  .technologys .title.ilease span {
+    font-size: 55px; }
+
+  .technologys .right span.unique {
+    font-size: 60px;
+    line-height: 50px; }
+
+  .technologys:before {
+    right: 120px;
+    top: 0px; }
+
+  .ilease-para .title .f65 {
+    font-size: 40px;
+    line-height: 45px; }
+
+  .ilease-para .para {
+    width: 101%; }
+
+  .ilease-para .title {
+    text-align: left; }
+
+  .ilease-para .para {
+    text-align: left; }
+
+  .technologys:before {
+    right: 40px;
+    top: 0px; }
+
+  .technologys .title.ilease {
+    position: relative;
+    left: 0px; } }
+@media only screen and (max-width: 670px) {
+  .technologys:before {
+    right: 100px;
+    top: 0px; } }
+@media only screen and (max-width: 560px) {
+  .clients .title {
+    font-size: 27px;
+    line-height: 40px;
+    padding: 0% 15%; }
+
+  .clients .btn-wrap button.more {
+    font-size: 18px; }
+
+  .technologys .container {
+    width: 95%;
+    max-width: 95%;
+    float: none; }
+
+  .technologys .right {
+    width: 53%;
+    background-color: #ffffffe3;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    left: 27px;
+    position: relative;
+    margin-top: 45px;
+    padding: 10px 10px 0px 10px; }
+
+  .technologys .left {
+    width: 100%;
+    text-align: left;
+    left: 0px; }
+
+  .technologys .right span.fully {
+    float: left;
+    width: auto;
+    font-size: 24px;
+    line-height: 40px;
+    padding: 0px 10px 0px 0px; }
+
+  .technologys .right span.tech {
+    float: left;
+    width: auto;
+    font-size: 24px;
+    line-height: 40px; }
+
+  .technologys .right span.unique {
+    float: left;
+    width: 100%;
+    font-size: 35px;
+    line-height: 35px;
+    position: relative;
+    left: 40px; }
+
+  .technologys .right span.lease {
+    float: left;
+    width: auto;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 0px;
+    padding: 0px 10px 0px 0px; }
+
+  .technologys .right span.basket {
+    float: left;
+    width: auto;
+    font-size: 24px;
+    line-height: 40px; }
+
+  .technologys:before {
+    transform: rotate(35deg);
+    opacity: 0; }
+
+  .technologys .right:before {
+    content: '';
+    width: 100px;
+    height: 100px;
+    /* background-color: #fff; */
+    position: absolute;
+    left: -49px;
+    top: 20px;
+    /* transform: rotate(-46deg); */
+    top: 0; }
+
+  .technologys {
+    padding: 30px 0px 0px 0px;
+    background-size: 100%;
+    background-position: 0px 0px;
+    margin: 1px 0px 0px 0px;
+    /* min-height: 418px; */ }
+
+  .ilease-para .title {
+    margin: 0px 0px 15px 0px;
+    font-size: 27px;
+    line-height: 40px; }
+
+  .ilease-para .title .f65 {
+    font-size: 35px;
+    line-height: 45px; }
+
+  .glipms .title:after {
+    left: 40%;
+    bottom: -20px; }
+
+  .glipms.bg .wrap .img img {
+    margin: -8px 0px 0px -8px; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -15px; }
+
+  .glipms .content-box {
+    padding: 15px 15px 15px 20px; }
+
+  .glipms .content-box .title span {
+    font-size: 25px; }
+
+  .glipms .content-box .title span i {
+    font-size: 34px; }
+
+  .glipms .content-box ul li:before {
+    width: 6px;
+    height: 6px;
+    top: 9px; }
+
+  .ilease-para {
+    background-size: 88%;
+    background-position: right 400px;
+    padding: 30px 0px 0px 0px; }
+
+  .glipms .title {
+    font-size: 27px;
+    line-height: 40px;
+    margin: 0px 0px 30px 0px; }
+
+  .glipms .wrap .img:after {
+    width: 100px;
+    height: 70px; }
+
+  .clients .title {
+    font-size: 26px;
+    line-height: 36px; }
+
+  .technologys .right .title.main {
+    margin: 0px 0px 0px 0px; }
+
+  .Login-smartemi {
+    right: 15px;
+    font-size: 20px;
+    padding: 5px 10px;
+    min-width: 125px; }
+
+  .Login-smartemi i {
+    font-size: 18px;
+    left: 2px; } }
+@media only screen and (max-width: 490px) {
+  .clients .title {
+    font-size: 27px;
+    line-height: 40px;
+    padding: 0% 0%; }
+
+  .technologys .title.intro {
+    display: none; }
+
+  .technologys .title.ilease {
+    margin: 10px 0px 0px 0px; }
+
+  .technologys .right {
+    width: 65%; }
+
+  .technologys .right span.unique {
+    margin: 0px 0px 0px 0px; }
+
+  .technologys .right span.unique {
+    letter-spacing: 0px; }
+
+  div#overlay .companylogo {
+    left: 30%; }
+
+  div#overlay .companycar {
+    left: 8%; }
+
+  .ilease-para .title .redcolor {
+    font-size: 32px; }
+
+  .technologys {
+    padding: 30px 0px 30px 0px;
+    background-size: 123%;
+    background-position: -100px -15px;
+    margin: 1px 0px 0px 0px; }
+
+  .technologys .right {
+    width: 63%;
+    left: 28px;
+    margin-top: 45px;
+    padding: 10px 10px 0px 10px;
+    top: 30px; }
+
+  section .container {
+    width: 95%;
+    max-width: 95%;
+    float: none; }
+
+  .glipms .wrap .img:after {
+    background-color: transparent !important; }
+
+  .Login-smartemi {
+    min-width: 115px; } }
+@media only screen and (max-width: 450px) {
+  .technologys {
+    background-size: 127%;
+    background-position: -85px 15px; }
+
+  .technologys .right {
+    width: 75%; }
+
+  .ilease-para .title {
+    margin: 0px 0px 20px 0px; }
+
+  section .container {
+    width: 95%;
+    max-width: 95%;
+    float: none; }
+
+  .glipms.bg .wrap .img img {
+    width: 145%; }
+
+  .glipms .wrap .img.left img {
+    width: 155%; }
+
+  .glipms .content-box .title {
+    font-size: 22px; }
+
+  .glipms .content-box .title span {
+    font-size: 22px; }
+
+  .glipms .content-box p.para {
+    font-size: 16px;
+    line-height: 24px; }
+
+  .glipms .content-box ul li {
+    font-size: 16px;
+    line-height: 24px;
+    float: left;
+    width: 100%; }
+
+  .glipms .content-box ul li:before {
+    left: 0px; }
+
+  .glipms .content-box ul li {
+    padding: 0px 0px 0px 20px; }
+
+  .glipms .content-box .title span i {
+    font-size: 30px; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -152px; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -152px; }
+
+  .clients .title:after {
+    left: 34%;
+    bottom: -20px; }
+
+  .ilease-para .para {
+    font-size: 16px;
+    line-height: 27px; }
+
+  .technologys .right {
+    width: 66%; }
+
+  .clients .honeycomb-cell {
+    margin-left: 25px; }
+
+  .clients .btn-wrap button.more {
+    font-size: 16px; } }
+@media only screen and (max-width: 450px) {
+  .glipms .title:after {
+    left: 39%;
+    bottom: -20px; } }
+@media only screen and (max-width: 425px) {
+  .glipms .wrap .img.left img {
+    margin: -10px 0px 0px -152px; }
+
+  .technologys .right {
+    width: 70%;
+    width: 255px; } }
+@media only screen and (max-width: 400px) {
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -148px; }
+
+  .clients .title:after {
+    left: 35%; }
+
+  .clients .honeycomb-cell {
+    margin-left: 15px; } }
+@media only screen and (max-width: 390px) {
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -150px; }
+
+  .technologys .right {
+    width: 75%; } }
+@media only screen and (max-width: 380px) {
+  .technologys .right {
+    width: 80%;
+    margin-top: 18px; }
+
+  .ilease-para .title .f65 {
+    font-size: 30px;
+    line-height: 35px; }
+
+  .ilease-para .title {
+    font-size: 26px;
+    line-height: 35px; }
+
+  .ilease-para .title .redcolor {
+    font-size: 30px; }
+
+  .glipms .title:after {
+    left: 35%; }
+
+  .main-content.clients .title:after {
+    bottom: -15px;
+    left: 33%; }
+
+  .glipms .title:after {
+    left: 35%;
+    bottom: -20px; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -136px; }
+
+  .clients .title {
+    margin: 0px 0px 45px 0px; } }
+@media only screen and (max-width: 360px) {
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -135px; } }
+@media only screen and (max-width: 350px) {
+  .technologys {
+    background-size: 130%;
+    background-position: -75px 15px; }
+
+  .technologys .right {
+    width: 88%;
+    width: 255px; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -130px; }
+
+  .clients .honeycomb-cell {
+    margin-left: 20px; } }
+@media only screen and (max-width: 340px) {
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -118px; } }
+@media only screen and (max-width: 330px) {
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -118px; } }
+@media only screen and (max-width: 320px) {
+  .technologys .right {
+    width: 95%; }
+
+  .ilease-para .title {
+    font-size: 24px; }
+
+  .glipms .title:after {
+    left: 33%; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -128px; }
+
+  .glipms .wrap .img.left img {
+    margin: -8px 0px 0px -128px; } }
+
+/*# sourceMappingURL=ilease.css.map */
