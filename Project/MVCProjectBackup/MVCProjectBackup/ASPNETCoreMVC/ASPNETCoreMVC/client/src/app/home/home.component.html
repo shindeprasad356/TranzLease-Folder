@@ -1,0 +1,329 @@
+<!-- <div class="loading-img" *ngIf="isLoading">
+  <img src="../../assets/images/loading-img.jpg" alt="">
+</div> -->
+<div class="bg-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 relative">
+        <div class="page-title">Xperience the Next Generation of Car Buying</div>
+        <div class="product-title">
+          <img src="../../assets/images/logo/smartemi.png" alt="" class="smartemi-img" />
+          <p>Drive Smart, <span>Save Smart</span></p>
+        </div>
+        <div class="car-wrap" *ngIf="!ShowSearchBox">
+          <div class="xvalue">
+            <p class="x">5X</p>
+            <p class="value">More <span>Value</span></p>
+          </div>
+          <img src="../../assets/images/homepage/range-rover.png" alt="" class="car-img" [@inOutAnimation]="ShowSearchBox" />
+          <!--<img src="../../assets/images/homepage/range-rover.png" alt="" class="car-img" />-->
+        </div>
+      </div>
+
+      <div class="col-md-3" *ngIf="!ShowSearchBox">
+        <div class="slider-wrap">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="" (click)="ShowSlider()">
+              <img src="../../assets/images/icons/check.png" alt="" /> <span>All-Inclusive</span>
+            </li>
+            <li data-target="#demo" data-slide-to="1" (click)="ShowSlider()"><img src="../../assets/images/icons/check.png" alt="" />  <span>Hassle-Free</span>  </li>
+            <li data-target="#demo" data-slide-to="2" (click)="ShowSlider()"><img src="../../assets/images/icons/check.png" alt="" /> <span>Cost-Effective</span></li>
+            <li data-target="#demo" data-slide-to="3" class="" (click)="ShowSlider()">
+              <img src="../../assets/images/icons/check.png" alt="" /> <span>
+                Expense Risk Cover
+              </span>
+            </li>
+            <li data-target="#demo" data-slide-to="4" (click)="ShowSlider()"><img src="../../assets/images/icons/check.png" alt="" />  <span>Flexi Ownership</span>  </li>
+          </ul>
+          <div #mySlider *ngIf="ShowHomepageslider"  >
+            <carousel [interval]="0">
+              <div class="xfact"><span>X</span>Factor</div>
+
+              <slide>
+                <div class="small-div">
+                  <p class="title">All-Inclusive</p>
+                  <p class="para">
+                    Lorem ipsum dolor sit ametsf
+                    consectetur adipisicing elitjg
+                    Maxime mollitia, molestiaegd
+                    quas vel sint  voluptatum ffa
+                  </p>
+                </div>
+                <div class="big-div">
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                    mollitia, molestiae quas vel sint commodi repudiandae consequ
+                    untur voluptatum laborum numquam blanditiis harum quisqua
+                    m eius sed odit
+                  </p>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                    mollitia, molestiae quas vel sint commodi repudiandae consequ
+                    untur voluptatum laborum numquam blanditiis harum quisqua
+                    m eius sed odit
+                  </p>
+                </div>
+              </slide>
+              <slide>
+                <div class="small-div">
+                  <p class="title">Hassle-Free</p>
+                  <p class="para">
+                    Lorem ipsum dolor sit ametsf
+                    consectetur adipisicing elitjg
+                    Maxime mollitia, molestiaegd
+                    quas vel sint  voluptatum ffa
+                  </p>
+                </div>
+                <div class="big-div">
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                    mollitia, molestiae quas vel sint commodi repudiandae consequ
+                    untur voluptatum laborum numquam blanditiis harum quisqua
+                    m eius sed odit
+                  </p>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                    mollitia, molestiae quas vel sint commodi repudiandae consequ
+                    untur voluptatum laborum numquam blanditiis harum quisqua
+                    m eius sed odit
+                  </p>
+                </div>
+              </slide>
+              <slide>
+                <div class="small-div">
+                  <p class="title">Cost-Effective</p>
+                  <p class="para">
+                    Lorem ipsum dolor sit ametsf
+                    consectetur adipisicing elitjg
+                    Maxime mollitia, molestiaegd
+                    quas vel sint  voluptatum ffa
+                  </p>
+                </div>
+                <div class="big-div">
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                    mollitia, molestiae quas vel sint commodi repudiandae consequ
+                    untur voluptatum laborum numquam blanditiis harum quisqua
+                    m eius sed odit
+                  </p>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                    mollitia, molestiae quas vel sint commodi repudiandae consequ
+                    untur voluptatum laborum numquam blanditiis harum quisqua
+                    m eius sed odit
+                  </p>
+                </div>
+              </slide>
+              <slide>
+                <div class="small-div">
+                  <p class="title">Expense Risk Cover</p>
+                  <p class="para">
+                    Lorem ipsum dolor sit ametsf
+                    consectetur adipisicing elitjg
+                    Maxime mollitia, molestiaegd
+                    quas vel sint  voluptatum ffa
+                  </p>
+                </div>
+                <div class="big-div">
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                    mollitia, molestiae quas vel sint commodi repudiandae consequ
+                    untur voluptatum laborum numquam blanditiis harum quisqua
+                    m eius sed odit
+                  </p>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                    mollitia, molestiae quas vel sint commodi repudiandae consequ
+                    untur voluptatum laborum numquam blanditiis harum quisqua
+                    m eius sed odit
+                  </p>
+                </div>
+              </slide>
+              <slide>
+                <div class="small-div">
+                  <p class="title">Flexi Ownership</p>
+                  <p class="para">
+                    Lorem ipsum dolor sit ametsf
+                    consectetur adipisicing elitjg
+                    Maxime mollitia, molestiaegd
+                    quas vel sint  voluptatum ffa
+                  </p>
+                </div>
+                <div class="big-div">
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                    mollitia, molestiae quas vel sint commodi repudiandae consequ
+                    untur voluptatum laborum numquam blanditiis harum quisqua
+                    m eius sed odit
+                  </p>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                    mollitia, molestiae quas vel sint commodi repudiandae consequ
+                    untur voluptatum laborum numquam blanditiis harum quisqua
+                    m eius sed odit
+                  </p>
+                </div>
+              </slide>
+              <button class="close" (click)="HideSlider()"></button>
+            </carousel>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" *ngIf="ShowSearchBox" [@inOutAnimation]="ShowSearchBox">
+
+      <div class="col-md-12">
+        <div class="search-wrap">
+
+          <accordion [isAnimated]="true" [closeOthers]="true">
+            <tabset #staticTabs>
+
+              <tab heading="Any Car">
+                <accordion-group heading="Any Car" [isOpen]="true">
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Select Location</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Mumbai</option>
+                        <option>Pune</option>
+                        <option>Hydrabad</option>
+                        <option>Karnatak</option>
+                        <option>Delhi</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect2">Select Cost</label>
+                      <select class="form-control" id="exampleFormControlSelect2">
+                        <option>5.75 - 7.50 Lakhs </option>
+                        <option>7.75 - 10.00 Lakhs </option>
+                        <option>10.00 - 15.00 Lakhs </option>
+                        <option>15.00 - 20.00 Lakhs </option>
+                        <option>20.00 - 30.00 Lakhs </option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect3">Select BodyType</label>
+                      <select class="form-control" id="exampleFormControlSelect3">
+                        <option>Roadster</option>
+                        <option>Coupe</option>
+                        <option>Hatchback</option>
+                        <option>Sedan</option>
+                        <option>SUV</option>
+                      </select>
+                    </div>
+                    <div class="btn_wrap">
+                      <button class="submit hvr-red-right" (click)=" GetSearchResultByAnyCar()"><img src="../../assets/images/icons/manycars.png" alt="" class="multicar">Show Cars</button>
+                    </div>
+                  </form>
+                </accordion-group>
+              </tab>
+              <tab heading="Specific Car">
+                <accordion-group heading="Specific Car">
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect4">Select Location</label>
+                      <select class="form-control" id="exampleFormControlSelect4">
+                        <option>Mumbai</option>
+                        <option>Pune</option>
+                        <option>Hydrabad</option>
+                        <option>Karnatak</option>
+                        <option>Delhi</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect5">Select Car Make</label>
+                      <select class="form-control" id="exampleFormControlSelect5">
+                        <option>Audi </option>
+                        <option>BMW </option>
+                        <option>Suzuki </option>
+                        <option>Fiat </option>
+                        <option>Mercedes Benz </option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect6">Select Car Model</label>
+                      <select class="form-control" id="exampleFormControlSelect6">
+                        <option>A2</option>
+                        <option>7 Series</option>
+                        <option>Range Rover Evoque </option>
+                        <option>Grand i10 Nios</option>
+                        <option>XUV 500</option>
+                      </select>
+                    </div>
+                    <div class="btn_wrap">
+                      <button type="submit" class="submit  hvr-red-right"><img src="../../assets/images/icons/white-car.png" alt="" class="singlecar">Show Car</button>
+                    </div>
+                  </form>
+                </accordion-group>
+              </tab>
+              <tab heading="Search by EMI">
+                <accordion-group heading="Search by EMI">
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect7">Select Location</label>
+                      <select class="form-control" id="exampleFormControlSelect7">
+                        <option>Mumbai</option>
+                        <option>Pune</option>
+                        <option>Hydrabad</option>
+                        <option>Karnatak</option>
+                        <option>Delhi</option>
+                      </select>
+                    </div>
+                    <div class="form-group price-range">
+                      <label class="price-range">EMI Range</label>
+                      <input type="number" class="form-control" id="exampleInput2" placeholder="To">
+                      <input type="number" class="form-control" id="exampleInput1" placeholder="From">
+                    </div>
+                    <div class="btn_wrap">
+                      <button type="submit" class="submit  hvr-red-right"><img src="../../assets/images/icons/manycars.png" alt="" class="multicar">Show Cars</button>
+                    </div>
+                  </form>
+                </accordion-group>
+              </tab>
+            </tabset>
+          </accordion>
+        </div>
+      </div>
+    </div>
+
+    <div class="row btn-wrap " *ngIf="!ShowSearchBox">
+      <div class="col-md-6 relative">
+        <button class="buy-car hvr-red-right" (click)="btnSearchCar()">
+          <img src="../../assets/images/icons/white-car.png" alt="" />Search for Car
+        </button>
+      </div>
+      <div class="col-md-6 relative">
+        <button class="buy-bike hvr-blue-right">
+          Search for Bike
+          <img src="../../assets/images/icons/motorcycles.png" alt="" />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="contact only-home">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 wrap">
+        <div class="left">
+          <a href="">
+            <img src="../../assets/images/icons/call.png" />
+            -  1800 103 9200
+          </a>
+          <a href="">
+            <img src="../../assets/images/icons/email.png" /> -   smartemi@tranzlease.com
+          </a>
+        </div>
+        <div class="right">
+          <a href="">
+            Powered By -
+            <img src="../../assets/images/logo/ICICI-Bank.png" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="back-btn-wrap" *ngIf="ShowSearchBox">
+  <button (click)="OnBack()" class="back-btn"><span>Back</span></button>
+</div>

@@ -1,0 +1,9 @@
+<H3>Create Product Details </H3>
+<form #form = "ngForm">
+ Enter name <input name="Name"  type="text" [(ngModel)]="product.Name"/>
+ Enter Code <input  name="Code" type="text" [(ngModel)]="product.Code"/>
+<input type="button" value="Show" (click)="Show(form)"/>
+</form>
+{{form.value | json}}
+
+

@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files   @import url('assets/css/src/bootstrap.min.css');*/
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+@import url('assets/css/normalize.css');
+@import url('assets/css/main.css');
+@import url('assets/css/theme.css');
+
+@import url('assets/css/homepage.css');
+@import url('assets/css/search-page.css');

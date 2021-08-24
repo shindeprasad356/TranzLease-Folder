@@ -1,0 +1,510 @@
+.search-wrap {
+    background-color: #fff;
+    float: right;
+    width: 60%;
+    padding: 50px 50px 35px 50px;
+    border-radius: 15px;
+    position: absolute;
+    right: 15px;
+    top: -330px;
+
+    .nav-tabs {
+        display: none;
+        border: none;
+    }
+   
+    
+    .nav-item {
+        margin: 0px 5px;
+        width: calc(32.7% - 5px);
+        text-align: center;
+        background-color: #efefef;
+        z-index: 9;
+        border-radius: 5px;
+
+        .nav-link {
+            padding: 0px;
+            margin: 0px;
+            span {
+                font-family: mulisemibold, sans-serif;
+                font-family: mulibold, sans-serif;
+                font-size: 22px;
+                color: #001722;
+                line-height: 60px;
+                transition: all ease 0.5s;
+                position: relative;
+                text-align: left;
+                padding-left: 70px;
+                padding-bottom: 15px;
+                float: left;
+                display: block;
+                background-color: #efefef;
+                width: 100%;
+                display: block;
+                padding: 0px 0px 0px 70px;
+            margin: 0px;
+            &.active {
+                color: #001722;
+                font-family: muliextrabold, sans-serif;
+                font-family: mulibold, sans-serif;
+                background-color: #fff;
+                width: 100%;
+                display: block;
+                transition: all ease 0.5s;
+            }
+
+            &:hover {
+                color: red;
+            }
+
+            &:before {
+                background-image: url(../images/icons/approved-signal.svg);
+                background-size: 75%;
+                background-repeat: no-repeat;
+                content: "";
+                width: 30px;
+                height: 30px;
+                display: block;
+                position: absolute;
+                z-index: 9;
+                top: 20px;
+                left: 30px;
+                transition: all ease 0.5s;
+            }
+            }
+
+            
+
+        }
+
+        .active {
+            .span {
+                color: #001722;
+                font-family: 'muliextrabold';
+                font-family: mulibold, sans-serif;
+                font-size: 22px;
+                transition: all ease 0.5s;
+            }
+
+        }
+
+        .active:before {
+            background-image: url(../images/icons/approved-signals.png);
+            transition: all ease 0.5s;
+        }
+
+    }
+    .nav-item.active span {
+        background-color: #fff;
+    }
+    .active.nav-item .nav-link span:before {
+    background-image: url(../images/icons/approved-signals.png);
+    transition: all ease 0.5s;
+}
+
+    .tab-content {
+        border-top: 1px solid #ddd;
+        margin: -1px 0px 0px 0px;
+        float: left;
+        width: calc(100% - 15px);
+        position: relative;
+        left: 5px;
+    }
+
+    .form-group {
+        margin: 15px 0px 35px 0px;
+        float: left;
+        width: 100%;
+
+        label {
+            font-family: 'mulisemibold';
+            font-size: 22px;
+            line-height: 33px;
+            margin: 10px 0px 10px 0px;
+            font-family: mulibold, sans-serif;
+            color: #e51012;
+            position: relative;
+            padding: 0px 0px 0px 30px;
+            float: left;
+            width: auto;
+
+            &:before {
+                background-image: url(../images/icons/approved-signal.svg);
+                background-size: 65%;
+                background-repeat: no-repeat;
+                content: "";
+                width: 8px;
+                height: 8px;
+                display: block;
+                position: absolute;
+                z-index: 9;
+                top: 14px;
+                left: 10px;
+                background-image: none;
+                background-color: #ab0808;
+                border-radius: 50px;
+            }
+
+        }
+
+        select {
+            font-family: muliregular,sans-serif;
+            font-size: 22px;
+            line-height: 33px;
+            height: 60px !important;
+            float: right;
+            width: 73.7%;
+            padding: 0px 15px;
+            box-shadow: none !important;
+            color: #001722;
+            background-color: #efefef;
+            border: none;
+            position: relative;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border: 1px solid #e0e0e0;
+            background-image: url(../images/icons/down.png);
+            background-size: 22px;
+            background-repeat: no-repeat;
+            background-position: 98% 20px;
+
+            option {
+                font-family: muliregular, sans-serif;
+                font-size: 18px;
+                line-height: 27px;
+                color: #001722;
+            }
+
+        }
+
+        ::-webkit-input-placeholder {
+            font-family: muliregular, sans-serif;
+            font-size: 22px;
+            color: #001722;
+        }
+
+        :-ms-input-placeholder {
+            font-family: muliregular, sans-serif;
+            font-size: 22px;
+            color: #001722;
+        }
+
+        ::placeholder {
+            font-family: muliregular, sans-serif;
+            font-size: 22px;
+            color: #001722;
+        }
+
+        &.price-range {
+            .price-range {
+                float: left;
+                width: auto;
+                margin: 0px 0px 20px 0px;
+                display: block;
+                position: relative;
+                top: 12px;
+            }
+
+            input {
+                float: right;
+                width: 36%;
+                font-family: muliregular, sans-serif;
+                font-size: 20px;
+                line-height: 33px;
+                height: 60px !important;
+                float: right;
+                padding: 0px 15px;
+                padding: 0px 15px 5px 15px;
+                box-shadow: none !important;
+                color: #001722;
+                background-color: #efefef;
+                border: none;
+                position: relative;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                border: 1px solid #e0e0e0;
+                margin: 0px 0px 0px 15px;
+            }
+
+            span {
+                float: left;
+                font-family: mulibold, sans-serif;
+                color: #e51012;
+                width: auto;
+                padding: 0px 15px 0px 0px;
+                font-size: 22px;
+                line-height: 33px;
+                display: block;
+                width: auto;
+                text-align: right;
+                min-width: 80px;
+                position: relative;
+                top: 12px;
+            }
+
+        }
+
+    }
+
+    .card-body {
+        float: left;
+        width: 100%;
+        padding: 40px 10px 0px 0px;
+    }
+
+    .btn_wrap {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+
+        .submit {
+            background-color: #B20305;
+            color: #fff;
+            font-family: 'Muli-SemiBold';
+            font-size: 24px;
+            border: none;
+            box-shadow: none;
+            padding: 10px 45px 10px 45px;
+            font-family: 'mulisemibold';
+            font-family: muliregular, sans-serif;
+            cursor: pointer;
+            line-height: 40px;
+            text-decoration: none;
+        }
+
+    }
+
+}
+.search-wrap .nav-item.active .nav-link span:before {
+    background-image: url(../images/icons/approved-signals.png);
+    transition: all ease 0.5s;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .active .nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    height: 70px;
+}
+
+.search-wrap .btn_wrap .submit img {
+    width: 45px;
+    float: left;
+    position: relative;
+    top: 0px;
+    margin: 0px 15px 0px 0px;
+}
+.search-wrap .btn_wrap .submit img.multicar {
+    width: 78px;
+    float: left;
+    position: relative;
+    top: 0px;
+    margin: 0px 15px 0px 0px;
+}
+
+@media(min-width:768px) {
+    .search-wrap .nav-tabs {
+        display: flex;
+    }
+
+    .search-wrap .card {
+        border: none;
+    }
+
+    .search-wrap .card .card-header {
+        display: none;
+    }
+
+    .search-wrap .card .collapse {
+        display: block;
+    }
+    .search-wrap .card .panel-collapse {
+        display: block !important;
+    }
+
+}
+
+@media(max-width:767px) {
+    .search-wrap .tab-content > .tab-pane {
+        display: block !important;
+        opacity: 1;
+    }
+
+}
+
+@media(max-width:1550px) {
+    .search-wrap .nav-item {
+        width: calc(32.5% - 5px);
+    }
+
+    .search-wrap {
+        padding: 35px 35px 25px 35px;
+        width: 57%;
+    }
+
+    .search-wrap .nav-item .nav-link span:before {
+        left: 18px;
+    }
+
+    .search-wrap .nav-item .nav-link span{
+        font-size: 20px;
+        padding-left: 55px;
+    }
+
+    .search-wrap .nav-item .nav-link.active span{
+        font-size: 20px;
+    }
+
+    .search-wrap .card-body {
+        padding: 25px 10px 0px 0px;
+    }
+
+    .search-wrap .form-group label {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .search-wrap .form-group {
+        margin: 15px 0px 30px 0px;
+    }
+
+    .search-wrap .form-group select {
+        font-size: 20px;
+        line-height: 30px;
+        width: 71.7%;
+    }
+
+    .search-wrap .btn_wrap .submit {
+        font-size: 20px;
+    }
+
+    .search-wrap {
+        top: -305px;
+    }
+
+}
+
+@media(max-width:1500px) {
+    .search-wrap .form-group select {
+        background-position: 96% 18px;
+    }
+
+}
+
+@media(max-width:1450px) {
+    .search-wrap {
+        top: -280px;
+    }
+
+    .search-wrap .form-group select {
+        width: 66%;
+    }
+
+    .search-wrap .form-group label:before {
+        top: 12px;
+    }
+
+    .search-wrap .form-group {
+        margin: 10px 0px 25px 0px;
+    }
+
+    .search-wrap .form-group.price-range input {
+        width: 32%;
+    }
+
+    .search-wrap .nav-item .nav-link span:before {
+        background-size: 70%;
+        top: 21px;
+    }
+
+    .search-wrap .btn_wrap .submit img {
+        width: 42px;
+        margin: 0px 15px 0px 0px;
+    }
+
+    .search-wrap .btn_wrap .submit {
+        padding: 10px 30px 10px 30px;
+    }
+    .search-wrap .form-group.price-range input {
+  
+    height: 55px !important;}
+    .search-wrap .btn_wrap .submit img.multicar {
+        width: 72px;}
+}
+
+@media(max-width:1370px) {
+    .search-wrap .form-group {
+        margin: 10px 0px 15px 0px;
+    }
+
+    .search-wrap .card-body {
+        padding: 15px 10px 0px 0px;
+    }
+
+    .search-wrap .btn_wrap .submit img {
+        width: 38px;
+    }
+
+    .search-wrap .btn_wrap .submit {
+        font-size: 18px;
+        padding: 6px 30px 6px 30px;
+        line-height: 37px;
+    }
+
+    .search-wrap .form-group select {
+        height: 55px !important;
+    }
+
+    .search-wrap .nav-item .nav-link span {
+        padding-left: 50px;
+    }
+
+    .search-wrap .form-group select {
+        background-position: 96% 16px;
+        background-size: 20px;
+    }
+
+    .search-wrap {
+        top: -265px;
+    }
+
+    .search-wrap .nav-item .nav-link.active span{
+        font-size: 18px;
+    }
+
+    .search-wrap .nav-item .nav-link span{
+        font-size: 18px;
+    }
+
+    .search-wrap .form-group select {
+        font-size: 18px;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 18px !important;
+    }
+
+    :-ms-input-placeholder {
+        font-size: 18px !important;
+    }
+
+    ::placeholder {
+        font-size: 18px !important;
+    }
+
+    .search-wrap .form-group label {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
+}
+
+@media(max-width:1290px) {
+.search-wrap .btn_wrap .submit {
+
+    padding: 6px 24px 6px 24px;
+   
+}
+}

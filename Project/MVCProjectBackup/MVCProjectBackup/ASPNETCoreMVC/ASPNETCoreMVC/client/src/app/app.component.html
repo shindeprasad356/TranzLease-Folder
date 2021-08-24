@@ -1,0 +1,10 @@
+<div class="main-wrap">
+  <app-header></app-header>
+  <!--<div class='' [@fadeAnimation]="o.isActivated ? o.activatedRoute : ''">
+    <router-outlet #o="outlet"></router-outlet>
+  </div>-->
+  <router-outlet></router-outlet>
+</div>
+<div *ngIf="route.url !='/home'">
+  <app-footer></app-footer>
+</div>
