@@ -17,6 +17,8 @@ import { SliderComponent } from './slider/slider.component';
 import { SearchresultComponent } from './search/search.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { ModalModule } from 'ngx-bootstrap/modal';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +41,9 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
     ButtonsModule.forRoot(),
     TabsModule.forRoot(),
     CarouselModule.forRoot(),
-    AccordionModule.forRoot()
+    AccordionModule.forRoot(),
+    ModalModule.forRoot(),
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent],

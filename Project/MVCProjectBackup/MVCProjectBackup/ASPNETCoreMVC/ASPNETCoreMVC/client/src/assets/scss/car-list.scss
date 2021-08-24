@@ -118,6 +118,10 @@
 .car-card img {
     width: 75px;
     margin: 10px 0px 5px 0px;
+    float: none;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .car-card .car-title {
@@ -412,7 +416,7 @@
     background-color: rgba(255, 255, 255, 0.12);
 }
 
-div.carcard-slider .car-card {
+.carcard-slider .car-card {
 
     /* width: calc(32% - 30px);*/
     float: left;   /* margin: 0% 25px;*/
@@ -424,14 +428,15 @@ div.carcard-slider .car-card {
     overflow: hidden;
     transition: all ease 0.5s;
     padding: 0px 0px 12px 0px;
+    margin-top: 10px;
 }
 
-div.carcard-slider .car-card:hover {
+.carcard-slider .car-card:hover {
     transition: all ease 0.5s;
     background-color: #3e3e3e0f;
 }
 
-div.carcard-slider .car-card:after {
+.carcard-slider .car-card:after {
     content: "";
     background-image: url(../images/car-list/glassss.png);
     position: absolute;
@@ -439,18 +444,63 @@ div.carcard-slider .car-card:after {
     left: 0px;
     top: 0px;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
     opacity: 1;
     display: block;
     opacity: 0.8;
     transition: all ease 0.5s;
 }
+.carcard-slider .slick-slide {
 
-div.carcard-slider .car-card:hover:after {
+    padding: 0px 15px;
+}
+.carcard-slider .car-card * {
+    position: relative;
+    z-index: 9;
+}
+.carcard-slider .car-card:hover:after {
     transition: all ease 0.5s;
     opacity: 1;
 }
+.carcard-slider .slick-dots {
+    margin: 0 auto;
+    float: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 
+.carcard-slider .slick-dots li {
+    float: left;
+    width: auto;
+}
+
+.carcard-slider .slick-dots li button {
+    color: transparent;
+    border-radius: 50px;
+    width: 25px;
+    height: 20px;
+    margin: 0px 5px;
+    border: none;
+    background-color: #ddd;
+    opacity: 0.6;
+    background-color: #90181a;
+    border: 2px solid #dddddd;
+}
+
+.carcard-slider .slick-dots .slick-active button {
+    border: 2px solid #dddddd;
+    width: 30px;
+    height: 25px;
+    opacity: 1;
+    position: relative;
+    top: -2px;
+    background-color: #90181a;
+    border: 2px solid #dddddd;
+}
+.carcard-slider .slick-dots ::marker {
+    content: none;
+}
 .bg-wrap .sort-by-wrap {
     background-size: 100% !important;
     background-position: 0px 0px;
@@ -531,17 +581,42 @@ div.carcard-slider .car-card:hover:after {
     transition: all ease 0.5s;
     right: 853px;
 }
-
+.carcard-slider .slick-prev {
+    z-index: 999;
+    left: initial !important;
+    top: 51%;
+    top: 470px;
+    background-color: #b20305;
+    background-color: #90181a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 1;
+    transition: all ease 0.5s;
+    right: 853px; 
+    color: transparent;
+    border: none;
+    box-shadow: none;
+    position: absolute;
+    left: -10px !important;
+    top: 15%;
+}
 .carcard-slider .carousel-control-prev-icon {
     background-image: url(../images/icons/left.png);
     background-size: 40px;
 }
+.carcard-slider .slick-prev {
+    background-image: url(../images/icons/left.png);
+    background-size: 40px;
+    background-position: 3px 5px;
+}
 
 .carcard-slider .carousel-control-prev {
-    left: -88px;
+    left: -105px;
     opacity: 1;
     top: 30%;
     bottom: inherit;
+    z-index: 9;
 }
 
 .carcard-slider .carousel-control-next-icon {
@@ -558,18 +633,42 @@ div.carcard-slider .car-card:hover:after {
     transition: all ease 0.5s;
     right: 853px;
 }
+.carcard-slider .slick-next {
+    z-index: 999;
+    left: initial !important;
+    top: 51%;
+    top: 470px;
+    background-color: #b20305;
+    background-color: #90181a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 1;
+    transition: all ease 0.5s;
+    right: 853px; color: transparent;
+    border: none;
+    box-shadow: none;
+    position: absolute;
+    right: -10px !important;
+    top: 15%;
+}
 
 .carcard-slider .carousel-control-next-icon {
     background-image: url(../images/icons/left.png);
     background-size: 40px;
     transform: rotate(180deg);
 }
-
+.carcard-slider .slick-next {
+    background-image: url(../images/icons/left.png);
+    background-size: 40px;
+    transform: rotate(180deg);    background-position: 3px 5px;
+}
 .carcard-slider .carousel-control-next {
-    right: -88px;
+    right: -105px;
     opacity: 1;
     top: 30%;
     bottom: inherit;
+    z-index: 9;
 }
 
 .carcard-slider .carousel-control-next:hover .carousel-control-next-icon {
@@ -604,14 +703,14 @@ div.carcard-slider .car-card:hover:after {
 .car-card .emi img {
     width: 42px;
     position: relative;    /* top: -9px; */
-    margin-top: 5px;
+    margin-top: 5px;    display: inline-block;
 }
 
 .car-card .ex-showroom span img {
     width: 30px;
     position: relative;
     margin-top: 5px;
-    left: 2px;
+    left: 2px;    display: inline-block;
 }
 
 .car-card a.btn:hover {
@@ -684,15 +783,15 @@ div.carcard-slider .car-card:hover:after {
 }
 
 
-.view_plan .modal-dialog {
+ .modal .modal-dialog {
     max-width: initial;
 }
 
-.view_plan .modal-content {
+ .modal .modal-content {
     background-color: transparent;
 }
 
-.view_plan .modal-title {
+ .modal .modal-title {
     font-family: muliextrabold, sans-serif;
     font-size: 36px;
     color: #fff;
@@ -700,17 +799,17 @@ div.carcard-slider .car-card:hover:after {
     text-align: center;
 }
 
-.view_plan .modal-title img {
+ .modal .modal-title img {
     width: 50px;
 }
 
-.view_plan .modal-title span {
+ .modal .modal-title span {
     color: #B20305;
     font-family: muliextrabold, sans-serif;
     font-size: 36px;
 }
 
-.view_plan .modal-header {
+ .modal .modal-header {
     border: none;
 }
 .glass-view {
@@ -728,6 +827,36 @@ div.carcard-slider .car-card:hover:after {
     margin: 0px 0px 30px 0px;
     min-height: 270px;
 }
+.glass-view * {
+    position: relative;
+    z-index: 9;
+}
+.modal-header .close {
+    right: 70px;
+    top: 26%;
+    width: 66px;
+    opacity: 1 !important;
+    width: 60px;
+    height: 70px;
+  
+    background-image: url(../images/icons/cancel.png);
+    transition: all ease 0.5s;
+    background-size: 100%;
+    transform: rotate(
+270deg
+);
+    position: absolute;
+    right: 0px;
+    top: 26%;
+    top: 80px;
+    width: 60px;
+    opacity: 1 !important;
+    background-repeat: no-repeat;
+    z-index: 9;
+    color: transparent;
+    cursor: pointer;
+}
+
 .glass-view:after {
 content: "";
     background-image: url(../images/car-list/glassss.png);
@@ -736,7 +865,7 @@ content: "";
     left: 0px;
     top: 0px;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
     opacity: 1;
     display: block;
     opacity: 0.9;
@@ -746,69 +875,69 @@ content: "";
     background-position: 0px -25px;
 }
 
-.view_plan .modal-dialog {
+ .modal .modal-dialog {
     max-width: 75%;
     top: 5%;
 }
 
-.view_plan .modal-content {
+ .modal .modal-content {
     background-color: transparent;
 }
 
-.view_plan .modal-title {
+ .modal .modal-title {
     font-family: muliextrabold, sans-serif;
     font-size: 36px;
     color: #fff;
     width: 100%;
     text-align: center;
 }
-.view_plan .right .glass-view .sel-plan {
+ .modal .right .glass-view .sel-plan {
     position: absolute;
     right: 30px;
     top: 35%;
 }
 
-.view_plan .left .glass-view .sel-plan {
+ .modal .left .glass-view .sel-plan {
     position: absolute;
     left: 30px;
     top: 35%;
 }
 
-.view_plan .left .glass-view .para {
+ .modal .left .glass-view .para {
 text-align:right;
 float: right;
 }
-.view_plan .left .glass-view .title {
+ .modal .left .glass-view .title {
 text-align:right;
 float: right;
 }
-.view_plan .modal-title img {
+ .modal .modal-title img {
     width: 50px;
 }
 
-.view_plan .modal-title span {
+ .modal .modal-title span {
     color: #B20305;
     font-family: muliextrabold, sans-serif;
     font-size: 36px;
 }
 
-.view_plan .modal-header {
+ .modal .modal-header {
     border: none;
 }
 
-.view_plan .glass.wrap {
+ .modal .glass.wrap {
     padding: 60px 30px;
     width: 100%;
 }
 
-.view_plan .title {
+ .modal .title {
     font-family: 'muliextrabold';
     font-size: 32px;
     color: #fff;
     margin: 0px 0px 25px 0px;
 }
 
-.view_plan .para {
+ .modal .para {
     font-family: 'muliextralight';
     font-size: 22px;
     line-height: 33px;
@@ -818,17 +947,17 @@ float: right;
 
 }
 
-.view_plan .img {
+ .modal .img {
     width: 100%;
     text-align: center;margin-top: -20px;
 }
 
-.view_plan .img img {
+ .modal .img img {
     width: 30%;
     margin: 0px 0px 30px 0px;
 }
 
-.view_plan .label {
+ .modal .label {
     width: 100%;
     text-align: center;
     color: #9FA5DC;
@@ -836,15 +965,15 @@ float: right;
     font-size: 28px;
 }
 
-.view_plan  {
+ .modal  {
     background-color: #020008ba;
 }
 
-.view_plan .modal-footer {
+ .modal .modal-footer {
     border: none;
 }
 
-.view_plan .btn.slc_plan {
+ .modal .btn.slc_plan {
     background-color: #C9C9C9;
     color: #000;
     font-family: 'mulisemibold';
@@ -859,7 +988,7 @@ float: right;
     padding-left: 1.25rem;
     border: 1px solid #C9C9C9;
     display: inline-block;
-    padding: 8px 15px 10px 15px;
+    padding: 8px 20px 10px 20px;
     width: auto;
     margin: 10px 0px 0px 0px;
 }
@@ -887,8 +1016,8 @@ float: right;
 }
 
 .sel-plan .form-check-input[type=radio].filled-in:checked + label:before, .sel-plan label.btn input[type=radio].filled-in:checked + label:before {
-    top: 8px;
-    left: 17px;
+    top: 5px;
+    left: -5px;
     width: 8px;
     height: 16px;
     border-top: 2px solid transparent;
@@ -1000,8 +1129,8 @@ float: right;
 
 .custom-radio .custom-control-label::before {
     position: absolute;
-    top: 3px;
-    left: 15px;
+    top: 5px;
+    left: -5px;
     display: block;
     width: 30px;
     height: 30px;
@@ -1011,8 +1140,9 @@ float: right;
 }
 .custom-radio .custom-control-input:checked~.custom-control-label::after {
     /* background-image: url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E); */
-    top: 18px;
-    left: 20px;
+    top: 11px;
+    background-image: none;
+    left: 0px;
     width: 8px;
     height: 16px;
     border-top: 2px solid transparent;

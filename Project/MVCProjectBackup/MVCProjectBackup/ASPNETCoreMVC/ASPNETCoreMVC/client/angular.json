@@ -29,10 +29,13 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/font/stylesheet.css"
+              "src/assets/font/stylesheet.css",
+              "node_modules/slick-carousel/slick/slick.scss"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "src/assets/js/src/jquery-3.3.1.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/slick-carousel/slick/slick.min.js"
             ],
           },
           "configurations": {

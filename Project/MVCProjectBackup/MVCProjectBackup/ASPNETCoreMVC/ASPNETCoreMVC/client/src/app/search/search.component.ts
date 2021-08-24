@@ -1,6 +1,6 @@
-import { Component, Inject } from '@angular/core';
+import { Component, Inject,TemplateRef } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
+import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',
@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 
 export class SearchresultComponent {
   //public SearchResult: VMSearchResult[];
-
+  modalRef: BsModalRef;
   SearchResult: VMSearchResult[] = [
     { Make: 'Honda', Model: 'Honda', Variant: 'Honda', VehicleID: 10001, Exshowroom: 800000 },
     { Make: 'Honda', Model: 'Honda', Variant: 'Honda', VehicleID: 10002, Exshowroom: 800000 },
@@ -23,7 +23,7 @@ export class SearchresultComponent {
     { Make: 'Honda', Model: 'Honda', Variant: 'Honda', VehicleID: 10010, Exshowroom: 800000 },
   ];
 
-  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
+  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string,private modalService: BsModalService) {
     //http.get<VMSearchResult[]>(baseUrl + 'api/VehicleSearch/GetAllVehicleSearchResult').subscribe(result => {
     //  this.SearchResult = result;
     //  console.log(result);
@@ -32,6 +32,31 @@ export class SearchresultComponent {
 
   public ViewDetails() {
   }
+  slideConfig = {"slidesToShow": 3, "slidesToScroll": 3, "dots": true};
+  
+  slickInit(e:any) {
+    console.log('slick initialized');
+  }
+    
+  breakpoint(e:any) {
+    console.log('breakpoint');
+  }
+    
+  afterChange(e:any) {
+    console.log('afterChange');
+  }
+    
+  beforeChange(e:any) {
+    console.log('beforeChange');
+  }
+
+  openModal(template: TemplateRef<any>) {
+    this.modalRef = this.modalService.show(template, {class: 'modal-lg'});
+    this.modalRef.setClass('view-plan');
+  }
+
+ 
+    
 }
 
 interface VMSearchResult {

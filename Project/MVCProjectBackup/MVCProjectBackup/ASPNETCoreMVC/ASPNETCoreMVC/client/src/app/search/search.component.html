@@ -1,4 +1,4 @@
-
+<!-- 
 
 <div class="container">
   <div class="row">
@@ -15,4 +15,269 @@
       </slide>
     </carousel>
   </div>
+</div> -->
+<div class="bg-wrap">
+  <div class="container">
+    
+     <div class="row car-list-row">
+        <div class="col-md-12">
+           <div class="top-btn-wrap">
+              <div class="btn fac-car hvr-sweep-to-left"><img src="../../assets/images/icons/many_cars.png" alt="">Favorite Cars : <span>01</span></div>
+              <div class="btn num-car hvr-sweep-to-left"><img src="../../assets/images/icons/manycars.png" alt="">Total Cars : <span>08</span></div>
+           </div>
+        </div>
+        <div class="col-md-2">
+           <div class="sort-by-wrap ">
+              <p class="title relative">Filter By <img src="../../assets/images/icons/filter.png" alt="Filter Icon"></p>
+              <form class="relative">
+                 <div class="scroll-wrap">
+                    <div class="form-group">
+                       <label for="exampleFormControlSelect1">Location</label>
+                       <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Mumbai</option>
+                          <option>Pune</option>
+                          <option>Hydrabad</option>
+                          <option>Karnatak</option>
+                          <option>Delhi</option>
+                       </select>
+                    </div>
+                    <div class="form-group">
+                       <label for="exampleFormControlSelect3">Make</label>
+                       <select class="form-control" id="exampleFormControlSelect3">
+                          <option>Audi </option>
+                          <option>BMW </option>
+                          <option>Mercedes Benz </option>
+                          <option>Morris Garages </option>
+                          <option>Suzuki </option>
+                       </select>
+                    </div>
+                    <div class="form-group">
+                       <label for="exampleFormControlSelect4">Model</label>
+                       <select class="form-control" id="exampleFormControlSelect4">
+                          <option>A7 </option>
+                          <option>5 Series </option>
+                          <option>Maybach GLS 600 </option>
+                          <option>Gloster </option>
+                          <option>Baleno </option>
+                       </select>
+                    </div>
+     
+                    <div class="form-group">
+                       <label for="exampleFormControlSelect5">BodyType</label>
+                       <select  class="form-control" id="exampleFormControlSelect5">
+                          <option>Roadster</option>
+                          <option>Coupe</option>
+                          <option>Hatchback</option>
+                          <option>Sedan</option>
+                          <option>SUV</option>
+                       </select>
+                    </div>
+                    <div class="form-group">
+                       <label for="exampleFormControlSelect6">Fuel Type</label>
+                       <select  class="form-control" id="exampleFormControlSelect6">
+                          <option>Petrol</option>
+                          <option>Diesel</option>
+                          <option>Electric</option>
+                       </select>
+                    </div>
+                    <div class="form-group">
+                       <label for="exampleFormControlSelect7">Transmission</label>
+                       <select  class="form-control" id="exampleFormControlSelect7">
+                          <option>Auto</option>
+                          <option>Manual</option>
+                          <option>AMT</option>
+                          <option>CVT</option>
+                       </select>
+                    </div>
+                 </div>
+                 <div class="btn_wrap">
+                    <button type="submit" class="submit hvr-red-right">Apply <img src="../../assets/images/icons/checklists.png" alt="checklist icon"></button>
+                 </div>
+              </form>
+           </div>
+        </div>
+        <div class="col-md-10 pl-25">
+               <ngx-slick-carousel class="carousel carcard-slider" 
+                        #slickModal="slick-carousel" 
+                        [config]="slideConfig" 
+                        (init)="slickInit($event)"
+                        (breakpoint)="breakpoint($event)"
+                        (afterChange)="afterChange($event)"
+                        (beforeChange)="beforeChange($event)">
+        <div ngxSlickItem *ngFor="let slide of SearchResult" class="slide">
+          <div class="car-card">
+            <img src="../../assets/images/icons/car-logos/hundai.png" class="car-logo" alt="Hundai Logo">
+            <h2 class="car-title">Hundai i20</h2>
+            <p class="car-detail"><span>Model :</span> 1.5 High MT</p>
+            <p class="car-detail"><span>Fuel :</span> Petrol</p>
+            <p class="car-detail"><span>Transmission :</span> Manual</p>
+            <h4 class="smartemi">SmartEMI starts from</h4>
+            <h1 class="emi"><img src="../../assets/images/icons/rupeed.png" alt="Rupee Logo"> 23,433,687</h1>
+            <p class="ex-showroom">Ex-Showrrom Before Discount <span><img src="../../assets/images/icons/rupeed.png" alt="Rupee Logo"> 567,239</span></p>
+            <p class="text">with full tenor insurance &amp; maintenance + Bonus and Referrals</p>
+            <a class="btn select-plan hvr-sweep-to-top" (click)="openModal(template)" >View Plan</a>
+            <a href="" class="btn select-variant hvr-sweep-to-top">Other Variants</a>
+            <div class="sel-fav-wrap">
+               <div class="form-check checkbox-rounded checkbox-living-coral-filled hvr-sweep-to-right">
+                  <input type="checkbox" class="form-check-input filled-in" id="roundedExample9" >
+                  <label class="form-check-label" for="roundedExample9"> <span>Mark as favorite</span></label>
+               </div>
+            </div>
+         </div>
+        </div>
+</ngx-slick-carousel>
+           <!-- <div id="car-card-slider" class="carousel slide carcard-slider" >
+             
+              <ul class="carousel-indicators">
+                 <li data-target="#car-card-slider" data-slide-to="0" class="active"></li>
+                 <li data-target="#car-card-slider" data-slide-to="1"></li>
+                 <li data-target="#car-card-slider" data-slide-to="2"></li>
+              </ul>
+            
+              <div class="carousel-inner">
+                 <div class="carousel-item active sections group">
+                    <div class="car-card col span_1_of_3">
+                       <img src="../../assets/images/icons/car-logos/toyota.png" class="car-logo" alt="Toyota Logo">
+                       <h2 class="car-title">Toyota urban Cruiser</h2>
+                       <p class="car-detail"><span>Model :</span> 1.5 High MT</p>
+                       <p class="car-detail"><span>Fuel :</span> Petrol</p>
+                       <p class="car-detail"><span>Transmission :</span> Manual</p>
+                       <h4 class="smartemi">SmartEMI starts from</h4>
+                       <h1 class="emi"><img src="../../assets/images/icons/rupeed.png" alt="Rupee Logo"> 22,433,687</h1>
+                       <p class="ex-showroom">Ex-Showrrom Before Discount <span><img src="../../assets/images/icons/rupeed.png" alt="Rupee Logo"> 367,239</span></p>
+                       <p class="text">with full tenor insurance &amp; maintenance + Bonus and Referrals</p>
+                       <a href="" class="btn select-plan hvr-sweep-to-top" data-toggle="modal" data-target="#viewplan">View Plan</a>
+                       <a href="" class="btn select-variant hvr-sweep-to-top">Other Variants</a>
+                       <div class="sel-fav-wrap">
+                          <div class="form-check checkbox-rounded checkbox-living-coral-filled hvr-sweep-to-right">
+                             <input type="checkbox" class="form-check-input filled-in" id="roundedExample1" >
+                             <label class="form-check-label" for="roundedExample1"> <span>Mark as favorite</span></label>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="car-card col span_1_of_3">
+                       <img src="../../assets/images/icons/car-logos/suzuki.png" class="car-logo" alt="Suzuki Logo">
+                       <h2 class="car-title">Suzuki Brezza</h2>
+                       <p class="car-detail"><span>Model :</span> 1.5 High MT</p>
+                       <p class="car-detail"><span>Fuel :</span> Diesel</p>
+                       <p class="car-detail"><span>Transmission :</span> Automatic</p>
+                       <h4 class="smartemi">SmartEMI starts from</h4>
+                       <h1 class="emi"><img src="../../assets/images/icons/rupeed.png" alt="Rupee Logo"> 24,433,687</h1>
+                       <p class="ex-showroom">Ex-Showrrom Before Discount <span><img src="../../assets/images/icons/rupeed.png" alt="Rupee Logo"> 667,239</span></p>
+                       <p class="text">with full tenor insurance &amp; maintenance + Bonus and Referrals</p>
+                       <a href="" class="btn select-plan hvr-sweep-to-top">View Plan</a>
+                       <a href="" class="btn select-variant hvr-sweep-to-top">Other Variants</a>
+                       <div class="sel-fav-wrap">
+                          <div class="form-check checkbox-rounded checkbox-living-coral-filled hvr-sweep-to-right">
+                             <input type="checkbox" class="form-check-input filled-in" id="roundedExample2" >
+                             <label class="form-check-label" for="roundedExample2"> <span>Mark as favorite</span></label>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="car-card col span_1_of_3">
+                       <img src="../../assets/images/icons/car-logos/hundai.png" class="car-logo" alt="Hundai Logo">
+                       <h2 class="car-title">Hundai Venue</h2>
+                       <p class="car-detail"><span>Model :</span> 1.5 High MT</p>
+                       <p class="car-detail"><span>Fuel :</span> Petrol</p>
+                       <p class="car-detail"><span>Transmission :</span> Manual</p>
+                       <h4 class="smartemi">SmartEMI starts from</h4>
+                       <h1 class="emi"><img src="../../assets/images/icons/rupeed.png" alt="Rupee Logo"> 23,433,687</h1>
+                       <p class="ex-showroom">Ex-Showrrom Before Discount <span><img src="../../assets/images/icons/rupeed.png" alt="Rupee Logo"> 567,239</span></p>
+                       <p class="text">with full tenor insurance &amp; maintenance + Bonus and Referrals</p>
+                       <a href="" class="btn select-plan hvr-sweep-to-top">View Plan</a>
+                       <a href="" class="btn select-variant hvr-sweep-to-top">Other Variants</a>
+                       <div class="sel-fav-wrap">
+                          <div class="form-check checkbox-rounded checkbox-living-coral-filled hvr-sweep-to-right">
+                             <input type="checkbox" class="form-check-input filled-in" id="roundedExample3" >
+                             <label class="form-check-label" for="roundedExample3"> <span>Mark as favorite</span></label>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                
+              </div>
+            
+              <a class="carousel-control-prev" href="#car-card-slider" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#car-card-slider" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+              </a>
+           </div> -->
+        </div>
+     </div>
+
+
+  </div>
 </div>
+
+
+  <ng-template #template >
+    <div class="modal-header">
+      <h4 class="modal-title"><img src="../../assets/images/icons/choose.png" alt="Choose Icon"> Choose the <span>Plan</span> that suits your Personality.</h4>
+                      
+      <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+       
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="row right">
+        <div class="col-md-8">
+           <div class="glass-view wrap">
+              <h4 class="title">Flexi Own Plan</h4>
+              <p class="para">Lorem ipsum dolor sit amet consectetur 
+                 adipisicing elit.Maxime mollitia,molestiae 
+                 quas vel sint commodi repudiandae, Lorem ipsum dolor sit amet 
+              </p>
+              <!-- <a href="" class="btn slc_plan">Select Plan</a> -->
+              <div class="sel-plan">
+                 <!--  <div class="form-check checkbox-rounded checkbox-living-coral-filled hvr-sweep-to-right">
+                    <input type="radio" class="form-check-input filled-in" id="roundedExample10" >
+                    <label class="form-check-label" for="roundedExample11"> <span>Select Plan</span></label>
+                    </div> -->
+                 <div class="form-check custom-control custom-radio hvr-sweep-to-right">
+                    <input type="radio" class="custom-control-input" id="customRadio" name="example1">
+                    <label class="form-check-label custom-control-label" for="customRadio">Select Plan</label>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="col-md-4">
+           <div class="glass-view wrap">
+              <div class="img">
+                 <img src="../../assets/images/icons/retains.png" alt="">
+              </div>
+              <p class="label">Retain or Return</p>
+           </div>
+        </div>
+     </div>
+     <div class="row left">
+        <div class="col-md-4">
+           <div class="glass-view wrap">
+              <div class="img">
+                 <img src="../../assets/images/icons/returns.png" alt="">
+              </div>
+              <p class="label">Retain & Return</p>
+           </div>
+        </div>
+        <div class="col-md-8">
+           <div class="glass-view wrap">
+              <h4 class="title">Subscription Plan</h4>
+              <p class="para">Lorem ipsum dolor sit amet consectetur 
+                 adipisicing elit.Maxime mollitia,molestiae 
+                 quas vel sint commodi repudiandae, Lorem ipsum dolor sit amet 
+              </p>
+              <!-- <a href="" class="btn slc_plan">Select Plan</a> -->
+              <div class="sel-plan">
+                 <div class="form-check custom-control custom-radio hvr-sweep-to-right">
+                    <input type="radio" class="custom-control-input" id="customRadio2" name="example1">
+                    <label class="form-check-label custom-control-label" for="customRadio2">Select Plan</label>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+    </div>
+  </ng-template>
+
+
