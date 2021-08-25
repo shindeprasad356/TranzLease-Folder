@@ -1,0 +1,119 @@
+.plan-details-section .car-card {
+  
+float: left;
+  
+background-size: 100% !important;
+  
+background-position: 0px 0px;
+  
+position: relative;
+  
+background-color: #000a310f;
+  
+border-radius: 20px;
+  
+overflow: hidden;
+  
+transition: all ease 0.5s;
+  
+padding: 0px 0px 12px 0px;
+  
+text-align: center;
+}
+
+.plan-details-section .car-card:before {
+    content: "";
+    background-image: url(../img/car-list/glassss.png);
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    z-index: 0;
+    opacity: 1;
+    display: block;
+    opacity: 0.8;
+    transition: all ease 0.5s;
+}
+.plan-details-section .car-card * {
+    position: relative;
+}
+.plan-details-section .car-card img {
+    width: 75px;
+    margin: 10px 0px 5px 0px;
+}
+
+.plan-details-section .car-card .car-title {
+    font-family: mulisemibold, sans-serif;
+    font-size: 28px;
+    color: #fff;
+    margin: 0px 0px 15px 0px;
+    text-shadow: 1px 2px 5px #000000;
+}
+
+.plan-details-section .car-card .car-detail span {
+    color: #fff !important;
+    font-family: muliregular, sans-serif;
+    font-size: 18px;
+    font-family: mulisemibold, sans-serif;
+    line-height: 27px;
+}
+
+.plan-details-section .car-card .car-detail {
+    color: #fff;
+    font-family: muliregular, sans-serif;
+    font-family: muliextralight, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0px 0px 5px 0px;
+    color: #CFCFCF;
+}
+
+.plan-details-section .car-card a.btn {
+    background-color: #C9C9C9;
+    background-color: #ddd;
+    color: #001722;
+    font-size: 18px;
+    font-family: muliregular, sans-serif;
+    line-height: 27px;
+    width: calc(50% - 25px);
+    float: left;
+    margin: 0px 12px;
+    padding: 10px 5px;
+    overflow: hidden;
+    border: none !important;
+    outline: none !important;
+}
+
+.plan-details-section .car-card .text {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: muliregular, sans-serif;
+    color: #fff;
+    color: #CFCFCF;
+    margin: 0px 0px 30px 0px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.plan-details-section .car-card .price-wrap {
+    background-color: #050217;
+    padding: 15px 15px;
+}
+
+.plan-details-section .car-card .price-wrap .price-detail {
+       margin: 0px 0px 10px 0px;
+    padding: 0px;
+    color: #fff;
+    font-family: muliextralight, sans-serif;
+    font-size: 18px;
+    color: #CFCFCF;
+    text-align: left;
+}
+
+.plan-details-section .car-card .price-wrap .price-detail span {
+    font-family: mulisemibold, sans-serif;
+    color: #fff;
+    float: right;
+}
