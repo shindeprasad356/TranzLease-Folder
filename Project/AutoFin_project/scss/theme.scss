@@ -60,7 +60,7 @@ box-shadow: none !important;
             line-height: 24px;
             font-family: muliextralight, sans-serif;
             transition: all ease 0.5s;
-            padding: 13px 18px 13px 18px;
+            padding: 13px 15px 13px 15px;
             top: 10px;
             position: relative;
 
@@ -81,13 +81,13 @@ box-shadow: none !important;
               position: relative;
 
               &:after {
-                content: "";
-                width: 1px;
-                height: 30px;
-                background-color: #fff;
-                position: absolute;
-                right: 0px;
-                top: 10px;
+content: "";
+    width: 1px;
+    height: 25px;
+    background-color: #797676;
+    position: absolute;
+    right: 0px;
+    top: 12px;
               }
 
             }
@@ -99,6 +99,9 @@ box-shadow: none !important;
           }
 
           &.home {
+         
+    margin: 0px 5px 0px 0px;
+
             a {
               background-image: url(../img/icons/homes.png);
               background-size: 100%;
@@ -563,7 +566,7 @@ transition: all ease 0.5s;
     transition-timing-function: ease-out;
 }
 .round-btn {
-  @include btn-border-slide(#252525, #B20305, 2px, 0.8s);
+  @include btn-border-slide(#3e3d3d, #B20305, 2px, 0.8s);
 }
 .hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {
     color: white;
