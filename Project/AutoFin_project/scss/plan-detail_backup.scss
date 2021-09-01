@@ -1,0 +1,509 @@
+.plan-details-section .car-card {
+  
+float: left;
+  
+background-size: 100% !important;
+  
+background-position: 0px 0px;
+  
+position: relative;
+  
+background-color: #000a310f;
+  
+border-radius: 20px;
+  
+overflow: hidden;
+  
+transition: all ease 0.5s;
+  
+padding: 0px 0px 22px 0px;
+  
+text-align: center;
+}
+
+.plan-details-section .car-card:before {
+    content: "";
+    background-image: url(../img/car-list/dark-glass.jpg);
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    z-index: 0;
+    opacity: 1;
+    display: block;
+    opacity: 0.9;
+    transition: all ease 0.5s;
+    background-size: 100%;
+}
+.plan-details-section .car-card * {
+    position: relative;
+}
+.plan-details-section .car-card img {
+    width: 72px;
+    margin: 10px 0px 5px 0px;
+}
+.plan-details-section .hvr-sweep-to-top:before {
+    background: #90181a;    background: #adabab;
+}
+.plan-details-section .hvr-rectangle-out:before {
+
+    background: #adabab;}
+
+    .plan-details-section .car-card .btn:hover {
+     transition: all ease 0.5s;
+}
+.plan-details-section .car-card .car-title {
+    font-family: mulisemibold, sans-serif;
+    font-size: 28px;
+    color: #fff;
+    margin: 0px 0px 15px 0px;
+    text-shadow: 1px 2px 5px #000000;
+}
+
+.plan-details-section .car-card .car-detail span {
+    color: #fff !important;
+    font-family: muliregular, sans-serif;
+    font-size: 18px;
+    font-family: mulisemibold, sans-serif;
+    line-height: 27px;
+}
+
+.plan-details-section .car-card .car-detail {
+    color: #fff;
+    font-family: muliregular, sans-serif;
+    font-family: muliextralight, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0px 0px 5px 0px;
+    color: #CFCFCF;
+}
+
+.plan-details-section .car-card .btn {
+    background-color: #C9C9C9;
+    background-color: #ddd;
+    color: #001722;
+    font-size: 16px;
+    font-family: muliregular, sans-serif;
+    line-height: 24px;
+    width: calc(50% - 25px);
+    float: left;
+    margin: 0px 12px;
+    padding: 10px 5px;
+    overflow: hidden;
+    border: none !important;
+    outline: none !important; transition: all ease 0.5s;
+}
+
+.plan-details-section .car-card .text {
+    font-size: 18px;
+    line-height: 27px;
+    font-family: muliregular, sans-serif;
+    color: #fff;
+    color: #CFCFCF;
+    margin: 0px 0px 30px 0px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    color: red;
+    font-family: mulisemibold, sans-serif;
+    text-align: center;
+}
+.plan-details-section .car-card .text span {
+    color: #CFCFCF;
+    float: left;
+    width: 100%;
+    display: block;
+}
+.plan-details-section .car-card .price-wrap {
+background-color: #050217;
+    background-color: #0d0b19;
+    padding: 15px 20px 5px 20px;
+    margin: 10px 0px 0px 0px;
+    border: 1px solid #ffffff12;
+    width: calc(100% - 20px);
+    position: relative;
+    left: 10px;
+}
+
+.plan-details-section .car-card .price-wrap .price-detail {
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+    color: #fff;
+    font-family: muliextralight, sans-serif;
+    font-size: 18px;
+    color: #dedbdb;
+    text-align: left;
+}
+
+.plan-details-section .car-card .price-wrap .price-detail span {
+    font-family: mulisemibold, sans-serif;
+    color: #fff;
+    float: right;
+    font-size: 22px;
+    min-width: 150px;
+    text-align: right;
+    position: relative;
+}
+.plan-details-section .car-card .price-wrap .price-detail span:before {
+    content: ":";
+    position: absolute;
+    left: 0px;
+    top: -2px;
+    color: #fff;
+}
+.plan-details-section .car-card .btn img {
+    width: 35px;
+    margin: 0px 5px 0px 0px;
+}
+.plan-details-section .car-card .btn img {
+    width: 30px;
+    margin: 0px 5px 0px 5px;
+    position: relative;
+    top: -2px;
+    left: -5px;
+}
+
+.plan-details-section .car-card .btn.select-variant img {
+    width: 22px;
+}
+
+.plan-details-section .car-card:hover:before {
+
+    opacity: 1;
+}
+
+.plan-details-section .card-view:before {
+    content: "";
+    background-image: url(../img/car-list/dark-glass-bg.jpg);
+    position: absolute;
+    width: 125%;
+    left: 0px;
+    top: 0px;
+    height: 101%;
+    z-index: 0;
+    opacity: 1;
+    display: block;
+    opacity: 1;
+    transition: all ease 0.5s;
+    background-size: 100%;z-index: 99;
+}
+
+.plan-details-section .card-view {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: -30px 0px 0px 0px;
+    padding-bottom: 15px;
+    transition: all ease 0.5s;
+    position: fixed;
+    right: 55px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 71%;
+    flex: 0 0 71%;
+    max-width: 71%;
+    top: 135px;
+}
+
+.plan-details-section .card-view .title {
+    font-family: 'mulisemibold';
+    font-size: 36px;
+    color: #fff;
+    text-align: left;
+    padding: 20px 0px 0px 30px;
+    line-height: 45px;
+    float: left;
+    width: auto;    color: #e20a0d;
+}
+
+.plan-details-section .card-view .title img {
+    float: left;
+    width: 45px;
+    margin: 0px 15px 0px 0px;
+}
+
+.plan-details-section .card-view .btn-wrap {
+   float: right;
+    margin: 16px 0px 15px 0px;
+}
+
+.plan-details-section .card-view .btn-wrap .btn {
+background-color: #393745;
+    /* background-color: #dddddd3b; */
+    color: #ffffff;
+    font-size: 18px;
+    font-family: muliregular, sans-serif;
+    line-height: 27px;
+    width: auto;
+    float: left;
+    margin: 0px 12px;
+    padding: 15px 20px;
+    overflow: hidden;
+    border: none !important;
+    outline: none !important;
+    transition: all ease 0.5s;
+}
+
+.plan-details-section .card-view .btn-wrap .btn img {
+    width: 30px;
+    position: relative;
+    top: -2px;
+    margin: 0px 0px 0px 3px;  transition: all ease 0.8s;
+}
+.plan-details-section .card-view .btn-wrap .btn:hover img {
+    transform: rotate(180deg);
+    transition: all ease 0.8s;
+}
+.plan-details-section .card-view .btn-wrap .btn.hvr-sweep-to-left:before {
+    background-color: #2f2d3a;
+}
+.card-view .plan-detail-list {
+float: left;
+    width: 100%;
+    list-style: none;
+    margin: 60px 0px 0px 0px;
+    padding: 0px 0px 0px 30px;
+}
+
+.card-view .plan-detail-list li {
+    color: #fff;
+    font-family: 'muliextralight';
+    font-size: 18px;
+    left: 15px;
+    opacity: 1;
+    margin: 3px 0px 0px 0px;
+    float: left;
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+    height: 40px;
+}
+
+.card-view .plan-detail-list li b {
+    font-family: 'muliregular';
+    font-size: 20px;
+}
+
+.card-view .plan-detail-list li span {
+    color: #7780FF;
+    font-family: 'muliregular';
+    font-size: 20px;
+}
+
+.card-view .plan-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    display: block;
+    padding: 0px 0px 18px 0px;
+    border: 1px solid #1c1b28;
+    margin: 10px 0px 0px 0px;
+}
+
+.card-view .plan-wrap .title {
+float: left;
+    width: calc(100% - 3px);
+    background-color: #0c0b15;
+    font-family: 'mulisemibold';
+    padding: 12px 15px;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    margin: 1px 0px 35px 0px;
+    z-index: 9;
+    position: relative;
+    left: 1.5px;
+    border-radius: 15px 15px 0px 0px;color:#fff;
+}
+
+.card-view .plan-wrap .list {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    position: relative;
+    z-index: 9;
+}
+.card-view .plan-wrap:after {
+content: "";
+    background-image: url(../img/car-list/plan-glass.jpg);
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    z-index: 0;
+    opacity: 1;
+    display: block;
+    opacity: 1;
+    transition: all ease 0.5s;
+    background-size: 125%;
+    border-radius: 15px;
+    overflow: hidden;    background-position: -5px -5px;
+}
+.card-view .plan-wrap .list li {
+margin: 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'muliextralight';
+    font-size: 18px;
+    /* line-height: 22px; */
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    height: 43px;
+
+}
+
+.card-view .plan-wrap .list li img {
+    width: 25px;
+    position: relative;
+    top: -2px;
+}
+
+.card-view .plan-wrap .list li span {
+    font-family: 'mulisemibold';
+    font-size: 22px;
+  
+}
+
+.card-view .plan-wrap .list li span.month {color: #7780FF;}
+
+.plan-grid .btn {
+    background-color: #C9C9C9;
+    background-color: #ddd;
+    color: #001722;
+    font-size: 16px;
+    font-family: muliregular, sans-serif;
+    line-height: 24px;
+    width: 65%;
+    /* float: left; */
+    margin: 0px 12px;
+    padding: 10px 5px;
+    overflow: hidden;
+    border: none !important;
+    outline: none !important;
+    transition: all ease 0.5s;
+    z-index: 9;
+    position: relative;
+    bottom: 15px;
+    margin: 0 auto;
+    float: none;
+}
+
+.plan-grid {
+    position: relative;
+    text-align: center;
+}
+
+.plan-details-section .card-view.full-screen {
+    position: fixed;
+    right: 4.5%;
+    margin: 0px;
+    z-index: 99;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 92%;
+    flex: 0 0 92%;
+    max-width: 92%;
+    top: 70px;
+    padding-bottom: 50px;
+}
+
+.plan-details-section .card-view.full-screen * {
+    position: relative;
+    z-index: 99;
+}
+
+.plan-details-section .card-view.full-screen:after {
+    content: "";
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: #000;
+    z-index: 9;
+    display: block;
+    height: 100vh;
+    opacity: 0.8;
+}
+.plan-details-section .card-view.full-screen:before {
+  
+    z-index: 10;
+   
+}
+
+.full-screen .plan-grid .btn {
+ 
+    bottom: 15px;
+
+}
+
+.plan-details-section .card-view * {
+    position: relative;
+    z-index: 99;
+}
+
+
+.plan-details-section .card-view .close-fullscreen:hover {
+    background-image: url(../img/icons/canceled.png);
+    transition: all ease 0.5s;
+}
+
+.plan-details-section .card-view .btn-wrap .close-fullscreen {
+    /* right: 70px; */
+    /* top: 26%; */
+    width: 66px;
+    opacity: 1 !important;
+    width: 60px;
+    height: 40px;
+    background-image: url(../img/icons/expand.png);
+    transition: all ease 0.5s;
+    background-size: 40px;
+    /* transform: rotate(
+270deg
+); */
+    position: absolute;
+    right: 12px;
+    top: 0px;
+    top: 11px;
+    width: 40px;
+    opacity: 1 !important;
+    background-repeat: no-repeat;
+    z-index: 999;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    margin: 0px 0px 0px 15px;
+    transition: all ease 0.5s;cursor:   pointer;
+}
+
+
+.plan-details-section .card-view.full-screen .btn-wrap .close-fullscreen {
+transform:  rotate(180deg);
+    }
+
+
+.plan-details-section .card-view .plan-wrap .list li:nth-child(odd) {
+    background-color: #ffffff03;
+}
+
+.plan-details-section .card-view .plan-detail-list li:nth-child(even) {
+      background-color: #ffffff03;
+}
+
+.plan-details-section .mr15 {
+    position: relative;
+    right: 15px;
+}
+
+.card-view .plan-detail-list li .optional {
+    position: relative;
+    top: 25px;
+}
+.card-view .mt-10{
+    margin-top: -10px;
+}
+
+

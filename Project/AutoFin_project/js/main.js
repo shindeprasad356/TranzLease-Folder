@@ -82,3 +82,7 @@ if (navigator.userAgent.indexOf("Firefox") != -1)
 
 }
 
+$(".plan-details-section .card-view .btn-wrap .close-fullscreen").click(function(){
+  $(".plan-details-section .card-view").toggleClass("full-screen");
+  $(".plan-details-section .card-view .btn-wrap .close-fullscreen").attr("title", "Minimize Scrren");
+});
